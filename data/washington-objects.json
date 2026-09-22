@@ -1,0 +1,1187 @@
+[
+  {
+    "id": "washington-banknote",
+    "smithsonianId": "nmah_1839987",
+    "title": "1918 One Dollar Banknote with Washington Portrait",
+    "person": [
+      "George Washington"
+    ],
+    "date": "1918",
+    "museum": "National Museum of American History",
+    "museumCode": "NMAH",
+    "objectType": [
+      "Banknote"
+    ],
+    "topics": [
+      "George Washington",
+      "Portraiture",
+      "Money",
+      "Public Memory"
+    ],
+    "materials": [
+      "paper",
+      "ink"
+    ],
+    "places": [
+      "United States"
+    ],
+    "people": [
+      "George Washington"
+    ],
+    "periods": [
+      "20th century"
+    ],
+    "image": "assets/washington-banknote.jpg",
+    "recordUrl": "https://www.si.edu/object/1-dollar-federal-reserve-bank-note-united-states-1918%3Anmah_1839987",
+    "description": "George Washington is on this one-dollar bill from 1918. People still put his picture on money many years after he lived.",
+    "isWashingtonObject": true,
+    "dataStatus": "verified-object-curated-connections",
+    "gallery": {
+      "floor": 1,
+      "zone": "West",
+      "name": "Value of Money",
+      "status": "verified-on-view"
+    },
+    "locationSource": "https://americanhistory.si.edu/ar/collections/object/nmah_1839987",
+    "connections": [
+      {
+        "label": "Portraiture",
+        "field": "topics",
+        "value": "Portraiture",
+        "targetId": "painted-portrait"
+      },
+      {
+        "label": "Public Memory",
+        "field": "topics",
+        "value": "Public Memory",
+        "targetId": "bronze-casting"
+      }
+    ],
+    "imageSource": "https://ids.si.edu/ids/deliveryService?id=NMAH-JN2024-00884-000001&max_w=1200",
+    "imageAlt": "Photograph of 1918 One Dollar Banknote with Washington Portrait"
+  },
+  {
+    "id": "camp-chest",
+    "smithsonianId": "nmah_434899",
+    "title": "George Washington's Camp Chest",
+    "person": [
+      "George Washington"
+    ],
+    "date": "1775–1776",
+    "museum": "National Museum of American History",
+    "museumCode": "NMAH",
+    "objectType": [
+      "Camp Chest"
+    ],
+    "topics": [
+      "George Washington",
+      "Military History",
+      "Food and Cooking",
+      "Travel"
+    ],
+    "materials": [
+      "wood",
+      "metal"
+    ],
+    "places": [
+      "United States"
+    ],
+    "people": [
+      "George Washington"
+    ],
+    "image": "assets/camp-chest.jpg",
+    "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_434899",
+    "description": "Washington carried this box when he traveled with his army. It held things he needed to cook and eat.",
+    "isWashingtonObject": true,
+    "dataStatus": "verified-object-curated-connections",
+    "connections": [
+      {
+        "label": "George Washington",
+        "field": "topics",
+        "value": "George Washington",
+        "targetId": "military-uniform"
+      },
+      {
+        "label": "Food and Cooking",
+        "field": "topics",
+        "value": "Food and Cooking",
+        "targetId": "cooking-pot"
+      },
+      {
+        "label": "Travel",
+        "field": "topics",
+        "value": "Travel",
+        "targetId": "travel-trunk"
+      },
+      {
+        "label": "Material: wood",
+        "field": "materials",
+        "value": "wood",
+        "targetId": "military-drum"
+      }
+    ],
+    "periods": [
+      "18th century"
+    ],
+    "gallery": {
+      "floor": 3,
+      "zone": "East",
+      "name": "Price of Freedom",
+      "status": "verified-on-view"
+    },
+    "locationSource": "https://americanhistory.si.edu/collections/object/nmah_434899",
+    "imageSource": "https://ids.si.edu/ids/deliveryService?id=NMAH-99-4030&max_w=1200",
+    "imageAlt": "Photograph of George Washington's Camp Chest"
+  },
+  {
+    "id": "military-uniform",
+    "smithsonianId": "nmah_434863",
+    "title": "George Washington's Uniform",
+    "person": [
+      "George Washington"
+    ],
+    "date": "1789–1799",
+    "museum": "National Museum of American History",
+    "museumCode": "NMAH",
+    "objectType": [
+      "Military Uniform"
+    ],
+    "topics": [
+      "George Washington",
+      "Military History",
+      "Clothing"
+    ],
+    "materials": [
+      "textile",
+      "metal"
+    ],
+    "places": [
+      "United States"
+    ],
+    "people": [
+      "George Washington"
+    ],
+    "image": "assets/military-uniform.jpg",
+    "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_434863",
+    "description": "Washington wore a blue and tan coat as an army leader. His clothes helped people recognize him.",
+    "isWashingtonObject": true,
+    "dataStatus": "verified-object-curated-connections",
+    "connections": [
+      {
+        "label": "George Washington",
+        "field": "topics",
+        "value": "George Washington",
+        "targetId": "epaulettes"
+      },
+      {
+        "label": "Military History",
+        "field": "topics",
+        "value": "Military History",
+        "targetId": "military-drum"
+      },
+      {
+        "label": "Clothing",
+        "field": "topics",
+        "value": "Clothing",
+        "targetId": "textile-sampler"
+      },
+      {
+        "label": "Material: metal",
+        "field": "materials",
+        "value": "metal",
+        "targetId": "metal-tool"
+      }
+    ],
+    "periods": [
+      "18th century"
+    ],
+    "gallery": {
+      "floor": 3,
+      "zone": "East",
+      "name": "Price of Freedom",
+      "status": "verified-on-view"
+    },
+    "locationSource": "https://americanhistory.si.edu/collections/object/nmah_434863",
+    "imageSource": "https://smithsonian-open-access.s3-us-west-2.amazonaws.com/media/nmah/NMAH-2006-7431.jpg",
+    "imageAlt": "Photograph of George Washington's Uniform"
+  },
+  {
+    "id": "epaulettes",
+    "smithsonianId": "nmah_395065",
+    "title": "George Washington's Epaulettes",
+    "person": [
+      "George Washington"
+    ],
+    "date": "1779",
+    "museum": "National Museum of American History",
+    "museumCode": "NMAH",
+    "objectType": [
+      "Epaulettes"
+    ],
+    "topics": [
+      "George Washington",
+      "Military History",
+      "Clothing"
+    ],
+    "materials": [
+      "textile",
+      "metal"
+    ],
+    "places": [
+      "United States"
+    ],
+    "people": [
+      "George Washington"
+    ],
+    "image": "assets/epaulettes.jpg",
+    "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_395065",
+    "description": "These gold pieces decorated Washington’s shoulders. You can spot them in some paintings of him, too.",
+    "isWashingtonObject": true,
+    "dataStatus": "verified-object-curated-connections",
+    "connections": [
+      {
+        "label": "George Washington",
+        "field": "topics",
+        "value": "George Washington",
+        "targetId": "ceremonial-sword"
+      },
+      {
+        "label": "Clothing",
+        "field": "topics",
+        "value": "Clothing",
+        "targetId": "textile-sampler"
+      },
+      {
+        "label": "Military History",
+        "field": "topics",
+        "value": "Military History",
+        "targetId": "military-drum"
+      }
+    ],
+    "periods": [
+      "18th century"
+    ],
+    "gallery": {
+      "floor": 3,
+      "zone": "East",
+      "name": "Price of Freedom",
+      "status": "verified-on-view"
+    },
+    "locationSource": "https://americanhistory.si.edu/collections/object/nmah_395065",
+    "imageSource": "https://ids.si.edu/ids/deliveryService?id=NMAH-2004-50203&max_w=1200",
+    "imageAlt": "Photograph of George Washington's Epaulettes"
+  },
+  {
+    "id": "washington-sculpture",
+    "smithsonianId": null,
+    "title": "George Washington Statue",
+    "person": [
+      "George Washington"
+    ],
+    "date": "1840",
+    "museum": "National Museum of American History",
+    "museumCode": "NMAH",
+    "objectType": [
+      "Statue",
+      "Sculpture"
+    ],
+    "topics": [
+      "George Washington",
+      "Sculpture",
+      "Public Memory"
+    ],
+    "materials": [
+      "marble"
+    ],
+    "places": [
+      "United States"
+    ],
+    "people": [
+      "George Washington"
+    ],
+    "image": "assets/washington-sculpture.jpg",
+    "recordUrl": "https://www.americanhistory.si.edu/explore/exhibitions/george-washington-sculpture",
+    "description": "This large statue shows George Washington sitting like a hero from ancient times. You can see it on the museum’s second floor.",
+    "isWashingtonObject": true,
+    "dataStatus": "verified-object-curated-connections",
+    "connections": [
+      {
+        "label": "George Washington",
+        "field": "topics",
+        "value": "George Washington",
+        "targetId": "inaugural-button-long-live"
+      },
+      {
+        "label": "Sculpture",
+        "field": "topics",
+        "value": "Sculpture",
+        "targetId": "bronze-casting"
+      },
+      {
+        "label": "Public Memory",
+        "field": "topics",
+        "value": "Public Memory",
+        "targetId": "painted-portrait"
+      }
+    ],
+    "periods": [
+      "19th century"
+    ],
+    "gallery": {
+      "floor": 2,
+      "zone": "West",
+      "name": "George Washington Sculpture",
+      "status": "verified-on-view"
+    },
+    "locationSource": "https://americanhistory.si.edu/explore/exhibitions/george-washington-sculpture",
+    "imageSource": "https://ids.si.edu/ids/deliveryService?id=https%3A%2F%2Fwww.si.edu%2FContent%2Fimg%2FExhibitions%2Fdb%2Fnmah-landmark-washington.jpg&max_w=1200",
+    "imageAlt": "Photograph of George Washington Statue"
+  },
+  {
+    "id": "ceremonial-sword",
+    "smithsonianId": "nmah_434865",
+    "title": "George Washington's Battle Sword and Scabbard",
+    "person": [
+      "George Washington"
+    ],
+    "date": "c. 1765–1778",
+    "museum": "National Museum of American History",
+    "museumCode": "NMAH",
+    "objectType": [
+      "Sword",
+      "Scabbard"
+    ],
+    "topics": [
+      "George Washington",
+      "Military History",
+      "Metalwork"
+    ],
+    "materials": [
+      "steel",
+      "metal"
+    ],
+    "places": [
+      "United States"
+    ],
+    "people": [
+      "George Washington"
+    ],
+    "image": "assets/ceremonial-sword.jpg",
+    "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_434865",
+    "description": "Washington wore this steel sword while leading the American army during the Revolutionary War.",
+    "isWashingtonObject": true,
+    "dataStatus": "verified-object-curated-connections",
+    "connections": [
+      {
+        "label": "George Washington",
+        "field": "topics",
+        "value": "George Washington",
+        "targetId": "military-uniform"
+      },
+      {
+        "label": "Military History",
+        "field": "topics",
+        "value": "Military History",
+        "targetId": "military-drum"
+      },
+      {
+        "label": "Metalwork",
+        "field": "topics",
+        "value": "Metalwork",
+        "targetId": "metal-tool"
+      },
+      {
+        "label": "Steel",
+        "field": "materials",
+        "value": "steel",
+        "targetId": "metal-tool"
+      },
+      {
+        "label": "18th century",
+        "field": "periods",
+        "value": "18th century",
+        "targetId": "military-drum"
+      }
+    ],
+    "periods": [
+      "18th century"
+    ],
+    "gallery": {
+      "floor": 3,
+      "zone": "East",
+      "name": "Price of Freedom",
+      "status": "verified-on-view"
+    },
+    "locationSource": "https://americanhistory.si.edu/collections/object/nmah_434865",
+    "imageSource": "https://ids.si.edu/ids/deliveryService?id=NMAH-JN2015-5154&max_w=1200",
+    "imageAlt": "Photograph of George Washington's Battle Sword and Scabbard"
+  },
+  {
+    "id": "surveyors-compass",
+    "smithsonianId": "nmah_747313",
+    "title": "Washington’s Surveyor’s Compass",
+    "person": [
+      "George Washington"
+    ],
+    "date": "c. 1782",
+    "museum": "National Museum of American History",
+    "museumCode": "NMAH",
+    "objectType": [
+      "Surveyor’s Compass"
+    ],
+    "topics": [
+      "George Washington",
+      "Maps and Geography",
+      "Surveying"
+    ],
+    "materials": [
+      "brass",
+      "metal"
+    ],
+    "places": [
+      "United States"
+    ],
+    "people": [
+      "George Washington"
+    ],
+    "image": "assets/surveyors-compass.jpg",
+    "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_747313",
+    "description": "A surveyor uses a compass to measure and map land. This one is linked to Washington, who worked as a surveyor when he was young.",
+    "isWashingtonObject": true,
+    "dataStatus": "verified-object-curated-connections",
+    "connections": [
+      {
+        "label": "George Washington",
+        "field": "topics",
+        "value": "George Washington",
+        "targetId": "camp-chest"
+      },
+      {
+        "label": "Maps and Geography",
+        "field": "topics",
+        "value": "Maps and Geography",
+        "targetId": "historical-map"
+      },
+      {
+        "label": "Surveying",
+        "field": "topics",
+        "value": "Surveying",
+        "targetId": "surveying-chain"
+      }
+    ],
+    "periods": [
+      "18th century"
+    ],
+    "gallery": {
+      "floor": 3,
+      "zone": "Center",
+      "name": "American Presidency",
+      "status": "verified-on-view"
+    },
+    "locationSource": "https://americanhistory.si.edu/collections/object/nmah_747313",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Surveyor%27s_compass_by_David_Rittenhouse,_believed_to_be_given_to_George_Washington_in_1782_-_National_Museum_of_American_History_-_DSC00136.jpg",
+    "imageAlt": "Photograph of a brass surveyor’s compass attributed to David Rittenhouse and associated with George Washington"
+  },
+  {
+    "id": "camp-stool",
+    "smithsonianId": "nmah_434860",
+    "title": "George Washington’s Camp Stool",
+    "person": [
+      "George Washington"
+    ],
+    "date": "18th century",
+    "museum": "National Museum of American History",
+    "museumCode": "NMAH",
+    "objectType": [
+      "Camp stool"
+    ],
+    "topics": [
+      "George Washington",
+      "Military History",
+      "Travel",
+      "Domestic Life"
+    ],
+    "materials": [
+      "wood",
+      "leather"
+    ],
+    "places": [
+      "United States"
+    ],
+    "people": [
+      "George Washington"
+    ],
+    "periods": [
+      "18th century"
+    ],
+    "image": "assets/camp-stool.jpg",
+    "imageSource": "https://ids.si.edu/ids/deliveryService?id=SIA-2004-49435-04&max_w=1200",
+    "imageAlt": "Photograph of George Washington’s Camp Stool",
+    "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_434860",
+    "description": "Washington used this folding stool during the Revolutionary War. It was easy to carry from camp to camp.",
+    "isWashingtonObject": true,
+    "dataStatus": "verified-object-curated-connections",
+    "gallery": {
+      "floor": 3,
+      "zone": "East",
+      "name": "Price of Freedom",
+      "status": "verified-on-view"
+    },
+    "locationSource": "https://americanhistory.si.edu/collections/object/nmah_434860",
+    "connections": [
+      {
+        "label": "Military History",
+        "field": "topics",
+        "value": "Military History",
+        "targetId": "military-drum"
+      },
+      {
+        "label": "Travel",
+        "field": "topics",
+        "value": "Travel",
+        "targetId": "travel-trunk"
+      }
+    ]
+  },
+  {
+    "id": "washington-waistcoat",
+    "smithsonianId": "nmah_1199101",
+    "title": "Washington’s Buff Wool Waistcoat",
+    "person": [
+      "George Washington"
+    ],
+    "date": "c. 1780",
+    "museum": "National Museum of American History",
+    "museumCode": "NMAH",
+    "objectType": [
+      "Waistcoat"
+    ],
+    "topics": [
+      "George Washington",
+      "Military History",
+      "Clothing"
+    ],
+    "materials": [
+      "wool",
+      "textile"
+    ],
+    "places": [
+      "United States"
+    ],
+    "people": [
+      "George Washington"
+    ],
+    "periods": [
+      "18th century"
+    ],
+    "image": "assets/washington-waistcoat.jpg",
+    "imageSource": "https://ids.si.edu/ids/deliveryService?id=NMAH-2000-10747-08&max_w=1200",
+    "imageAlt": "Photograph of Washington’s Buff Wool Waistcoat",
+    "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_1199101",
+    "description": "This waistcoat is a kind of vest. Washington wore it under his coat during the Revolutionary War.",
+    "isWashingtonObject": true,
+    "dataStatus": "verified-object-curated-connections",
+    "gallery": {
+      "floor": 3,
+      "zone": "East",
+      "name": "Price of Freedom",
+      "status": "verified-on-view"
+    },
+    "locationSource": "https://americanhistory.si.edu/collections/object/nmah_1199101",
+    "connections": [
+      {
+        "label": "Clothing",
+        "field": "topics",
+        "value": "Clothing",
+        "targetId": "textile-sampler"
+      },
+      {
+        "label": "Military History",
+        "field": "topics",
+        "value": "Military History",
+        "targetId": "military-drum"
+      }
+    ]
+  },
+  {
+    "id": "washington-breeches",
+    "smithsonianId": "nmah_1199102",
+    "title": "Washington’s Buff Wool Breeches",
+    "person": [
+      "George Washington"
+    ],
+    "date": "c. 1780",
+    "museum": "National Museum of American History",
+    "museumCode": "NMAH",
+    "objectType": [
+      "Breeches"
+    ],
+    "topics": [
+      "George Washington",
+      "Military History",
+      "Clothing"
+    ],
+    "materials": [
+      "wool",
+      "textile"
+    ],
+    "places": [
+      "United States"
+    ],
+    "people": [
+      "George Washington"
+    ],
+    "periods": [
+      "18th century"
+    ],
+    "image": "assets/washington-breeches.jpg",
+    "imageSource": "https://ids.si.edu/ids/deliveryService?id=NMAH-2006-3569&max_w=1200",
+    "imageAlt": "Photograph of Washington’s Buff Wool Breeches",
+    "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_1199102",
+    "description": "Breeches are pants that stop near the knees. This wool pair belonged to Washington.",
+    "isWashingtonObject": true,
+    "dataStatus": "verified-object-curated-connections",
+    "gallery": {
+      "floor": 3,
+      "zone": "East",
+      "name": "Price of Freedom",
+      "status": "verified-on-view"
+    },
+    "locationSource": "https://americanhistory.si.edu/collections/object/nmah_1199102",
+    "connections": [
+      {
+        "label": "Clothing",
+        "field": "topics",
+        "value": "Clothing",
+        "targetId": "textile-sampler"
+      }
+    ]
+  },
+  {
+    "id": "tenino-scrip",
+    "smithsonianId": "nmah_985725",
+    "title": "Tenino 25-Cent Scrip with Washington Portrait",
+    "person": [
+      "George Washington"
+    ],
+    "date": "1932",
+    "museum": "National Museum of American History",
+    "museumCode": "NMAH",
+    "objectType": [
+      "Scrip"
+    ],
+    "topics": [
+      "George Washington",
+      "Portraiture",
+      "Money",
+      "Public Memory"
+    ],
+    "materials": [
+      "wood",
+      "ink"
+    ],
+    "places": [
+      "United States"
+    ],
+    "people": [
+      "George Washington"
+    ],
+    "periods": [
+      "20th century"
+    ],
+    "image": "assets/tenino-scrip.jpg",
+    "imageSource": "https://ids.si.edu/ids/deliveryService?id=NMAH-JN2024-00898-000001&max_w=1200",
+    "imageAlt": "Photograph of Tenino 25-Cent Scrip with Washington Portrait",
+    "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_985725",
+    "description": "When regular money was hard to get, the town of Tenino made its own paper money. Washington’s picture is on this piece.",
+    "isWashingtonObject": true,
+    "dataStatus": "verified-object-curated-connections",
+    "gallery": {
+      "floor": 1,
+      "zone": "West",
+      "name": "Value of Money",
+      "status": "verified-on-view"
+    },
+    "locationSource": "https://americanhistory.si.edu/collections/object/nmah_985725",
+    "connections": [
+      {
+        "label": "Portraiture",
+        "field": "topics",
+        "value": "Portraiture",
+        "targetId": "bache-silhouette"
+      },
+      {
+        "label": "Public Memory",
+        "field": "topics",
+        "value": "Public Memory",
+        "targetId": "bronze-casting"
+      }
+    ]
+  },
+  {
+    "id": "charleville-musket",
+    "smithsonianId": "nmah_438624",
+    "title": "US-Stamped Charleville Musket",
+    "person": [
+      "George Washington"
+    ],
+    "date": "1763 model",
+    "museum": "National Museum of American History",
+    "museumCode": "NMAH",
+    "objectType": [
+      "Musket"
+    ],
+    "topics": [
+      "George Washington",
+      "Military History",
+      "Metalwork"
+    ],
+    "materials": [
+      "wood",
+      "steel",
+      "metal"
+    ],
+    "places": [
+      "United States"
+    ],
+    "people": [
+      "George Washington"
+    ],
+    "periods": [
+      "18th century"
+    ],
+    "image": "assets/charleville-musket.jpg",
+    "imageSource": "https://ids.si.edu/ids/deliveryService?id=NMAH-ET2018-05955-000001&max_w=1200",
+    "imageAlt": "Photograph of US-Stamped Charleville Musket",
+    "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_438624",
+    "description": "A musket is a long gun. Washington wanted these army guns marked to show they belonged to the United States.",
+    "isWashingtonObject": true,
+    "dataStatus": "verified-object-curated-connections",
+    "gallery": {
+      "floor": 3,
+      "zone": "East",
+      "name": "Price of Freedom",
+      "status": "verified-on-view"
+    },
+    "locationSource": "https://americanhistory.si.edu/collections/object/nmah_438624",
+    "connections": [
+      {
+        "label": "Military History",
+        "field": "topics",
+        "value": "Military History",
+        "targetId": "military-drum"
+      },
+      {
+        "label": "Metalwork",
+        "field": "topics",
+        "value": "Metalwork",
+        "targetId": "metal-tool"
+      }
+    ]
+  },
+  {
+    "id": "benjamin-lincoln-sword",
+    "smithsonianId": "nmah_438723",
+    "title": "Benjamin Lincoln’s Yorktown Sword",
+    "person": [
+      "George Washington"
+    ],
+    "date": "18th century",
+    "museum": "National Museum of American History",
+    "museumCode": "NMAH",
+    "objectType": [
+      "Sword"
+    ],
+    "topics": [
+      "George Washington",
+      "Military History",
+      "Metalwork"
+    ],
+    "materials": [
+      "steel",
+      "metal"
+    ],
+    "places": [
+      "United States"
+    ],
+    "people": [
+      "George Washington"
+    ],
+    "periods": [
+      "18th century"
+    ],
+    "image": "assets/benjamin-lincoln-sword.jpg",
+    "imageSource": "https://ids.si.edu/ids/deliveryService?id=SIA-2004-40569-000001&max_w=1200",
+    "imageAlt": "Photograph of Benjamin Lincoln’s Yorktown Sword",
+    "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_438723",
+    "description": "This sword belonged to Benjamin Lincoln. Washington asked him to accept the British army’s surrender at Yorktown.",
+    "isWashingtonObject": true,
+    "dataStatus": "verified-object-curated-connections",
+    "gallery": {
+      "floor": 3,
+      "zone": "East",
+      "name": "Price of Freedom",
+      "status": "verified-on-view"
+    },
+    "locationSource": "https://americanhistory.si.edu/collections/object/nmah_438723",
+    "connections": [
+      {
+        "label": "Steel",
+        "field": "materials",
+        "value": "steel",
+        "targetId": "metal-tool"
+      },
+      {
+        "label": "Military History",
+        "field": "topics",
+        "value": "Military History",
+        "targetId": "military-drum"
+      }
+    ]
+  },
+  {
+    "id": "washington-scissor-glasses",
+    "smithsonianId": "nmah_1169721",
+    "title": "Washington and Lafayette’s Scissor Glasses",
+    "person": [
+      "George Washington"
+    ],
+    "date": "18th century",
+    "museum": "National Museum of American History",
+    "museumCode": "NMAH",
+    "objectType": [
+      "Scissor glasses"
+    ],
+    "topics": [
+      "George Washington",
+      "Diplomacy",
+      "Metalwork"
+    ],
+    "materials": [
+      "ivory",
+      "metal"
+    ],
+    "places": [
+      "United States"
+    ],
+    "people": [
+      "George Washington"
+    ],
+    "periods": [
+      "18th century"
+    ],
+    "image": "assets/washington-scissor-glasses.jpg",
+    "imageSource": "https://ids.si.edu/ids/deliveryService?id=NMAH-2004-44069&max_w=1200",
+    "imageAlt": "Photograph of Washington and Lafayette’s Scissor Glasses",
+    "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_1169721",
+    "description": "These folding glasses are linked to Washington and his friend Lafayette. The two handles open like scissors.",
+    "isWashingtonObject": true,
+    "dataStatus": "verified-object-curated-connections",
+    "gallery": {
+      "floor": 3,
+      "zone": "East",
+      "name": "Price of Freedom",
+      "status": "verified-on-view"
+    },
+    "locationSource": "https://americanhistory.si.edu/collections/object/nmah_1169721",
+    "connections": [
+      {
+        "label": "Metalwork",
+        "field": "topics",
+        "value": "Metalwork",
+        "targetId": "metal-tool"
+      }
+    ]
+  },
+  {
+    "id": "braddock-pistol",
+    "smithsonianId": "nmah_746133",
+    "title": "Braddock Pistol Used by Washington",
+    "person": [
+      "George Washington"
+    ],
+    "date": "c. 1750",
+    "museum": "National Museum of American History",
+    "museumCode": "NMAH",
+    "objectType": [
+      "Pistol"
+    ],
+    "topics": [
+      "George Washington",
+      "Military History",
+      "Metalwork"
+    ],
+    "materials": [
+      "wood",
+      "metal"
+    ],
+    "places": [
+      "United States"
+    ],
+    "people": [
+      "George Washington"
+    ],
+    "periods": [
+      "18th century"
+    ],
+    "image": "assets/braddock-pistol.jpg",
+    "imageSource": "https://ids.si.edu/ids/deliveryService?id=NMAH-JN2014-3130&max_w=1200",
+    "imageAlt": "Photograph of Braddock Pistol Used by Washington",
+    "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_746133",
+    "description": "A British general gave Washington this pistol. Washington carried it during later army trips.",
+    "isWashingtonObject": true,
+    "dataStatus": "verified-object-curated-connections",
+    "gallery": {
+      "floor": 3,
+      "zone": "East",
+      "name": "Price of Freedom",
+      "status": "verified-on-view"
+    },
+    "locationSource": "https://americanhistory.si.edu/collections/object/nmah_746133",
+    "connections": [
+      {
+        "label": "Military History",
+        "field": "topics",
+        "value": "Military History",
+        "targetId": "military-drum"
+      },
+      {
+        "label": "Metalwork",
+        "field": "topics",
+        "value": "Metalwork",
+        "targetId": "metal-tool"
+      }
+    ]
+  },
+  {
+    "id": "inaugural-button-long-live",
+    "smithsonianId": "nmah_688853",
+    "title": "“Long Live the President GW” Button",
+    "person": [
+      "George Washington"
+    ],
+    "date": "1789",
+    "museum": "National Museum of American History",
+    "museumCode": "NMAH",
+    "objectType": [
+      "Inaugural button"
+    ],
+    "topics": [
+      "George Washington",
+      "Public Memory",
+      "Clothing",
+      "Inauguration"
+    ],
+    "materials": [
+      "brass",
+      "metal"
+    ],
+    "places": [
+      "United States"
+    ],
+    "people": [
+      "George Washington"
+    ],
+    "periods": [
+      "18th century"
+    ],
+    "image": "assets/inaugural-button-long-live.jpg",
+    "imageSource": "https://ids.si.edu/ids/deliveryService?id=NMAH-ET2017-04742-000001&max_w=1200",
+    "imageAlt": "Photograph of “Long Live the President GW” Button",
+    "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_688853",
+    "description": "People wore this brass button to celebrate when Washington became the first U.S. president.",
+    "isWashingtonObject": true,
+    "dataStatus": "verified-object-curated-connections",
+    "gallery": {
+      "floor": 2,
+      "zone": "West",
+      "name": "American Democracy",
+      "status": "verified-on-view"
+    },
+    "locationSource": "https://americanhistory.si.edu/collections/object/nmah_688853",
+    "connections": [
+      {
+        "label": "Public Memory",
+        "field": "topics",
+        "value": "Public Memory",
+        "targetId": "bronze-casting"
+      },
+      {
+        "label": "Clothing",
+        "field": "topics",
+        "value": "Clothing",
+        "targetId": "textile-sampler"
+      }
+    ]
+  },
+  {
+    "id": "inaugural-button-star",
+    "smithsonianId": "nmah_528516",
+    "title": "Washington Inaugural Starburst Button",
+    "person": [
+      "George Washington"
+    ],
+    "date": "1789",
+    "museum": "National Museum of American History",
+    "museumCode": "NMAH",
+    "objectType": [
+      "Inaugural button"
+    ],
+    "topics": [
+      "George Washington",
+      "Public Memory",
+      "Clothing",
+      "Inauguration"
+    ],
+    "materials": [
+      "brass",
+      "metal"
+    ],
+    "places": [
+      "United States"
+    ],
+    "people": [
+      "George Washington"
+    ],
+    "periods": [
+      "18th century"
+    ],
+    "image": "assets/inaugural-button-star.jpg",
+    "imageSource": "https://ids.si.edu/ids/deliveryService?id=NMAH-ET2017-04761-000001&max_w=1200",
+    "imageAlt": "Photograph of Washington Inaugural Starburst Button",
+    "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_528516",
+    "description": "This star-shaped button celebrated Washington becoming president in 1789.",
+    "isWashingtonObject": true,
+    "dataStatus": "verified-object-curated-connections",
+    "gallery": {
+      "floor": 2,
+      "zone": "West",
+      "name": "American Democracy",
+      "status": "verified-on-view"
+    },
+    "locationSource": "https://americanhistory.si.edu/collections/object/nmah_528516",
+    "connections": [
+      {
+        "label": "Public Memory",
+        "field": "topics",
+        "value": "Public Memory",
+        "targetId": "bronze-casting"
+      },
+      {
+        "label": "Metal",
+        "field": "materials",
+        "value": "metal",
+        "targetId": "metal-tool"
+      }
+    ]
+  },
+  {
+    "id": "bache-silhouette",
+    "smithsonianId": "npg_NPG.2002.184.5",
+    "title": "Bache Silhouette of George Washington",
+    "person": [
+      "George Washington"
+    ],
+    "date": "c. 1803–1804",
+    "museum": "National Portrait Gallery",
+    "museumCode": "NPG",
+    "objectType": [
+      "Silhouette"
+    ],
+    "topics": [
+      "George Washington",
+      "Portraiture",
+      "Public Memory"
+    ],
+    "materials": [
+      "paper"
+    ],
+    "places": [
+      "United States"
+    ],
+    "people": [
+      "George Washington"
+    ],
+    "periods": [
+      "19th century"
+    ],
+    "image": "assets/bache-silhouette.jpg",
+    "imageSource": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_5-000001&max_w=1200",
+    "imageAlt": "Photograph of Bache Silhouette of George Washington",
+    "recordUrl": "https://npg.si.edu/object/npg_NPG.2002.184.5",
+    "description": "A silhouette is a picture made from a person’s outline. This one shows Washington from the side.",
+    "isWashingtonObject": true,
+    "dataStatus": "verified-object-curated-connections",
+    "gallery": null,
+    "locationSource": null,
+    "connections": [
+      {
+        "label": "Portraiture",
+        "field": "topics",
+        "value": "Portraiture",
+        "targetId": "painted-portrait"
+      },
+      {
+        "label": "Public Memory",
+        "field": "topics",
+        "value": "Public Memory",
+        "targetId": "bronze-casting"
+      }
+    ]
+  },
+  {
+    "id": "coffin-fragment",
+    "smithsonianId": "nmah_1398256",
+    "title": "Piece of Washington’s Mahogany Coffin",
+    "person": [
+      "George Washington"
+    ],
+    "date": "c. 1840",
+    "museum": "National Museum of American History",
+    "museumCode": "NMAH",
+    "objectType": [
+      "Coffin fragment"
+    ],
+    "topics": [
+      "George Washington",
+      "Public Memory",
+      "Domestic Life"
+    ],
+    "materials": [
+      "wood",
+      "paper"
+    ],
+    "places": [
+      "United States"
+    ],
+    "people": [
+      "George Washington"
+    ],
+    "periods": [
+      "19th century"
+    ],
+    "image": "assets/coffin-fragment.jpg",
+    "imageSource": "https://ids.si.edu/ids/deliveryService?id=NMAH-RWS2012-04283&max_w=1200",
+    "imageAlt": "Photograph of Piece of Washington’s Mahogany Coffin",
+    "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_1398256",
+    "description": "This small piece of wood came from an earlier coffin made for Washington. People kept it to remember him.",
+    "isWashingtonObject": true,
+    "dataStatus": "verified-object-curated-connections",
+    "gallery": null,
+    "locationSource": null,
+    "connections": [
+      {
+        "label": "Public Memory",
+        "field": "topics",
+        "value": "Public Memory",
+        "targetId": "bronze-casting"
+      },
+      {
+        "label": "Wood",
+        "field": "materials",
+        "value": "wood",
+        "targetId": "travel-trunk"
+      }
+    ]
+  }
+]

@@ -1,0 +1,657 @@
+[
+  {
+    "id": "cooking-pot",
+    "smithsonianId": null,
+    "title": "Historic Cooking Pot",
+    "person": [],
+    "date": "18th–19th century",
+    "museum": "National Museum of American History",
+    "museumCode": "NMAH",
+    "objectType": [
+      "Historic Cooking Pot"
+    ],
+    "topics": [
+      "Food and Cooking",
+      "Domestic Life",
+      "Metalwork"
+    ],
+    "materials": [
+      "iron",
+      "metal"
+    ],
+    "places": [
+      "United States"
+    ],
+    "people": [],
+    "image": "assets/cooking-pot.svg",
+    "recordUrl": null,
+    "description": "People used pots like this to cook meals. What was it made from, and who might have used it?",
+    "isWashingtonObject": false,
+    "dataStatus": "illustrative-curated-placeholder",
+    "connections": [
+      {
+        "label": "Food and Cooking",
+        "field": "topics",
+        "value": "Food and Cooking",
+        "targetId": "iron-stove"
+      },
+      {
+        "label": "Material: iron",
+        "field": "materials",
+        "value": "iron",
+        "targetId": "metal-tool"
+      },
+      {
+        "label": "Domestic Life",
+        "field": "topics",
+        "value": "Domestic Life",
+        "targetId": "glass-bottle"
+      },
+      {
+        "label": "Material: metal",
+        "field": "materials",
+        "value": "metal",
+        "targetId": "railway-lantern"
+      }
+    ],
+    "periods": [
+      "18th century",
+      "19th century"
+    ]
+  },
+  {
+    "id": "iron-stove",
+    "smithsonianId": null,
+    "title": "Iron Stove",
+    "person": [],
+    "date": "19th century",
+    "museum": "National Museum of American History",
+    "museumCode": "NMAH",
+    "objectType": [
+      "Iron Stove"
+    ],
+    "topics": [
+      "Food and Cooking",
+      "Domestic Life",
+      "Technology"
+    ],
+    "materials": [
+      "iron",
+      "metal"
+    ],
+    "places": [
+      "United States"
+    ],
+    "people": [],
+    "image": "assets/iron-stove.svg",
+    "recordUrl": null,
+    "description": "An iron stove kept a home warm and helped people cook. Iron is strong and holds heat.",
+    "isWashingtonObject": false,
+    "dataStatus": "illustrative-curated-placeholder",
+    "connections": [
+      {
+        "label": "Food and Cooking",
+        "field": "topics",
+        "value": "Food and Cooking",
+        "targetId": "glass-bottle"
+      },
+      {
+        "label": "Material: iron",
+        "field": "materials",
+        "value": "iron",
+        "targetId": "metal-tool"
+      },
+      {
+        "label": "Technology",
+        "field": "topics",
+        "value": "Technology",
+        "targetId": "railway-lantern"
+      }
+    ],
+    "periods": [
+      "19th century"
+    ]
+  },
+  {
+    "id": "travel-trunk",
+    "smithsonianId": null,
+    "title": "Travel Trunk",
+    "person": [],
+    "date": "19th century",
+    "museum": "National Museum of American History",
+    "museumCode": "NMAH",
+    "objectType": [
+      "Travel Trunk"
+    ],
+    "topics": [
+      "Travel",
+      "Transportation",
+      "Clothing"
+    ],
+    "materials": [
+      "wood",
+      "textile"
+    ],
+    "places": [
+      "United States"
+    ],
+    "people": [],
+    "image": "assets/travel-trunk.svg",
+    "recordUrl": null,
+    "description": "People packed clothes and other things in trunks like this when they traveled.",
+    "isWashingtonObject": false,
+    "dataStatus": "illustrative-curated-placeholder",
+    "connections": [
+      {
+        "label": "Travel",
+        "field": "topics",
+        "value": "Travel",
+        "targetId": "historical-map"
+      },
+      {
+        "label": "Transportation",
+        "field": "topics",
+        "value": "Transportation",
+        "targetId": "railway-lantern"
+      },
+      {
+        "label": "Clothing",
+        "field": "topics",
+        "value": "Clothing",
+        "targetId": "textile-sampler"
+      },
+      {
+        "label": "Material: wood",
+        "field": "materials",
+        "value": "wood",
+        "targetId": "military-drum"
+      }
+    ],
+    "periods": [
+      "19th century"
+    ]
+  },
+  {
+    "id": "railway-lantern",
+    "smithsonianId": null,
+    "title": "Railway Lantern",
+    "person": [],
+    "date": "19th century",
+    "museum": "National Museum of American History",
+    "museumCode": "NMAH",
+    "objectType": [
+      "Railway Lantern"
+    ],
+    "topics": [
+      "Transportation",
+      "Travel",
+      "Technology"
+    ],
+    "materials": [
+      "metal",
+      "glass"
+    ],
+    "places": [
+      "United States"
+    ],
+    "people": [],
+    "image": "assets/railway-lantern.svg",
+    "recordUrl": null,
+    "description": "Train workers used lanterns to send signals and see in the dark.",
+    "isWashingtonObject": false,
+    "dataStatus": "illustrative-curated-placeholder",
+    "connections": [
+      {
+        "label": "Transportation",
+        "field": "topics",
+        "value": "Transportation",
+        "targetId": "travel-trunk"
+      },
+      {
+        "label": "Travel",
+        "field": "topics",
+        "value": "Travel",
+        "targetId": "historical-map"
+      },
+      {
+        "label": "Material: glass",
+        "field": "materials",
+        "value": "glass",
+        "targetId": "glass-bottle"
+      },
+      {
+        "label": "Technology",
+        "field": "topics",
+        "value": "Technology",
+        "targetId": "iron-stove"
+      }
+    ],
+    "periods": [
+      "19th century"
+    ]
+  },
+  {
+    "id": "historical-map",
+    "smithsonianId": null,
+    "title": "Historical Map",
+    "person": [],
+    "date": "18th–19th century",
+    "museum": "Smithsonian Libraries and Archives",
+    "museumCode": "SLA",
+    "objectType": [
+      "Historical Map"
+    ],
+    "topics": [
+      "Maps and Geography",
+      "Surveying",
+      "Travel"
+    ],
+    "materials": [
+      "paper"
+    ],
+    "places": [
+      "United States"
+    ],
+    "people": [],
+    "image": "assets/historical-map.svg",
+    "recordUrl": null,
+    "description": "A map shows places and paths. People make maps to help others find their way.",
+    "isWashingtonObject": false,
+    "dataStatus": "illustrative-curated-placeholder",
+    "connections": [
+      {
+        "label": "Maps and Geography",
+        "field": "topics",
+        "value": "Maps and Geography",
+        "targetId": "surveying-chain"
+      },
+      {
+        "label": "Travel",
+        "field": "topics",
+        "value": "Travel",
+        "targetId": "travel-trunk"
+      },
+      {
+        "label": "Surveying",
+        "field": "topics",
+        "value": "Surveying",
+        "targetId": "surveyors-compass"
+      }
+    ],
+    "periods": [
+      "18th century",
+      "19th century"
+    ]
+  },
+  {
+    "id": "surveying-chain",
+    "smithsonianId": null,
+    "title": "Surveying Chain",
+    "person": [],
+    "date": "19th century",
+    "museum": "National Museum of American History",
+    "museumCode": "NMAH",
+    "objectType": [
+      "Surveying Chain"
+    ],
+    "topics": [
+      "Surveying",
+      "Maps and Geography",
+      "Metalwork"
+    ],
+    "materials": [
+      "metal"
+    ],
+    "places": [
+      "United States"
+    ],
+    "people": [],
+    "image": "assets/surveying-chain.svg",
+    "recordUrl": null,
+    "description": "Surveyors used chains like this to measure land before making maps.",
+    "isWashingtonObject": false,
+    "dataStatus": "illustrative-curated-placeholder",
+    "connections": [
+      {
+        "label": "Surveying",
+        "field": "topics",
+        "value": "Surveying",
+        "targetId": "surveyors-compass"
+      },
+      {
+        "label": "Maps and Geography",
+        "field": "topics",
+        "value": "Maps and Geography",
+        "targetId": "historical-map"
+      },
+      {
+        "label": "Metalwork",
+        "field": "topics",
+        "value": "Metalwork",
+        "targetId": "metal-tool"
+      }
+    ],
+    "periods": [
+      "19th century"
+    ]
+  },
+  {
+    "id": "military-drum",
+    "smithsonianId": null,
+    "title": "Military Drum",
+    "person": [],
+    "date": "18th–19th century",
+    "museum": "National Museum of American History",
+    "museumCode": "NMAH",
+    "objectType": [
+      "Military Drum"
+    ],
+    "topics": [
+      "Military History",
+      "Music",
+      "Clothing"
+    ],
+    "materials": [
+      "wood",
+      "textile"
+    ],
+    "places": [
+      "United States"
+    ],
+    "people": [],
+    "image": "assets/military-drum.svg",
+    "recordUrl": null,
+    "description": "Soldiers used drums to send signals and keep time while marching.",
+    "isWashingtonObject": false,
+    "dataStatus": "illustrative-curated-placeholder",
+    "connections": [
+      {
+        "label": "Military History",
+        "field": "topics",
+        "value": "Military History",
+        "targetId": "ceremonial-sword"
+      },
+      {
+        "label": "Clothing",
+        "field": "topics",
+        "value": "Clothing",
+        "targetId": "textile-sampler"
+      },
+      {
+        "label": "Material: wood",
+        "field": "materials",
+        "value": "wood",
+        "targetId": "travel-trunk"
+      }
+    ],
+    "periods": [
+      "18th century",
+      "19th century"
+    ]
+  },
+  {
+    "id": "painted-portrait",
+    "smithsonianId": null,
+    "title": "Painted Portrait",
+    "person": [],
+    "date": "19th century",
+    "museum": "National Portrait Gallery",
+    "museumCode": "NPG",
+    "objectType": [
+      "Painted Portrait"
+    ],
+    "topics": [
+      "Portraiture",
+      "Painting",
+      "Public Memory"
+    ],
+    "materials": [
+      "canvas",
+      "paint"
+    ],
+    "places": [
+      "United States"
+    ],
+    "people": [],
+    "image": "assets/painted-portrait.svg",
+    "recordUrl": null,
+    "description": "A portrait is a picture of a person. What can this one tell you about them?",
+    "isWashingtonObject": false,
+    "dataStatus": "illustrative-curated-placeholder",
+    "connections": [
+      {
+        "label": "Portraiture",
+        "field": "topics",
+        "value": "Portraiture",
+        "targetId": "bache-silhouette"
+      },
+      {
+        "label": "Public Memory",
+        "field": "topics",
+        "value": "Public Memory",
+        "targetId": "bronze-casting"
+      }
+    ],
+    "periods": [
+      "19th century"
+    ]
+  },
+  {
+    "id": "bronze-casting",
+    "smithsonianId": null,
+    "title": "Bronze Sculpture",
+    "person": [],
+    "date": "19th–20th century",
+    "museum": "Smithsonian American Art Museum",
+    "museumCode": "SAAM",
+    "objectType": [
+      "Bronze Sculpture"
+    ],
+    "topics": [
+      "Sculpture",
+      "Public Memory",
+      "Metalwork"
+    ],
+    "materials": [
+      "bronze",
+      "metal"
+    ],
+    "places": [
+      "United States"
+    ],
+    "people": [],
+    "image": "assets/bronze-casting.svg",
+    "recordUrl": null,
+    "description": "Artists can pour hot metal into a mold to make a sculpture like this one.",
+    "isWashingtonObject": false,
+    "dataStatus": "illustrative-curated-placeholder",
+    "connections": [
+      {
+        "label": "Sculpture",
+        "field": "topics",
+        "value": "Sculpture",
+        "targetId": "washington-sculpture"
+      },
+      {
+        "label": "Public Memory",
+        "field": "topics",
+        "value": "Public Memory",
+        "targetId": "inaugural-button-long-live"
+      },
+      {
+        "label": "Metalwork",
+        "field": "topics",
+        "value": "Metalwork",
+        "targetId": "metal-tool"
+      }
+    ],
+    "periods": [
+      "19th century",
+      "20th century"
+    ]
+  },
+  {
+    "id": "textile-sampler",
+    "smithsonianId": null,
+    "title": "Textile Sampler",
+    "person": [],
+    "date": "19th century",
+    "museum": "National Museum of American History",
+    "museumCode": "NMAH",
+    "objectType": [
+      "Textile Sampler"
+    ],
+    "topics": [
+      "Clothing",
+      "Domestic Life",
+      "Craft"
+    ],
+    "materials": [
+      "textile"
+    ],
+    "places": [
+      "United States"
+    ],
+    "people": [],
+    "image": "assets/textile-sampler.svg",
+    "recordUrl": null,
+    "description": "Someone practiced sewing stitches on this piece of cloth.",
+    "isWashingtonObject": false,
+    "dataStatus": "illustrative-curated-placeholder",
+    "connections": [
+      {
+        "label": "Clothing",
+        "field": "topics",
+        "value": "Clothing",
+        "targetId": "military-uniform"
+      },
+      {
+        "label": "Domestic Life",
+        "field": "topics",
+        "value": "Domestic Life",
+        "targetId": "glass-bottle"
+      },
+      {
+        "label": "Craft",
+        "field": "topics",
+        "value": "Craft",
+        "targetId": "metal-tool"
+      }
+    ],
+    "periods": [
+      "19th century"
+    ]
+  },
+  {
+    "id": "glass-bottle",
+    "smithsonianId": null,
+    "title": "Glass Bottle",
+    "person": [],
+    "date": "19th century",
+    "museum": "National Museum of American History",
+    "museumCode": "NMAH",
+    "objectType": [
+      "Glass Bottle"
+    ],
+    "topics": [
+      "Food and Cooking",
+      "Domestic Life",
+      "Technology"
+    ],
+    "materials": [
+      "glass"
+    ],
+    "places": [
+      "United States"
+    ],
+    "people": [],
+    "image": "assets/glass-bottle.svg",
+    "recordUrl": null,
+    "description": "People used glass bottles to keep food or drinks. Glass lets you see what is inside.",
+    "isWashingtonObject": false,
+    "dataStatus": "illustrative-curated-placeholder",
+    "connections": [
+      {
+        "label": "Food and Cooking",
+        "field": "topics",
+        "value": "Food and Cooking",
+        "targetId": "cooking-pot"
+      },
+      {
+        "label": "Domestic Life",
+        "field": "topics",
+        "value": "Domestic Life",
+        "targetId": "textile-sampler"
+      },
+      {
+        "label": "Technology",
+        "field": "topics",
+        "value": "Technology",
+        "targetId": "railway-lantern"
+      }
+    ],
+    "periods": [
+      "19th century"
+    ]
+  },
+  {
+    "id": "metal-tool",
+    "smithsonianId": null,
+    "title": "Metalworking Tool",
+    "person": [],
+    "date": "19th century",
+    "museum": "National Museum of American History",
+    "museumCode": "NMAH",
+    "objectType": [
+      "Metalworking Tool"
+    ],
+    "topics": [
+      "Metalwork",
+      "Technology",
+      "Craft"
+    ],
+    "materials": [
+      "iron",
+      "metal",
+      "steel"
+    ],
+    "places": [
+      "United States"
+    ],
+    "people": [],
+    "image": "assets/metal-tool.svg",
+    "recordUrl": null,
+    "description": "A person made and used this metal tool to shape other things.",
+    "isWashingtonObject": false,
+    "dataStatus": "illustrative-curated-placeholder",
+    "connections": [
+      {
+        "label": "Metalwork",
+        "field": "topics",
+        "value": "Metalwork",
+        "targetId": "ceremonial-sword"
+      },
+      {
+        "label": "Technology",
+        "field": "topics",
+        "value": "Technology",
+        "targetId": "railway-lantern"
+      },
+      {
+        "label": "Material: iron",
+        "field": "materials",
+        "value": "iron",
+        "targetId": "iron-stove"
+      },
+      {
+        "label": "Craft",
+        "field": "topics",
+        "value": "Craft",
+        "targetId": "textile-sampler"
+      }
+    ],
+    "periods": [
+      "19th century"
+    ]
+  }
+]
