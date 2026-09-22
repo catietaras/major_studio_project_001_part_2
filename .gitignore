@@ -5,4 +5,3 @@
 *.pem
 node_modules/
 .DS_Store
-data/api-candidates.json

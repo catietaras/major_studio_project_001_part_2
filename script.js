@@ -35,10 +35,10 @@ const escapeHtml = value => String(value ?? '').replace(/[&<>"']/g, character =>
 const kidTitle = object => KID_TITLES[object.id] || object.title;
 const objectStops = () => state.journey.filter(step => step.type === 'object');
 const currentObject = () => state.byId.get(objectStops().at(-1)?.id);
-const onView = object => object.gallery?.status === 'verified-on-view';
+const onView = object => Boolean(object.gallery?.floor && object.gallery?.name);
 const placeLabel = object => {
   if (onView(object)) return `Floor ${object.gallery.floor} · ${FLOOR_GALLERIES.find(gallery => gallery.floor === object.gallery.floor && gallery.name === object.gallery.name)?.label || object.gallery.name}`;
-  return object.dataStatus === 'illustrative-curated-placeholder' ? 'Story idea · Not in the museum' : 'Explore online';
+  return 'Explore online';
 };
 const scrollTop = () => { window.scrollTo({top: 0, behavior: 'auto'}); app.focus({preventScroll: true}); };
 function focusObject() {
@@ -75,14 +75,14 @@ function startJourney(id) {
 }
 function getChoices(object) {
   const visited = new Set(objectStops().map(step => step.id));
-  const washingtonStops = objectStops().map(step => state.byId.get(step.id)).filter(item => item.isWashingtonObject);
+  const washingtonStops = objectStops().map(step => state.byId.get(step.id));
   const anchor = washingtonStops.at(-1);
   const startIndex = WASHINGTON_ROUTE.indexOf(anchor.id);
   const nextWashingtonId = [...WASHINGTON_ROUTE.slice(startIndex + 1), ...WASHINGTON_ROUTE.slice(0, startIndex + 1)].find(id => !visited.has(id));
   const selected = nextWashingtonId ? [{label:'George Washington',field:'topics',value:'George Washington',sourceId:anchor.id,targetId:nextWashingtonId,route:'washington'}] : [];
   const detours = objectStops().flatMap(step => {
     const source = state.byId.get(step.id);
-    return state.objects.filter(target => target.isWashingtonObject && !visited.has(target.id) && target.id !== nextWashingtonId)
+    return state.objects.filter(target => !visited.has(target.id) && target.id !== nextWashingtonId)
       .flatMap(target => ['materials','topics','periods'].flatMap(field => (source[field] || [])
         .filter(value => value !== 'George Washington' && target[field]?.includes(value))
         .map(value => ({label:value,field,value,sourceId:source.id,targetId:target.id,route:'detour',score:(field === 'materials' ? 5 : field === 'topics' ? 3 : 1) + (onView(target) ? 2 : 0) + (source.id === object.id ? 2 : 0)}))));
@@ -118,8 +118,8 @@ function renderObject() {
   const choicesHtml = count === MAX_STOPS
     ? `<div class="choices"><h2>You found all five!</h2><p>Now you can see the story your choices made.</p><button class="button red" id="see-journey">See my treasure map <span aria-hidden="true">→</span></button></div>`
     : `<div class="choices"><h2>Where will your story go?</h2><p>Pick a clue to find the next object.</p><div class="choice-grid">${state.choices.map((link,index) => { const target = state.byId.get(link.targetId); return `<button class="choice" data-choice="${index}"><span class="choice-number">${link.route === 'washington' ? '★ GEORGE’S TRAIL' : '✦ FOLLOW A CLUE'}</span><img class="choice-thumb" src="${escapeHtml(target.image)}" alt=""><strong>${escapeHtml(choiceLabel(link))}</strong><small>${escapeHtml(kidTitle(target))}</small><span class="choice-place">${escapeHtml(placeLabel(target))} →</span></button>`; }).join('')}</div>${state.choices.length ? '' : '<button class="button" id="return-map">Pick a new first object</button>'}</div>`;
-  const sourceNote = onView(object) ? 'The museum lists this object in the room area shown above. Words and idea links were written for this story.' : object.dataStatus === 'illustrative-curated-placeholder' ? 'This is a made-up example for this prototype. Its picture and details are not from a museum record.' : 'This is a real museum object, but its display room is not confirmed. Idea links were written for this story.';
-  app.innerHTML = `<section class="shell kid-object"><div class="progress-row"><span class="eyebrow">STOP ${count} OF ${MAX_STOPS}</span><div class="progress-track" aria-label="${count} of ${MAX_STOPS} objects found">${Array.from({length:MAX_STOPS},(_,i)=>`<span class="${i<count?'active':''}"></span>`).join('')}</div></div><div class="object-layout"><div class="object-visual"><img src="${escapeHtml(object.image)}" alt="${escapeHtml(object.imageAlt || object.title)}"></div><div class="object-detail"><span class="eyebrow">${object.isWashingtonObject ? (count === 1 ? 'Your story starts here' : 'The next page of your story') : 'A new page of your story'}</span><h1 class="section-title">${escapeHtml(kidTitle(object))}</h1><p class="description">${escapeHtml(object.story || object.description)}</p><div class="kid-place"><span aria-hidden="true">${onView(object) ? '⌖' : '✦'}</span><strong>${escapeHtml(placeLabel(object))}</strong></div>${choicesHtml}<details class="object-facts"><summary>Grown-up facts</summary><dl><dt>Museum name</dt><dd>${escapeHtml(object.title)}</dd><dt>About it</dt><dd>${escapeHtml(object.description)}</dd><dt>When?</dt><dd>${escapeHtml(object.date)}</dd><dt>What is it?</dt><dd>${escapeHtml(object.objectType.join(', '))}</dd><dt>Museum</dt><dd>${escapeHtml(object.museum)}</dd></dl>${object.recordUrl ? `<p><a href="${escapeHtml(object.recordUrl)}" target="_blank" rel="noopener noreferrer">See the museum record ↗</a></p>` : ''}${object.imageSource ? `<p><a href="${escapeHtml(object.imageSource)}" target="_blank" rel="noopener noreferrer">Photo source ↗</a></p>` : ''}<p class="source-note">${escapeHtml(sourceNote)}</p></details></div></div></section>`;
+  const sourceNote = onView(object) ? 'The museum lists this object in the room area shown above. Words and idea links were written for this story.' : 'This is a real museum object, but its display room is not confirmed. Idea links were written for this story.';
+  app.innerHTML = `<section class="shell kid-object"><div class="progress-row"><span class="eyebrow">STOP ${count} OF ${MAX_STOPS}</span><div class="progress-track" aria-label="${count} of ${MAX_STOPS} objects found">${Array.from({length:MAX_STOPS},(_,i)=>`<span class="${i<count?'active':''}"></span>`).join('')}</div></div><div class="object-layout"><div class="object-visual"><img src="${escapeHtml(object.image)}" alt="${escapeHtml(object.imageAlt || object.title)}"></div><div class="object-detail"><span class="eyebrow">${count === 1 ? 'Your story starts here' : 'The next page of your story'}</span><h1 class="section-title">${escapeHtml(kidTitle(object))}</h1><p class="description">${escapeHtml(object.story || object.description)}</p><div class="kid-place"><span aria-hidden="true">${onView(object) ? '⌖' : '✦'}</span><strong>${escapeHtml(placeLabel(object))}</strong></div>${choicesHtml}<details class="object-facts"><summary>Grown-up facts</summary><dl><dt>Museum name</dt><dd>${escapeHtml(object.title)}</dd><dt>About it</dt><dd>${escapeHtml(object.description)}</dd><dt>When?</dt><dd>${escapeHtml(object.date)}</dd><dt>What is it?</dt><dd>${escapeHtml(object.objectType.join(', '))}</dd><dt>Museum</dt><dd>${escapeHtml(object.museum)}</dd></dl>${object.recordUrl ? `<p><a href="${escapeHtml(object.recordUrl)}" target="_blank" rel="noopener noreferrer">See the museum record ↗</a></p>` : ''}${object.imageSource ? `<p><a href="${escapeHtml(object.imageSource)}" target="_blank" rel="noopener noreferrer">Photo source ↗</a></p>` : ''}<p class="source-note">${escapeHtml(sourceNote)}</p></details></div></div></section>`;
   app.querySelectorAll('[data-choice]').forEach(button => button.addEventListener('click', () => followChoice(state.choices[Number(button.dataset.choice)])));
   app.querySelector('#see-journey')?.addEventListener('click', renderJourney);
   app.querySelector('#return-map')?.addEventListener('click', renderStart);
