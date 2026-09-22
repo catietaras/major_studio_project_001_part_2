@@ -58,7 +58,8 @@
       }
     ],
     "imageSource": "https://ids.si.edu/ids/deliveryService?id=NMAH-JN2024-00884-000001&max_w=1200",
-    "imageAlt": "Photograph of 1918 One Dollar Banknote with Washington Portrait"
+    "imageAlt": "Photograph of 1918 One Dollar Banknote with Washington Portrait",
+    "story": "Your story begins with an old dollar bill. Look closely—George Washington’s face is right there! This bill was made in 1918, long after he lived."
   },
   {
     "id": "camp-chest",
@@ -131,7 +132,8 @@
     },
     "locationSource": "https://americanhistory.si.edu/collections/object/nmah_434899",
     "imageSource": "https://ids.si.edu/ids/deliveryService?id=NMAH-99-4030&max_w=1200",
-    "imageAlt": "Photograph of George Washington's Camp Chest"
+    "imageAlt": "Photograph of George Washington's Camp Chest",
+    "story": "Imagine the army getting ready to move. Washington brings this camp chest along. Inside are things he needs for cooking and eating on the journey."
   },
   {
     "id": "military-uniform",
@@ -203,7 +205,8 @@
     },
     "locationSource": "https://americanhistory.si.edu/collections/object/nmah_434863",
     "imageSource": "https://smithsonian-open-access.s3-us-west-2.amazonaws.com/media/nmah/NMAH-2006-7431.jpg",
-    "imageAlt": "Photograph of George Washington's Uniform"
+    "imageAlt": "Photograph of George Washington's Uniform",
+    "story": "Washington gets dressed in his blue and tan army coat. People can spot their leader by the clothes he wears. Can you find both colors?"
   },
   {
     "id": "epaulettes",
@@ -269,7 +272,8 @@
     },
     "locationSource": "https://americanhistory.si.edu/collections/object/nmah_395065",
     "imageSource": "https://ids.si.edu/ids/deliveryService?id=NMAH-2004-50203&max_w=1200",
-    "imageAlt": "Photograph of George Washington's Epaulettes"
+    "imageAlt": "Photograph of George Washington's Epaulettes",
+    "story": "Something shiny rests on Washington’s shoulders. These gold pieces are called epaulettes. Artists put them in paintings of him, too."
   },
   {
     "id": "washington-sculpture",
@@ -335,7 +339,8 @@
     },
     "locationSource": "https://americanhistory.si.edu/explore/exhibitions/george-washington-sculpture",
     "imageSource": "https://ids.si.edu/ids/deliveryService?id=https%3A%2F%2Fwww.si.edu%2FContent%2Fimg%2FExhibitions%2Fdb%2Fnmah-landmark-washington.jpg&max_w=1200",
-    "imageAlt": "Photograph of George Washington Statue"
+    "imageAlt": "Photograph of George Washington Statue",
+    "story": "You turn a corner and meet a giant Washington! An artist made him look like a hero from long ago. What do you notice about the way he sits?"
   },
   {
     "id": "ceremonial-sword",
@@ -414,7 +419,8 @@
     },
     "locationSource": "https://americanhistory.si.edu/collections/object/nmah_434865",
     "imageSource": "https://ids.si.edu/ids/deliveryService?id=NMAH-JN2015-5154&max_w=1200",
-    "imageAlt": "Photograph of George Washington's Battle Sword and Scabbard"
+    "imageAlt": "Photograph of George Washington's Battle Sword and Scabbard",
+    "story": "Here is the steel sword Washington wore while leading his army. It traveled with him during the Revolutionary War. Look for the long metal blade."
   },
   {
     "id": "surveyors-compass",
@@ -480,7 +486,8 @@
     },
     "locationSource": "https://americanhistory.si.edu/collections/object/nmah_747313",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Surveyor%27s_compass_by_David_Rittenhouse,_believed_to_be_given_to_George_Washington_in_1782_-_National_Museum_of_American_History_-_DSC00136.jpg",
-    "imageAlt": "Photograph of a brass surveyor’s compass attributed to David Rittenhouse and associated with George Washington"
+    "imageAlt": "Photograph of a brass surveyor’s compass attributed to David Rittenhouse and associated with George Washington",
+    "story": "Before he led an army, Washington worked as a surveyor. Surveyors measure land to make maps. This compass is part of his map-making story."
   },
   {
     "id": "camp-stool",
@@ -541,7 +548,8 @@
         "value": "Travel",
         "targetId": "travel-trunk"
       }
-    ]
+    ],
+    "story": "It is time for a rest at camp. Washington can unfold this small stool and sit down. Then it folds up again for the next trip."
   },
   {
     "id": "washington-waistcoat",
@@ -601,7 +609,8 @@
         "value": "Military History",
         "targetId": "military-drum"
       }
-    ]
+    ],
+    "story": "Washington gets dressed for the day. Under his army coat he wears this wool waistcoat, a kind of vest. His outfit has more than one layer!"
   },
   {
     "id": "washington-breeches",
@@ -655,7 +664,8 @@
         "value": "Clothing",
         "targetId": "textile-sampler"
       }
-    ]
+    ],
+    "story": "Washington’s outfit needs pants, too. These wool breeches stop near the knees. Clothes looked a little different long ago."
   },
   {
     "id": "tenino-scrip",
@@ -716,7 +726,8 @@
         "value": "Public Memory",
         "targetId": "bronze-casting"
       }
-    ]
+    ],
+    "story": "Many years after Washington lived, the town of Tenino needed money. It made its own paper money and put his face on it. Where else have you seen that face?"
   },
   {
     "id": "charleville-musket",
@@ -777,7 +788,8 @@
         "value": "Metalwork",
         "targetId": "metal-tool"
       }
-    ]
+    ],
+    "story": "The army Washington led needed long guns called muskets. He wanted these guns marked to show they belonged to the new United States. Why might an army mark its things?"
   },
   {
     "id": "benjamin-lincoln-sword",
@@ -837,7 +849,8 @@
         "value": "Military History",
         "targetId": "military-drum"
       }
-    ]
+    ],
+    "story": "At Yorktown, the British army gave up. Washington asked another army leader, Benjamin Lincoln, to meet them. Lincoln carried this sword."
   },
   {
     "id": "washington-scissor-glasses",
@@ -891,7 +904,8 @@
         "value": "Metalwork",
         "targetId": "metal-tool"
       }
-    ]
+    ],
+    "story": "Open, close! These glasses have handles that move like scissors. They are linked to Washington and his friend Lafayette."
   },
   {
     "id": "braddock-pistol",
@@ -951,7 +965,8 @@
         "value": "Metalwork",
         "targetId": "metal-tool"
       }
-    ]
+    ],
+    "story": "A British general gave Washington this pistol. Washington carried it on later army trips. Now the museum keeps it safe so we can learn its story."
   },
   {
     "id": "inaugural-button-long-live",
@@ -1012,7 +1027,8 @@
         "value": "Clothing",
         "targetId": "textile-sampler"
       }
-    ]
+    ],
+    "story": "A big day arrives: Washington becomes the first U.S. president. People celebrate by wearing little brass buttons like this one. Can you see the letters GW?"
   },
   {
     "id": "inaugural-button-star",
@@ -1073,7 +1089,8 @@
         "value": "metal",
         "targetId": "metal-tool"
       }
-    ]
+    ],
+    "story": "People want to celebrate Washington becoming president. Here is another button they wore, with a bright star design. Can you spot its shape?"
   },
   {
     "id": "bache-silhouette",
@@ -1127,7 +1144,8 @@
         "value": "Public Memory",
         "targetId": "bronze-casting"
       }
-    ]
+    ],
+    "story": "An artist cuts Washington’s side view from a piece of paper. The dark shape is called a silhouette. Does it look like a shadow to you?"
   },
   {
     "id": "coffin-fragment",
@@ -1182,6 +1200,7 @@
         "value": "wood",
         "targetId": "travel-trunk"
       }
-    ]
+    ],
+    "story": "After Washington died, people saved this tiny piece of wood from an older coffin made for him. They kept it to remember him. Even a small object can hold a big story."
   }
 ]

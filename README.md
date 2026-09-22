@@ -14,7 +14,7 @@ Open <http://localhost:8000>. The JSON files usually will not load from a `file:
 
 - The first screen starts with an object: a Washington banknote on floor 1, or the Washington statue or inaugural button on floor 2. There is no entrance chooser.
 - The start and object screens focus on the object and its clues. The museum location is shown as a short floor and room label.
-- Each object has a short, child-friendly description and large picture-led choices. Catalog titles, dates, photo sources, and editorial notes sit under **Grown-up facts**.
+- Each object has a short story scene written for ages 5–8 and large picture-led choices. The original plain description, catalog title, date, photo source, and editorial note sit under **Grown-up facts**.
 - One choice follows a fixed Washington trail. Other choices lead to real Washington-related objects that share a material, topic, or time period with something already visited. The choice card shows the next object and whether it has a museum room or is an online discovery.
 - After five objects, the visitor sees a treasure map of only the floors and room areas they visited, with thin arrows showing visit order from stop 1 to stop 5. Online discoveries get their own row. This is a conceptual map, not walking directions or exact case locations.
 
@@ -24,7 +24,7 @@ Open <http://localhost:8000>. The JSON files usually will not load from a `file:
 
 The 12 entries in `data/collection-objects.json` are illustrative research examples with SVG placeholders. They are kept as prototype data but are not offered as child-facing route choices. They need real catalog verification before use in the experience.
 
-Descriptions, child-facing names, and concept links are editorial. Shared metadata values make a route structurally valid; they do not by themselves prove a historical relationship. Some Smithsonian images have “Usage Conditions Apply.” Local download for this prototype does not establish reuse or publication rights; review each image’s notice before public deployment.
+The `story` field, child-facing names, and concept links are editorial. The `description` field remains the earlier plain-language summary. Shared metadata values make a route structurally valid; they do not by themselves prove a historical relationship. Some Smithsonian images have “Usage Conditions Apply.” Local download for this prototype does not establish reuse or publication rights; review each image’s notice before public deployment.
 
 ## Files
 
