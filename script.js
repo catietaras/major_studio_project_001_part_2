@@ -49,22 +49,13 @@ function focusObject() {
 }
 async function loadData() {
   try {
-    const responses = await Promise.all(['data/washington-objects.json','data/collection-objects.json'].map(path => fetch(path)));
-    if (responses.some(response => !response.ok)) throw new Error('Object files could not be loaded.');
-    state.objects = (await Promise.all(responses.map(response => response.json()))).flat();
+    const response = await fetch('data/washington-objects.json');
+    if (!response.ok) throw new Error('Objects could not be loaded.');
+    state.objects = await response.json();
     state.byId = new Map(state.objects.map(object => [object.id, object]));
-    validateConnections();
     renderStart();
   } catch (error) {
     app.innerHTML = `<div class="error"><h1>Oops! The objects did not load.</h1><p>${escapeHtml(error.message)}</p><p>Ask a grown-up to open this project with a local web server.</p></div>`;
-  }
-}
-function validateConnections() {
-  for (const object of state.objects) {
-    object.connections = (object.connections || []).filter(link => {
-      const target = state.byId.get(link.targetId);
-      return target && object[link.field]?.includes(link.value) && target[link.field]?.includes(link.value);
-    });
   }
 }
 function startCard(object) {

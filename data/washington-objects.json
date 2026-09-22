@@ -43,20 +43,6 @@
       "status": "verified-on-view"
     },
     "locationSource": "https://americanhistory.si.edu/ar/collections/object/nmah_1839987",
-    "connections": [
-      {
-        "label": "Portraiture",
-        "field": "topics",
-        "value": "Portraiture",
-        "targetId": "painted-portrait"
-      },
-      {
-        "label": "Public Memory",
-        "field": "topics",
-        "value": "Public Memory",
-        "targetId": "bronze-casting"
-      }
-    ],
     "imageSource": "https://ids.si.edu/ids/deliveryService?id=NMAH-JN2024-00884-000001&max_w=1200",
     "imageAlt": "Photograph of 1918 One Dollar Banknote with Washington Portrait",
     "story": "Your story begins with an old dollar bill. Look closely—George Washington’s face is right there! This bill was made in 1918, long after he lived."
@@ -95,32 +81,6 @@
     "description": "Washington carried this box when he traveled with his army. It held things he needed to cook and eat.",
     "isWashingtonObject": true,
     "dataStatus": "verified-object-curated-connections",
-    "connections": [
-      {
-        "label": "George Washington",
-        "field": "topics",
-        "value": "George Washington",
-        "targetId": "military-uniform"
-      },
-      {
-        "label": "Food and Cooking",
-        "field": "topics",
-        "value": "Food and Cooking",
-        "targetId": "cooking-pot"
-      },
-      {
-        "label": "Travel",
-        "field": "topics",
-        "value": "Travel",
-        "targetId": "travel-trunk"
-      },
-      {
-        "label": "Material: wood",
-        "field": "materials",
-        "value": "wood",
-        "targetId": "military-drum"
-      }
-    ],
     "periods": [
       "18th century"
     ],
@@ -168,32 +128,6 @@
     "description": "Washington wore a blue and tan coat as an army leader. His clothes helped people recognize him.",
     "isWashingtonObject": true,
     "dataStatus": "verified-object-curated-connections",
-    "connections": [
-      {
-        "label": "George Washington",
-        "field": "topics",
-        "value": "George Washington",
-        "targetId": "epaulettes"
-      },
-      {
-        "label": "Military History",
-        "field": "topics",
-        "value": "Military History",
-        "targetId": "military-drum"
-      },
-      {
-        "label": "Clothing",
-        "field": "topics",
-        "value": "Clothing",
-        "targetId": "textile-sampler"
-      },
-      {
-        "label": "Material: metal",
-        "field": "materials",
-        "value": "metal",
-        "targetId": "metal-tool"
-      }
-    ],
     "periods": [
       "18th century"
     ],
@@ -241,26 +175,6 @@
     "description": "These gold pieces decorated Washington’s shoulders. You can spot them in some paintings of him, too.",
     "isWashingtonObject": true,
     "dataStatus": "verified-object-curated-connections",
-    "connections": [
-      {
-        "label": "George Washington",
-        "field": "topics",
-        "value": "George Washington",
-        "targetId": "ceremonial-sword"
-      },
-      {
-        "label": "Clothing",
-        "field": "topics",
-        "value": "Clothing",
-        "targetId": "textile-sampler"
-      },
-      {
-        "label": "Military History",
-        "field": "topics",
-        "value": "Military History",
-        "targetId": "military-drum"
-      }
-    ],
     "periods": [
       "18th century"
     ],
@@ -308,26 +222,6 @@
     "description": "This large statue shows George Washington sitting like a hero from ancient times. You can see it on the museum’s second floor.",
     "isWashingtonObject": true,
     "dataStatus": "verified-object-curated-connections",
-    "connections": [
-      {
-        "label": "George Washington",
-        "field": "topics",
-        "value": "George Washington",
-        "targetId": "inaugural-button-long-live"
-      },
-      {
-        "label": "Sculpture",
-        "field": "topics",
-        "value": "Sculpture",
-        "targetId": "bronze-casting"
-      },
-      {
-        "label": "Public Memory",
-        "field": "topics",
-        "value": "Public Memory",
-        "targetId": "painted-portrait"
-      }
-    ],
     "periods": [
       "19th century"
     ],
@@ -376,38 +270,6 @@
     "description": "Washington wore this steel sword while leading the American army during the Revolutionary War.",
     "isWashingtonObject": true,
     "dataStatus": "verified-object-curated-connections",
-    "connections": [
-      {
-        "label": "George Washington",
-        "field": "topics",
-        "value": "George Washington",
-        "targetId": "military-uniform"
-      },
-      {
-        "label": "Military History",
-        "field": "topics",
-        "value": "Military History",
-        "targetId": "military-drum"
-      },
-      {
-        "label": "Metalwork",
-        "field": "topics",
-        "value": "Metalwork",
-        "targetId": "metal-tool"
-      },
-      {
-        "label": "Steel",
-        "field": "materials",
-        "value": "steel",
-        "targetId": "metal-tool"
-      },
-      {
-        "label": "18th century",
-        "field": "periods",
-        "value": "18th century",
-        "targetId": "military-drum"
-      }
-    ],
     "periods": [
       "18th century"
     ],
@@ -455,26 +317,6 @@
     "description": "A surveyor uses a compass to measure and map land. This one is linked to Washington, who worked as a surveyor when he was young.",
     "isWashingtonObject": true,
     "dataStatus": "verified-object-curated-connections",
-    "connections": [
-      {
-        "label": "George Washington",
-        "field": "topics",
-        "value": "George Washington",
-        "targetId": "camp-chest"
-      },
-      {
-        "label": "Maps and Geography",
-        "field": "topics",
-        "value": "Maps and Geography",
-        "targetId": "historical-map"
-      },
-      {
-        "label": "Surveying",
-        "field": "topics",
-        "value": "Surveying",
-        "targetId": "surveying-chain"
-      }
-    ],
     "periods": [
       "18th century"
     ],
@@ -535,20 +377,6 @@
       "status": "verified-on-view"
     },
     "locationSource": "https://americanhistory.si.edu/collections/object/nmah_434860",
-    "connections": [
-      {
-        "label": "Military History",
-        "field": "topics",
-        "value": "Military History",
-        "targetId": "military-drum"
-      },
-      {
-        "label": "Travel",
-        "field": "topics",
-        "value": "Travel",
-        "targetId": "travel-trunk"
-      }
-    ],
     "story": "It is time for a rest at camp. Washington can unfold this small stool and sit down. Then it folds up again for the next trip."
   },
   {
@@ -596,20 +424,6 @@
       "status": "verified-on-view"
     },
     "locationSource": "https://americanhistory.si.edu/collections/object/nmah_1199101",
-    "connections": [
-      {
-        "label": "Clothing",
-        "field": "topics",
-        "value": "Clothing",
-        "targetId": "textile-sampler"
-      },
-      {
-        "label": "Military History",
-        "field": "topics",
-        "value": "Military History",
-        "targetId": "military-drum"
-      }
-    ],
     "story": "Washington gets dressed for the day. Under his army coat he wears this wool waistcoat, a kind of vest. His outfit has more than one layer!"
   },
   {
@@ -657,14 +471,6 @@
       "status": "verified-on-view"
     },
     "locationSource": "https://americanhistory.si.edu/collections/object/nmah_1199102",
-    "connections": [
-      {
-        "label": "Clothing",
-        "field": "topics",
-        "value": "Clothing",
-        "targetId": "textile-sampler"
-      }
-    ],
     "story": "Washington’s outfit needs pants, too. These wool breeches stop near the knees. Clothes looked a little different long ago."
   },
   {
@@ -713,20 +519,6 @@
       "status": "verified-on-view"
     },
     "locationSource": "https://americanhistory.si.edu/collections/object/nmah_985725",
-    "connections": [
-      {
-        "label": "Portraiture",
-        "field": "topics",
-        "value": "Portraiture",
-        "targetId": "bache-silhouette"
-      },
-      {
-        "label": "Public Memory",
-        "field": "topics",
-        "value": "Public Memory",
-        "targetId": "bronze-casting"
-      }
-    ],
     "story": "Many years after Washington lived, the town of Tenino needed money. It made its own paper money and put his face on it. Where else have you seen that face?"
   },
   {
@@ -775,20 +567,6 @@
       "status": "verified-on-view"
     },
     "locationSource": "https://americanhistory.si.edu/collections/object/nmah_438624",
-    "connections": [
-      {
-        "label": "Military History",
-        "field": "topics",
-        "value": "Military History",
-        "targetId": "military-drum"
-      },
-      {
-        "label": "Metalwork",
-        "field": "topics",
-        "value": "Metalwork",
-        "targetId": "metal-tool"
-      }
-    ],
     "story": "The army Washington led needed long guns called muskets. He wanted these guns marked to show they belonged to the new United States. Why might an army mark its things?"
   },
   {
@@ -836,20 +614,6 @@
       "status": "verified-on-view"
     },
     "locationSource": "https://americanhistory.si.edu/collections/object/nmah_438723",
-    "connections": [
-      {
-        "label": "Steel",
-        "field": "materials",
-        "value": "steel",
-        "targetId": "metal-tool"
-      },
-      {
-        "label": "Military History",
-        "field": "topics",
-        "value": "Military History",
-        "targetId": "military-drum"
-      }
-    ],
     "story": "At Yorktown, the British army gave up. Washington asked another army leader, Benjamin Lincoln, to meet them. Lincoln carried this sword."
   },
   {
@@ -897,14 +661,6 @@
       "status": "verified-on-view"
     },
     "locationSource": "https://americanhistory.si.edu/collections/object/nmah_1169721",
-    "connections": [
-      {
-        "label": "Metalwork",
-        "field": "topics",
-        "value": "Metalwork",
-        "targetId": "metal-tool"
-      }
-    ],
     "story": "Open, close! These glasses have handles that move like scissors. They are linked to Washington and his friend Lafayette."
   },
   {
@@ -952,20 +708,6 @@
       "status": "verified-on-view"
     },
     "locationSource": "https://americanhistory.si.edu/collections/object/nmah_746133",
-    "connections": [
-      {
-        "label": "Military History",
-        "field": "topics",
-        "value": "Military History",
-        "targetId": "military-drum"
-      },
-      {
-        "label": "Metalwork",
-        "field": "topics",
-        "value": "Metalwork",
-        "targetId": "metal-tool"
-      }
-    ],
     "story": "A British general gave Washington this pistol. Washington carried it on later army trips. Now the museum keeps it safe so we can learn its story."
   },
   {
@@ -1014,20 +756,6 @@
       "status": "verified-on-view"
     },
     "locationSource": "https://americanhistory.si.edu/collections/object/nmah_688853",
-    "connections": [
-      {
-        "label": "Public Memory",
-        "field": "topics",
-        "value": "Public Memory",
-        "targetId": "bronze-casting"
-      },
-      {
-        "label": "Clothing",
-        "field": "topics",
-        "value": "Clothing",
-        "targetId": "textile-sampler"
-      }
-    ],
     "story": "A big day arrives: Washington becomes the first U.S. president. People celebrate by wearing little brass buttons like this one. Can you see the letters GW?"
   },
   {
@@ -1076,20 +804,6 @@
       "status": "verified-on-view"
     },
     "locationSource": "https://americanhistory.si.edu/collections/object/nmah_528516",
-    "connections": [
-      {
-        "label": "Public Memory",
-        "field": "topics",
-        "value": "Public Memory",
-        "targetId": "bronze-casting"
-      },
-      {
-        "label": "Metal",
-        "field": "materials",
-        "value": "metal",
-        "targetId": "metal-tool"
-      }
-    ],
     "story": "People want to celebrate Washington becoming president. Here is another button they wore, with a bright star design. Can you spot its shape?"
   },
   {
@@ -1131,20 +845,6 @@
     "dataStatus": "verified-object-curated-connections",
     "gallery": null,
     "locationSource": null,
-    "connections": [
-      {
-        "label": "Portraiture",
-        "field": "topics",
-        "value": "Portraiture",
-        "targetId": "painted-portrait"
-      },
-      {
-        "label": "Public Memory",
-        "field": "topics",
-        "value": "Public Memory",
-        "targetId": "bronze-casting"
-      }
-    ],
     "story": "An artist cuts Washington’s side view from a piece of paper. The dark shape is called a silhouette. Does it look like a shadow to you?"
   },
   {
@@ -1187,20 +887,6 @@
     "dataStatus": "verified-object-curated-connections",
     "gallery": null,
     "locationSource": null,
-    "connections": [
-      {
-        "label": "Public Memory",
-        "field": "topics",
-        "value": "Public Memory",
-        "targetId": "bronze-casting"
-      },
-      {
-        "label": "Wood",
-        "field": "materials",
-        "value": "wood",
-        "targetId": "travel-trunk"
-      }
-    ],
     "story": "After Washington died, people saved this tiny piece of wood from an older coffin made for him. They kept it to remember him. Even a small object can hold a big story."
   }
 ]

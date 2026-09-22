@@ -22,8 +22,6 @@ Open <http://localhost:8000>. The JSON files usually will not load from a `file:
 
 `data/washington-objects.json` contains 19 cataloged Washington-related objects. Seventeen have published on-view gallery areas; two are online discoveries with no confirmed room. The app uses locally saved photographs for all 19 and links each image source and Smithsonian object record. The identities and galleries are sourced from the linked Smithsonian pages, including the [museum map and visitor information](https://americanhistory.si.edu/visit/museum-map). Gallery display can change, so confirm current locations before visiting.
 
-The 12 entries in `data/collection-objects.json` are illustrative research examples with SVG placeholders. They are kept as prototype data but are not offered as child-facing route choices. They need real catalog verification before use in the experience.
-
 The `story` field, child-facing names, and concept links are editorial. The `description` field remains the earlier plain-language summary. Shared metadata values make a route structurally valid; they do not by themselves prove a historical relationship. Some Smithsonian images have “Usage Conditions Apply.” Local download for this prototype does not establish reuse or publication rights; review each image’s notice before public deployment.
 
 ## Files
@@ -32,8 +30,7 @@ The `story` field, child-facing names, and concept links are editorial. The `des
 - `style.css` — responsive visual design, including the treasure map
 - `script.js` — object choices and the journey treasure map
 - `data/washington-objects.json` — cataloged Washington objects and curated metadata
-- `data/collection-objects.json` — unused illustrative research examples
-- `assets/` — object photos, old illustrative SVGs, and the official map asset retained for reference
+- `assets/` — object photos and the official map asset retained for reference
 
 ## Adding objects
 
