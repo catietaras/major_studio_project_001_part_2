@@ -293,3 +293,12 @@ body{background:#fff7e8}
 .treasure-stop small{font-size:.59rem;line-height:1.1;margin-top:3px}
 .treasure-stop em{font-size:.57rem;line-height:1;margin-top:auto;padding-top:3px}
 .treasure-trail line{stroke:#a86446;stroke-width:3;stroke-linecap:round;stroke-dasharray:5 8}
+
+
+/* Visualization title and key */
+.start-heading .eyebrow{display:block;margin-top:10px;font-size:.76rem;color:#a13e33}
+.map-legend{display:flex;align-items:center;justify-content:center;gap:12px;flex-wrap:wrap;margin:0 auto 18px;color:#40576d;font-size:.78rem;font-weight:800}
+.map-legend>strong{color:#203956;text-transform:uppercase;letter-spacing:.08em}
+.map-legend>span{display:flex;align-items:center;gap:5px;padding:6px 9px;border:2px solid #d8c7a5;border-radius:999px;background:#fffdf7}
+.legend-number,.legend-floor,.legend-online{display:inline-grid;place-items:center;width:22px;height:22px;border-radius:50%;color:#fff;font-style:normal;font-size:.7rem}
+.legend-number{background:#d25847}.legend-arrow{color:#a86446;font-size:1.25rem;line-height:1}.legend-floor{width:19px;height:19px;margin-right:-3px}.floor-1{background:#4b9b7b}.floor-2{background:#cd7458}.floor-3{background:#667bb5}.legend-online{background:#6988a6}
