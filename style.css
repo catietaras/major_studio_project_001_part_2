@@ -370,3 +370,65 @@ body{background:#fff7e8}
 .map-x-stop:focus-visible{outline:4px solid #244b6a;outline-offset:5px;border-radius:14px}
 .map-x-stop span{display:block;color:#c83e32;font:900 5.8rem/.67 'Arial Rounded MT Bold','Trebuchet MS',sans-serif;text-shadow:3px 3px 0 #fff1b5,-2px -2px 0 #fff1b5}
 .map-x-stop strong{display:inline-block;padding:5px 9px;border:3px solid #72482e;border-radius:12px;background:#f8dda0;box-shadow:3px 3px 0 #a86e40;font:900 .8rem/1 'Arial Rounded MT Bold','Trebuchet MS',sans-serif}
+
+/* Material comparison: the five visited objects against all 17 physical objects. */
+.bag-key{display:flex;align-items:center;justify-content:center;gap:12px;flex-wrap:wrap;margin:0 auto 20px;color:#62452e;font-size:.76rem;font-weight:900}
+.bag-key>span{display:flex;align-items:center;gap:7px}.bag-key b{display:block;width:29px;height:22px;border:3px solid #70472e;border-radius:7px;background:#f4cb75}.bag-key .key-more{opacity:.3;filter:grayscale(1)}.bag-key .key-note{padding:5px 10px;border-radius:999px;background:#f4db9f;border:2px dashed #9e6c42}
+.collection-bag{max-width:1060px;padding:72px 50px 52px}
+.collection-pockets{position:relative;z-index:2;display:grid;gap:13px}
+.collection-pocket{position:relative;overflow:hidden;min-height:104px;padding:11px 14px 9px;border:4px solid #755036;border-radius:20px;background:linear-gradient(90deg,#e7b96e 0 var(--share),#f5dda6 var(--share) 100%);box-shadow:inset 0 -5px 0 #c9955c66,3px 4px 0 #875b3b}
+.collection-pocket::after{content:'';position:absolute;z-index:0;left:var(--share);top:0;bottom:0;border-left:3px dashed #855a39;opacity:.45}
+.collection-pocket .pocket-heading,.collection-pocket .collection-items,.collection-pocket>p{position:relative;z-index:1}
+.collection-pocket .pocket-heading{padding-bottom:5px}.collection-pocket .pocket-heading h2{font-size:1.18rem}.collection-pocket .pocket-heading span{background:#68452e;font-size:.7rem}
+.collection-items{display:flex;align-items:flex-end;gap:5px;min-height:62px;padding:4px 0 0;flex-wrap:wrap}
+.collection-item{width:68px;text-align:center;color:#543720;transition:transform .15s,opacity .15s}
+.collection-item img{display:block;width:58px;height:46px;margin:0 auto;object-fit:contain;filter:drop-shadow(2px 3px 1px #70472e55)}
+.collection-item span{display:block;min-height:1.2em;font:800 .52rem/1.08 'Arial Rounded MT Bold','Trebuchet MS',sans-serif;text-wrap:balance}
+.collection-item.found{transform:scale(1.08)}.collection-item.found img{filter:drop-shadow(2px 3px 1px #70472e88)}
+.collection-item.not-found{opacity:.27;filter:grayscale(1)}
+.collection-pocket>p{margin:3px 0 0;color:#62432c;font-size:.67rem;font-weight:900}
+.bag-explainer{max-width:720px;margin:19px auto 0;text-align:center;color:#694a33;font-size:.8rem;font-weight:800}
+@media(max-width:900px){.collection-bag{padding-left:28px;padding-right:28px}.collection-item{width:56px}.collection-item img{width:49px;height:40px}}
+
+/* Simple observation prompts for ages 4–8. */
+.bag-questions{display:flex;align-items:center;justify-content:center;gap:9px;flex-wrap:wrap;max-width:820px;margin:21px auto 0;color:#563820;font-weight:900}
+.bag-questions strong{padding:7px 12px;border:3px solid #73492f;border-radius:999px;background:#f0be58;box-shadow:2px 3px 0 #a56c3e}
+.bag-questions span{padding:7px 12px;border:3px solid #9b7048;border-radius:999px;background:#fff2c8;font-size:.82rem}
+.collection-pocket>p{font-size:.75rem}
+
+/* George's Time Machine: one object, one era, one clear comparison. */
+.time-finale{max-width:1240px}
+.time-finale .final-hero{margin-bottom:18px}
+.time-finale .section-title{color:#263f59;font-family:'Arial Rounded MT Bold','Trebuchet MS',sans-serif;font-weight:900}
+.time-insight{display:flex;align-items:center;justify-content:center;gap:13px;max-width:760px;margin:0 auto 16px;padding:13px 18px;border:3px solid #244b62;border-radius:18px;background:#fff0b9;color:#3f3424;box-shadow:4px 5px 0 #c79855;text-align:center}
+.time-insight span{font-size:2rem}.time-insight strong{font:900 1.05rem/1.25 'Arial Rounded MT Bold','Trebuchet MS',sans-serif}
+.time-key{display:flex;justify-content:center;gap:18px;flex-wrap:wrap;margin:0 auto 18px;color:#4c5e69;font-size:.78rem;font-weight:900}
+.time-key span{display:flex;align-items:center;gap:7px}.time-key b{width:30px;height:23px;border:3px solid #66452d;border-radius:7px;background:#f4ca6c}.time-key .key-more{opacity:.27;filter:grayscale(1)}
+.time-machine{display:grid;grid-template-columns:minmax(0,2.15fr) 85px minmax(260px,.85fr);align-items:stretch;gap:13px}
+.time-era{min-width:0;padding:18px;border:5px solid #29475e;border-radius:28px;box-shadow:6px 7px 0 #b58a57}
+.time-era header{display:flex;align-items:center;gap:12px;margin-bottom:12px}.time-era header h2{margin:0;font:900 1.45rem/1.04 'Arial Rounded MT Bold','Trebuchet MS',sans-serif}.time-era header p{margin:4px 0 0;font-size:.75rem;font-weight:900;text-transform:uppercase;letter-spacing:.05em}
+.era-date{flex:none;display:grid;place-items:center;min-width:92px;min-height:52px;padding:7px;border:3px solid #29475e;border-radius:16px;background:#fff7d5;font:900 1.1rem/1 'Arial Rounded MT Bold','Trebuchet MS',sans-serif}
+.era-during{background:#d9eddb}.era-during header{color:#315c48}.era-after{background:#eadff2}.era-after header{color:#60477a}
+.time-objects{display:flex;align-items:flex-start;justify-content:center;gap:8px;flex-wrap:wrap}
+.time-object{position:relative;width:82px;min-height:92px;text-align:center;color:#3f3025;transition:transform .15s}
+.time-object img{display:block;width:76px;height:61px;margin:0 auto;object-fit:contain;filter:drop-shadow(2px 3px 1px #59402b55)}
+.time-object strong{display:block;font:800 .57rem/1.08 'Arial Rounded MT Bold','Trebuchet MS',sans-serif;text-wrap:balance}
+.time-object>span{position:absolute;left:50%;top:-5px;transform:translateX(-50%) rotate(-3deg);width:max-content;padding:2px 6px;border:2px solid #7a472c;border-radius:999px;background:#f4c956;color:#53331e;font-size:.52rem;font-weight:900;box-shadow:1px 2px 0 #a96e3b}
+.time-object.found{transform:scale(1.08)}.time-object.found img{filter:drop-shadow(3px 4px 1px #59402b70)}
+.time-object.not-found{opacity:.23;filter:grayscale(1)}
+.time-arrow{display:grid;place-content:center;text-align:center;color:#9a5036}.time-arrow span{writing-mode:vertical-rl;transform:rotate(180deg);font-size:.6rem;font-weight:900;letter-spacing:.09em}.time-arrow b{font-size:3.7rem;line-height:1}
+.time-discovery{display:flex;align-items:center;justify-content:center;gap:10px;flex-wrap:wrap;margin:22px auto 0;color:#3c4f5b;font-weight:900}.time-discovery strong{padding:7px 12px;border:3px solid #2e5065;border-radius:999px;background:#f2c85d;color:#42331f;box-shadow:2px 3px 0 #af7c42}.time-discovery span{padding:7px 12px;border:3px solid #99a98b;border-radius:999px;background:#f8f3d9;font-size:.8rem}
+.time-note{max-width:760px;margin:17px auto 0;text-align:center;color:#536675;font-size:.83rem;font-weight:800}.time-actions{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin-top:23px}
+@media(max-width:950px){.time-machine{grid-template-columns:1fr}.time-arrow{display:flex;align-items:center;justify-content:center}.time-arrow span{writing-mode:horizontal-tb;transform:none}.time-object{width:72px}}
+.empty-era{margin:auto;padding:24px;color:#6c6d69;font-size:.82rem;font-weight:900;text-align:center}
+
+/* Balanced Time Machine layout for any split of the five objects. */
+.time-machine{grid-template-columns:minmax(0,1fr) 85px minmax(0,1fr);align-items:stretch}
+.time-era{display:flex;flex-direction:column;min-height:390px;padding:20px 22px}
+.time-era header{min-height:70px;align-items:center;margin-bottom:10px}
+.time-era header>div{min-width:0}.time-era header h2{font-size:1.35rem;text-wrap:balance}.time-era header p{font-size:.72rem}
+.time-objects{flex:1;align-content:center;align-items:center;justify-content:center;gap:18px}
+.time-object{width:125px;min-height:130px}
+.time-object img{width:112px;height:90px}
+.time-object strong{font-size:.72rem;line-height:1.12}
+@media(max-width:950px){.time-machine{grid-template-columns:1fr}.time-era{min-height:300px}}

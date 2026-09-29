@@ -2,7 +2,8 @@ const app = document.querySelector('#app');
 const state = { objects: [], byId: new Map(), journey: [], choices: [] };
 const MAX_STOPS = 5;
 const START_IDS = ['washington-banknote', 'washington-sculpture', 'inaugural-button-long-live'];
-const WASHINGTON_ROUTE = ['washington-banknote','tenino-scrip','washington-sculpture','inaugural-button-long-live','inaugural-button-star','camp-chest','camp-stool','washington-waistcoat','washington-breeches','military-uniform','epaulettes','ceremonial-sword','braddock-pistol','charleville-musket','washington-scissor-glasses','benjamin-lincoln-sword','surveyors-compass'];
+const WASHINGTON_ROUTE = ['washington-banknote','tenino-scrip','washington-sculpture','inaugural-button-long-live','inaugural-button-star','surveyors-compass','camp-chest','camp-stool','washington-waistcoat','washington-breeches','military-uniform','epaulettes','ceremonial-sword','braddock-pistol','charleville-musket','washington-scissor-glasses','benjamin-lincoln-sword'];
+const ZONE_ORDER = {West: 0, Center: 1, East: 2};
 const FLOOR_GALLERIES = [
   { floor: 1, name: 'Value of Money', label: 'Money room' },
   { floor: 2, name: 'George Washington Sculpture', label: 'Statue room' },
@@ -75,15 +76,26 @@ function getChoices(object) {
   const visited = new Set(objectStops().map(step => step.id));
   const washingtonStops = objectStops().map(step => state.byId.get(step.id));
   const anchor = washingtonStops.at(-1);
+  const currentFloor = object.gallery.floor;
+  const currentZone = ZONE_ORDER[object.gallery.zone] ?? 0;
+  const movesForward = target => onView(target)
+    && (target.gallery.floor > currentFloor
+      || (target.gallery.floor === currentFloor && (ZONE_ORDER[target.gallery.zone] ?? 0) >= currentZone));
+  const directionBonus = target => target.gallery.name === object.gallery.name ? 8
+    : target.gallery.floor === currentFloor ? 6
+      : target.gallery.floor === currentFloor + 1 ? 4 : 1;
   const startIndex = WASHINGTON_ROUTE.indexOf(anchor.id);
-  const nextWashingtonId = [...WASHINGTON_ROUTE.slice(startIndex + 1), ...WASHINGTON_ROUTE.slice(0, startIndex + 1)].find(id => !visited.has(id));
+  const nextWashingtonId = WASHINGTON_ROUTE.slice(startIndex + 1).find(id => {
+    const target = state.byId.get(id);
+    return target && !visited.has(id) && movesForward(target);
+  });
   const selected = nextWashingtonId ? [{label:'George Washington',field:'topics',value:'George Washington',sourceId:anchor.id,targetId:nextWashingtonId,route:'washington'}] : [];
   const detours = objectStops().flatMap(step => {
     const source = state.byId.get(step.id);
-    return state.objects.filter(target => onView(target) && !visited.has(target.id) && target.id !== nextWashingtonId)
+    return state.objects.filter(target => movesForward(target) && !visited.has(target.id) && target.id !== nextWashingtonId)
       .flatMap(target => ['materials','topics','periods'].flatMap(field => (source[field] || [])
         .filter(value => value !== 'George Washington' && target[field]?.includes(value))
-        .map(value => ({label:value,field,value,sourceId:source.id,targetId:target.id,route:'detour',score:(field === 'materials' ? 5 : field === 'topics' ? 3 : 1) + (onView(target) ? 2 : 0) + (source.id === object.id ? 2 : 0)}))));
+        .map(value => ({label:value,field,value,sourceId:source.id,targetId:target.id,route:'detour',score:(field === 'materials' ? 5 : field === 'topics' ? 3 : 1) + directionBonus(target) + (source.id === object.id ? 2 : 0)}))));
   });
   detours.sort((a,b) => b.score - a.score || WASHINGTON_ROUTE.indexOf(a.targetId) - WASHINGTON_ROUTE.indexOf(b.targetId));
   for (const link of detours) {
@@ -166,24 +178,24 @@ function renderJourney() {
     const point = points[index];
     return `<div class="treasure-landmark" style="left:${point.x / 10}%;top:${point.y / mapHeight * 100}%"><img src="${escapeHtml(mapIllustration(object))}" alt=""><strong>${escapeHtml(kidTitle(object))}</strong></div>`;
   }).join('');
-  app.innerHTML = `<section class="shell kid-finale"><div class="final-hero"><span class="eyebrow">You did it!</span><h1 class="section-title">Your treasure map</h1><p>Follow the dotted arrows past all five objects. The last arrow leads to the big red X—click it to open your treasure bag!</p></div><div class="treasure-map" style="aspect-ratio:1000/${mapHeight}" role="group" aria-label="Your five-stop museum treasure map">${bands}<svg class="treasure-trail" viewBox="0 0 1000 ${mapHeight}" preserveAspectRatio="none" aria-hidden="true"><defs><marker id="trail-arrow" viewBox="0 0 20 18" markerWidth="20" markerHeight="18" refX="17" refY="9" orient="auto" markerUnits="userSpaceOnUse"><path d="M2 2 L18 9 L2 16 Z" class="trail-arrowhead"/></marker></defs>${arrows}</svg>${landmarks}<button class="map-x-stop" id="open-treasure-bag" style="left:${xPoint.x / 10}%;top:${xPoint.y / mapHeight * 100}%" aria-label="Open your treasure bag"><span aria-hidden="true">×</span><strong>Open the treasure bag!</strong></button></div><p class="treasure-note">The floors and objects come from your journey. The arrows show the order you visited them.</p><div class="final-actions"><button class="button" id="again">Start a new story <span aria-hidden="true">↗</span></button></div></section>`;
-  app.querySelector('#open-treasure-bag')?.addEventListener('click', renderTreasureBag);
+  app.innerHTML = `<section class="shell kid-finale"><div class="final-hero"><span class="eyebrow">You did it!</span><h1 class="section-title">Your treasure map</h1><p>Follow the dotted arrows past all five objects. The last arrow leads to the big red X—click it to start George’s Time Machine!</p></div><div class="treasure-map" style="aspect-ratio:1000/${mapHeight}" role="group" aria-label="Your five-stop museum treasure map">${bands}<svg class="treasure-trail" viewBox="0 0 1000 ${mapHeight}" preserveAspectRatio="none" aria-hidden="true"><defs><marker id="trail-arrow" viewBox="0 0 20 18" markerWidth="20" markerHeight="18" refX="17" refY="9" orient="auto" markerUnits="userSpaceOnUse"><path d="M2 2 L18 9 L2 16 Z" class="trail-arrowhead"/></marker></defs>${arrows}</svg>${landmarks}<button class="map-x-stop" id="start-time-machine" style="left:${xPoint.x / 10}%;top:${xPoint.y / mapHeight * 100}%" aria-label="Start George’s Time Machine"><span aria-hidden="true">×</span><strong>Start the Time Machine!</strong></button></div><p class="treasure-note">The floors and objects come from your journey. The arrows show the order you visited them.</p><div class="final-actions"><button class="button" id="again">Start a new story <span aria-hidden="true">↗</span></button></div></section>`;
+  app.querySelector('#start-time-machine')?.addEventListener('click', renderTimeMachine);
   app.querySelector('#again').addEventListener('click', renderStart);
   scrollTop();
 }
-function renderTreasureBag() {
+const fromGeorgesLifetime = object => object.periods?.includes('18th century');
+function renderTimeMachine() {
   const stops = objectStops().map(step => state.byId.get(step.id));
-  const groups = new Map();
-  for (const object of stops) {
-    for (const material of object.materials || []) {
-      if (!groups.has(material)) groups.set(material, []);
-      groups.get(material).push(object);
-    }
-  }
-  const materialGroups = [...groups.entries()].sort((a,b) => b[1].length - a[1].length || a[0].localeCompare(b[0]));
-  const [topMaterial, topObjects] = materialGroups[0] || ['materials',[]];
-  const pockets = materialGroups.map(([material,objects]) => `<section class="bag-pocket"><div class="pocket-heading"><h2>${escapeHtml(materialLabel(material))}</h2><span>${objects.length} ${objects.length === 1 ? 'treasure' : 'treasures'}</span></div><div class="pocket-items">${objects.map(object => `<div class="pocket-item"><img src="${escapeHtml(mapIllustration(object))}" alt=""><strong>${escapeHtml(kidTitle(object))}</strong></div>`).join('')}</div></section>`).join('');
-  app.innerHTML = `<section class="shell bag-finale"><div class="final-hero"><span class="eyebrow">Treasure found!</span><h1 class="section-title">What’s in your treasure bag?</h1><p>You collected five museum objects. Let’s sort them by what they are made of.</p></div><div class="bag-insight"><span aria-hidden="true">🔎</span><p><strong>You found ${escapeHtml(materialLabel(topMaterial))} in ${topObjects.length} of your 5 treasures.</strong><br>Some treasures belong in more than one pocket because they use more than one material.</p></div><div class="treasure-bag" aria-label="Your objects grouped by material"><div class="bag-tie" aria-hidden="true"></div><div class="bag-pockets">${pockets}</div></div><div class="final-actions bag-actions"><button class="button secondary" id="back-to-map">Back to my map</button><button class="button" id="again">Start a new story <span aria-hidden="true">↗</span></button></div></section>`;
+  const during = stops.filter(fromGeorgesLifetime);
+  const after = stops.filter(object => !fromGeorgesLifetime(object));
+  const journeyInsight = during.length === stops.length
+    ? 'All five treasures are from when George was alive!'
+    : during.length > after.length
+      ? `${during.length} treasures are from George’s lifetime. ${after.length} ${after.length === 1 ? 'was' : 'were'} made later.`
+      : `${during.length} ${during.length === 1 ? 'treasure is' : 'treasures are'} from George’s lifetime. ${after.length} were made later.`;
+  const objectPicture = object => `<div class="time-object found" aria-label="${escapeHtml(kidTitle(object))}"><img src="${escapeHtml(mapIllustration(object))}" alt=""><strong>${escapeHtml(kidTitle(object))}</strong></div>`;
+  const emptyEra = '<p class="empty-era">No treasures from this time.</p>';
+  app.innerHTML = `<section class="shell time-finale"><div class="final-hero"><span class="eyebrow">Whoosh! Back through time</span><h1 class="section-title">George’s Time Machine</h1><p>Let’s put your five treasures in time.</p></div><div class="time-insight"><span aria-hidden="true">⌛</span><strong>${escapeHtml(journeyInsight)}</strong></div><div class="time-machine" aria-label="Your five objects organized by whether they were made during or after George Washington’s lifetime"><section class="time-era era-during"><header><span class="era-date">1700s</span><div><h2>When George was alive</h2><p>${during.length} ${during.length === 1 ? 'treasure' : 'treasures'}</p></div></header><div class="time-objects">${during.length ? during.map(objectPicture).join('') : emptyEra}</div></section><div class="time-arrow" aria-hidden="true"><span>TIME MOVES THIS WAY</span><b>→</b></div><section class="time-era era-after"><header><span class="era-date">1800s–1900s</span><div><h2>Made after George lived</h2><p>${after.length} ${after.length === 1 ? 'treasure' : 'treasures'}</p></div></header><div class="time-objects">${after.length ? after.map(objectPicture).join('') : emptyEra}</div></section></div><div class="final-actions time-actions"><button class="button secondary" id="back-to-map">Back to my map</button><button class="button" id="again">Start a new story <span aria-hidden="true">↗</span></button></div></section>`;
   app.querySelector('#back-to-map').addEventListener('click', renderJourney);
   app.querySelector('#again').addEventListener('click', renderStart);
   scrollTop();
