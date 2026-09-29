@@ -302,3 +302,71 @@ body{background:#fff7e8}
 .map-legend>span{display:flex;align-items:center;gap:5px;padding:6px 9px;border:2px solid #d8c7a5;border-radius:999px;background:#fffdf7}
 .legend-number,.legend-floor,.legend-online{display:inline-grid;place-items:center;width:22px;height:22px;border-radius:50%;color:#fff;font-style:normal;font-size:.7rem}
 .legend-number{background:#d25847}.legend-arrow{color:#a86446;font-size:1.25rem;line-height:1}.legend-floor{width:19px;height:19px;margin-right:-3px}.floor-1{background:#4b9b7b}.floor-2{background:#cd7458}.floor-3{background:#667bb5}.legend-online{background:#6988a6}
+
+
+/* Cartoon parchment experiment for the final route */
+.kid-finale{max-width:1280px}
+.kid-finale .final-hero .eyebrow{display:inline-block;padding:7px 14px;border:2px solid #9b633e;border-radius:999px;background:#f7cc6b;color:#61391f;box-shadow:3px 3px 0 #bd8a4d;transform:rotate(-2deg)}
+.kid-finale .section-title{color:#59371f;text-shadow:2px 2px 0 #f4ca75}
+.kid-finale .final-hero p{color:#704f32}
+.map-legend{color:#62472f}
+.map-legend>span{border-color:#b9824d;background:#fff4d2;box-shadow:2px 2px 0 #d0a66e}
+.treasure-map{isolation:isolate;border:9px double #7f4e2d;border-radius:34px;background-color:#efd18c;background-image:radial-gradient(circle at 18% 20%,#8d572719 0 2px,transparent 3px),radial-gradient(circle at 78% 68%,#8d572716 0 2px,transparent 3px),repeating-linear-gradient(7deg,#f3d995 0 9px,#eed18a 10px 18px);box-shadow:0 12px 0 #b37a46,0 23px 35px #59412430;outline:3px solid #d29b5b;outline-offset:-17px}
+.treasure-map::before,.treasure-map::after{display:block;content:'';position:absolute;z-index:0;width:95px;height:95px;border-radius:50%;background:#9a5b2d12;filter:blur(2px)}
+.treasure-map::before{left:2%;top:7%}.treasure-map::after{right:4%;bottom:5%}
+.treasure-band{z-index:0;left:3%;right:3%;border:3px dashed #94683f;border-radius:48% 42% 45% 38%/30% 38% 34% 42%;background:#e8ca7dbd;box-shadow:inset 0 0 0 5px #f8e3a06b,0 3px 0 #a56f3d55;transform:rotate(-.25deg)}
+.treasure-band:nth-of-type(even){border-radius:40% 48% 38% 46%/38% 30% 43% 35%;transform:rotate(.2deg)}
+.treasure-band>span{top:9px;left:18px;width:94px;height:32px;border:3px solid #fff1be;border-radius:18px;box-shadow:2px 3px 0 #80512f;font-size:1rem}
+.treasure-trail{z-index:1;overflow:visible}
+.treasure-trail>path{fill:none;stroke:#744225;stroke-width:7;stroke-linecap:round;stroke-dasharray:1 15}.trail-arrowhead{fill:#744225;stroke:#f5dda0;stroke-width:3;stroke-linejoin:round;paint-order:stroke fill}
+.treasure-stop{z-index:3;border:4px solid #5f412b;border-radius:18px 15px 20px 14px;background:#fff4d2;box-shadow:5px 6px 0 #9b693e;transform:translate(-50%,-50%) rotate(-1deg)}
+.treasure-stop:nth-of-type(even){transform:translate(-50%,-50%) rotate(1deg)}
+.treasure-stop img{border:2px solid #c3965f;background:#fffaf0}
+.treasure-stop em{color:#884025}
+.treasure-number{background:#d9563f;border:3px solid #fff0ba;box-shadow:2px 2px 0 #6e3f27}
+.treasure-finish{border-color:#a83d2f;box-shadow:5px 6px 0 #d48443,0 0 0 5px #f6d56e}
+.finish-x{position:absolute;z-index:5;right:-17px;top:-25px;color:#c83e32;font:900 3.6rem/.8 'Arial Rounded MT Bold','Trebuchet MS',sans-serif;text-shadow:3px 3px 0 #fff1b5,-2px -2px 0 #fff1b5;transform:rotate(-8deg)}
+.map-compass{position:absolute;z-index:2;right:3.5%;top:3%;width:76px;height:76px;display:grid;place-items:center;border:3px solid #80502e;border-radius:50%;background:#f4d78ea8;color:#7a4427;transform:rotate(7deg)}
+.map-compass::before,.map-compass::after{content:'';position:absolute;background:#80502e}.map-compass::before{width:3px;height:88px}.map-compass::after{width:88px;height:3px}.map-compass span{font-size:2.7rem;line-height:1}.map-compass b,.map-compass small{position:absolute;z-index:1;font-size:.68rem;background:#f4d78e;padding:0 3px}.map-compass b{top:-8px}.map-compass small{bottom:-8px}
+.map-doodles{position:absolute;inset:0;z-index:0;pointer-events:none;color:#6d9873}.doodle-ship{position:absolute;left:5%;bottom:5%;font-size:2.3rem;transform:rotate(-5deg)}.doodle-waves{position:absolute;left:4%;bottom:2%;font:bold 1.4rem/1 Georgia,serif;color:#56899a;letter-spacing:.2em}.doodle-palms{position:absolute;right:7%;bottom:5%;font-size:3rem;color:#73904b;transform:rotate(15deg)}
+.treasure-note{color:#704f32;font-size:.88rem}
+
+/* Illustrated landmark map and material treasure bag */
+.treasure-landmark{position:absolute;z-index:3;width:150px;transform:translate(-50%,-50%);text-align:center;pointer-events:none}
+.treasure-landmark:nth-of-type(even){transform:translate(-50%,-50%) rotate(1deg)}
+.treasure-landmark img{display:block;width:118px;height:88px;margin:0 auto -4px;object-fit:contain;filter:drop-shadow(3px 5px 1px #6f472d55)}
+.treasure-landmark strong{display:inline-block;max-width:145px;color:#57391f;font:900 .82rem/1.05 'Arial Rounded MT Bold','Trebuchet MS',sans-serif;text-wrap:balance;text-shadow:1px 1px 0 #f9e4a5,-1px -1px 0 #f9e4a5,2px 2px 0 #f9e4a5}
+.treasure-landmark.treasure-finish{border:0;background:none;box-shadow:none;transform:translate(-50%,-50%) rotate(1deg)}
+.treasure-landmark .finish-x{pointer-events:auto;appearance:none;border:0;background:none;cursor:pointer;position:absolute;z-index:6;right:-8px;top:-22px;padding:0;color:#c83e32;font:900 4.5rem/.8 'Arial Rounded MT Bold','Trebuchet MS',sans-serif;text-shadow:3px 3px 0 #fff1b5,-2px -2px 0 #fff1b5,0 0 6px #75432c55;transform:rotate(-9deg);transition:transform .18s}
+.treasure-landmark .finish-x:hover{transform:rotate(-2deg) scale(1.12)}
+.treasure-landmark .finish-x:focus-visible{outline:4px solid #244b6a;outline-offset:5px;border-radius:8px}
+.bag-finale{max-width:1180px}
+.bag-insight{display:flex;align-items:center;gap:14px;max-width:720px;margin:0 auto 24px;padding:13px 18px;border:3px solid #7b5031;border-radius:18px;background:#fff1bd;box-shadow:4px 5px 0 #bd8750;color:#674428}
+.bag-insight>span{font-size:2rem}.bag-insight p{margin:0;font-size:.9rem}.bag-insight strong{font-size:1.05rem;color:#4f321d}
+.treasure-bag{position:relative;max-width:980px;margin:48px auto 0;padding:72px 55px 58px;border:7px solid #70472e;border-radius:90px 90px 150px 150px/65px 65px 110px 110px;background:repeating-linear-gradient(86deg,#c88950 0 8px,#d69a5e 9px 17px);box-shadow:inset 0 0 0 7px #e6b57766,8px 12px 0 #9c673e,0 24px 42px #5b402638}
+.treasure-bag::before{content:'';position:absolute;left:8%;right:8%;top:-30px;height:78px;border:7px solid #70472e;border-radius:50%;background:#dca66a;box-shadow:inset 0 12px 0 #8b5b38}
+.bag-tie{position:absolute;z-index:2;left:50%;top:25px;width:150px;height:28px;transform:translateX(-50%) rotate(-2deg);border:4px solid #743d2d;border-radius:12px;background:#c95743;box-shadow:3px 4px 0 #8b5837}
+.bag-tie::before,.bag-tie::after{content:'';position:absolute;top:13px;width:55px;height:20px;border:4px solid #743d2d;background:#d66b4e}.bag-tie::before{right:95%;transform:rotate(14deg);border-radius:70% 12% 12% 70%}.bag-tie::after{left:95%;transform:rotate(-14deg);border-radius:12% 70% 70% 12%}
+.bag-pockets{position:relative;z-index:2;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:17px}
+.bag-pocket{min-width:0;padding:13px;border:4px solid #755036;border-radius:20px 18px 24px 17px;background:#f7dc9f;box-shadow:inset 0 -6px 0 #d7aa68,3px 4px 0 #875b3b}
+.pocket-heading{display:flex;align-items:center;justify-content:space-between;gap:8px;padding-bottom:8px;border-bottom:2px dashed #a57045}.pocket-heading h2{margin:0;color:#56371f;font:900 1.25rem/1 'Arial Rounded MT Bold','Trebuchet MS',sans-serif;text-transform:capitalize}.pocket-heading span{flex:none;padding:3px 7px;border-radius:999px;background:#805334;color:#fff4d2;font-size:.62rem;font-weight:900}
+.pocket-items{display:flex;align-items:flex-start;justify-content:center;gap:7px;flex-wrap:wrap;padding-top:10px}
+.pocket-item{width:82px;text-align:center;color:#5c3c25}
+.pocket-item img{display:block;width:70px;height:55px;margin:0 auto;object-fit:contain;filter:drop-shadow(2px 3px 1px #70472e55)}
+.pocket-item strong{display:block;font:800 .62rem/1.08 'Arial Rounded MT Bold','Trebuchet MS',sans-serif;text-wrap:balance}
+.bag-actions{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin-top:28px}
+@media(max-width:900px){.bag-pockets{grid-template-columns:repeat(2,minmax(0,1fr))}.treasure-landmark{width:120px}.treasure-landmark img{width:92px;height:70px}.treasure-landmark strong{font-size:.68rem}}
+
+/* The X is a separate action, not an object location. */
+.map-x-action{position:absolute;z-index:7;left:50%;bottom:20px;transform:translateX(-50%) rotate(-1deg);display:flex;align-items:center;gap:13px;min-width:335px;padding:9px 20px 10px 13px;border:4px solid #6f452c;border-radius:20px;background:#f8dda0;color:#59371f;text-align:left;box-shadow:5px 6px 0 #a66c3e;cursor:pointer;transition:transform .18s,box-shadow .18s}
+.map-x-action:hover{transform:translateX(-50%) rotate(1deg) scale(1.04);box-shadow:7px 8px 0 #985f37}
+.map-x-action:focus-visible{outline:4px solid #244b6a;outline-offset:5px}
+.map-x{flex:none;color:#c83e32;font:900 4.2rem/.75 'Arial Rounded MT Bold','Trebuchet MS',sans-serif;text-shadow:2px 2px 0 #fff1b5}
+.map-x-action strong,.map-x-action small{display:block}.map-x-action strong{font:900 1.05rem/1.1 'Arial Rounded MT Bold','Trebuchet MS',sans-serif}.map-x-action small{margin-top:3px;font-size:.7rem;font-weight:800;color:#755339}
+
+/* The X is the sixth and final destination on the dotted route. */
+.map-x-stop{position:absolute;z-index:7;width:170px;transform:translate(-50%,-50%) rotate(-2deg);appearance:none;border:0;background:none;color:#63391f;text-align:center;cursor:pointer;filter:drop-shadow(3px 4px 0 #f5d990);transition:transform .18s}
+.map-x-stop:hover{transform:translate(-50%,-50%) rotate(2deg) scale(1.1)}
+.map-x-stop:focus-visible{outline:4px solid #244b6a;outline-offset:5px;border-radius:14px}
+.map-x-stop span{display:block;color:#c83e32;font:900 5.8rem/.67 'Arial Rounded MT Bold','Trebuchet MS',sans-serif;text-shadow:3px 3px 0 #fff1b5,-2px -2px 0 #fff1b5}
+.map-x-stop strong{display:inline-block;padding:5px 9px;border:3px solid #72482e;border-radius:12px;background:#f8dda0;box-shadow:3px 3px 0 #a86e40;font:900 .8rem/1 'Arial Rounded MT Bold','Trebuchet MS',sans-serif}
