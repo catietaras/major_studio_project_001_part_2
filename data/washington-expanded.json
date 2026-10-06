@@ -1,0 +1,2478 @@
+{
+  "metadata": {
+    "builtAt": "2026-10-06T15:57:16.535Z",
+    "reviewedAt": "2026-10-06",
+    "sourceFetchedAt": "2026-10-06T14:17:56.630Z",
+    "counts": {
+      "totalEntries": 69,
+      "individualObjects": 68,
+      "groupedCollections": 1,
+      "sourceRecords": 139,
+      "withVerifiedFloor": 67,
+      "withoutVerifiedFloor": 2,
+      "byFloor": {
+        "1": 4,
+        "2": 17,
+        "3": 46
+      },
+      "byRelationship": {
+        "biography-or-publication": 3,
+        "depicts-or-commemorates": 25,
+        "documented-nmah-association": 17,
+        "family-or-household": 9,
+        "namesake-or-commemoration": 1,
+        "owned-or-used": 14
+      }
+    },
+    "note": "The original five-stop treasure-trail interface uses this reviewed collection to generate many possible object routes."
+  },
+  "objects": [
+    {
+      "id": "nmah_740396",
+      "smithsonianId": "nmah_740396",
+      "title": "10 Dollars, Bank of West Florida, United States, 1832",
+      "displayTitle": "10 Dollars, Bank of West Florida, United States, 1832",
+      "date": "1832-11-03",
+      "periods": [
+        "19th century"
+      ],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "note",
+        "obsolete bank note",
+        "Paper money",
+        "paper money"
+      ],
+      "topics": [],
+      "materials": [],
+      "image": "assets/object-placeholder.svg",
+      "imageAlt": "Museum image for 10 Dollars, Bank of West Florida, United States, 1832",
+      "description": "One (1) 10 dollar note",
+      "story": "One (1) 10 dollar note",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_740396",
+      "relationship": "depicts-or-commemorates",
+      "relationshipConfidence": "high",
+      "gallery": {
+        "floor": 1,
+        "zone": null,
+        "name": "American Enterprise",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "nmah_514872",
+      "smithsonianId": "nmah_514872",
+      "title": "chest, tea",
+      "displayTitle": "chest, tea",
+      "date": "",
+      "periods": [],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Chest, Tea"
+      ],
+      "topics": [],
+      "materials": [],
+      "image": "https://ids.si.edu/ids/deliveryService?id=NMAH-JN2014-3572",
+      "imageAlt": "Museum image for chest, tea",
+      "description": "The Smithsonian catalog connects this object to George Washington.",
+      "story": "Look closely at this object and consider how the Smithsonian connects it to George Washington.",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_514872",
+      "relationship": "documented-nmah-association",
+      "relationshipConfidence": "medium",
+      "gallery": {
+        "floor": 1,
+        "zone": null,
+        "name": "American Enterprise",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "nmah_1422329",
+      "smithsonianId": "nmah_1422329",
+      "title": "Hydrometer (third from left in photo)",
+      "displayTitle": "Hydrometer (third from left in photo)",
+      "date": "",
+      "periods": [],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "hydrometer"
+      ],
+      "topics": [
+        "Wine and wine making",
+        "Food",
+        "FOOD: Transforming the American Table 1950-2000",
+        "Wine"
+      ],
+      "materials": [],
+      "image": "assets/object-placeholder.svg",
+      "imageAlt": "Museum image for Hydrometer (third from left in photo)",
+      "description": "This hydrometer’s (third from left in photo) glass bulb is anchored with lead shot at its lower end. The instrument contains a U.S. Internal Revenue tax stamp C4205, which features an engraving of George Washington, the same image found on the U.S. one dollar bill. The engraved stamp was inserted into the bulb during manufacture by an agent of the Commissioner of Internal Revenue as authoritative proof of the scale’s accuracy. The number C4205 indicates the stamp was delivered to the Internal Revenue Bureau from the Bureau of Engraving and Printing on January 23, 1905. An accurate scale was essential for determining the alcohol content of wine for tax purposes.",
+      "story": "This hydrometer’s (third from left in photo) glass bulb is anchored with lead shot at its lower end. The instrument contains a U.S. Internal Revenue tax stamp C4205, which features an engraving of George Washington, the same image found on the U.S. one dollar bill. The engraved stamp was inserted into the bulb during manufacture by an agent of the Commissioner of Internal Revenue as authoritative proof of the scale’s accuracy. The number C4205 indicates the stamp was delivered to the Internal Revenue Bureau from the Bureau of Engraving and Printing on January 23, 1905. An accurate scale was essential for determining the alcohol content of wine for tax purposes.",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_1422329",
+      "relationship": "depicts-or-commemorates",
+      "relationshipConfidence": "high",
+      "gallery": {
+        "floor": 1,
+        "zone": "East",
+        "name": "Food: Transforming the American Table",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-and-wing-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "washington-banknote",
+      "smithsonianId": "nmah_1839987",
+      "title": "1 Dollar, Federal Reserve Bank Note, United States, 1918",
+      "displayTitle": "1 Dollar, Federal Reserve Bank Note, United States, 1918",
+      "date": "1918",
+      "periods": [
+        "20th century"
+      ],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "note"
+      ],
+      "topics": [
+        "Federal Reserve Bank Notes"
+      ],
+      "materials": [],
+      "image": "assets/washington-banknote.jpg",
+      "imageAlt": "Photograph of 1918 One Dollar Banknote with Washington Portrait",
+      "description": "One (1) dollar note",
+      "story": "Your story begins with an old dollar bill. Look closely—George Washington’s face is right there! This bill was made in 1918, long after he lived.",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_1839987",
+      "relationship": "depicts-or-commemorates",
+      "relationshipConfidence": "high",
+      "gallery": {
+        "floor": 1,
+        "zone": "West",
+        "name": "Value of Money",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-and-wing-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "nmah_1821294",
+      "smithsonianId": "nmah_1821294",
+      "title": "Book, \"The Life of George Washington\", 1813",
+      "displayTitle": "Book, \"The Life of George Washington\", 1813",
+      "date": "",
+      "periods": [],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Books",
+        "book"
+      ],
+      "topics": [],
+      "materials": [],
+      "image": "assets/object-placeholder.svg",
+      "imageAlt": "Museum image for Book, \"The Life of George Washington\", 1813",
+      "description": "Mason Locke Weems’s biography of George Washington became the most widely read 19th century book about the Revolutionary War and its celebrated hero. Weems recounted many familiar anecdotes about Washington, including the famous story of the cherry tree, and helped to establish a national narrative that cemented Founding Fathers in our national consciousness. Washington’s stature as Father of our Country is borne out by the dozens of pageants and plays that celebrated the bicentennial of his birth and continue today.",
+      "story": "Mason Locke Weems’s biography of George Washington became the most widely read 19th century book about the Revolutionary War and its celebrated hero. Weems recounted many familiar anecdotes about Washington, including the famous story of the cherry tree, and helped to establish a national narrative that cemented Founding Fathers in our national consciousness. Washington’s stature as Father of our Country is borne out by the dozens of pageants and plays that celebrated the bicentennial of his birth and continue today.",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_1821294",
+      "relationship": "biography-or-publication",
+      "relationshipConfidence": "high",
+      "gallery": {
+        "floor": 2,
+        "zone": "West",
+        "name": "American Democracy",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-and-wing-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "nmah_1253315",
+      "smithsonianId": "nmah_1253315",
+      "title": "Booklet, \"George Washington Pageant and Plays\"",
+      "displayTitle": "Booklet, \"George Washington Pageant and Plays\"",
+      "date": "1932; 1732",
+      "periods": [
+        "20th century",
+        "18th century"
+      ],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Pamphlets",
+        "Pamphlet"
+      ],
+      "topics": [
+        "Washington Bicentennial",
+        "Government",
+        "Social reformers",
+        "Politics",
+        "Presidents"
+      ],
+      "materials": [],
+      "image": "assets/object-placeholder.svg",
+      "imageAlt": "Museum image for Booklet, \"George Washington Pageant and Plays\"",
+      "description": "Booklet produced by the U.S. George Washington Bicentennial Commission for use during the 1932 \"nation-wide celebration\" of the bicentennial of Washington's birth.",
+      "story": "Booklet produced by the U.S. George Washington Bicentennial Commission for use during the 1932 \"nation-wide celebration\" of the bicentennial of Washington's birth.",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_1253315",
+      "relationship": "biography-or-publication",
+      "relationshipConfidence": "high",
+      "gallery": {
+        "floor": 2,
+        "zone": "West",
+        "name": "American Democracy",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-and-wing-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "nmah_571404",
+      "smithsonianId": "nmah_571404",
+      "title": "Bust, George Washington",
+      "displayTitle": "Bust, George Washington",
+      "date": "1772-1795",
+      "periods": [
+        "18th century"
+      ],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Busts",
+        "bust"
+      ],
+      "topics": [],
+      "materials": [],
+      "image": "assets/object-placeholder.svg",
+      "imageAlt": "Museum image for Bust, George Washington",
+      "description": "In the late 1700s Ralph Wood’s factory in Staffordshire produced this relatively affordable bust of Washington primarily for the American market to capitalize on Americans’ regard for their hero.",
+      "story": "In the late 1700s Ralph Wood’s factory in Staffordshire produced this relatively affordable bust of Washington primarily for the American market to capitalize on Americans’ regard for their hero.",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_571404",
+      "relationship": "depicts-or-commemorates",
+      "relationshipConfidence": "high",
+      "gallery": {
+        "floor": 2,
+        "zone": "West",
+        "name": "American Democracy",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-and-wing-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "nmah_498979",
+      "smithsonianId": "nmah_498979",
+      "title": "Campaign Lantern",
+      "displayTitle": "Campaign Lantern",
+      "date": "1876",
+      "periods": [
+        "19th century"
+      ],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Lanterns (lighting devices)",
+        "Lantern"
+      ],
+      "topics": [
+        "Government",
+        "Social reformers",
+        "Lighting",
+        "Politics",
+        "Political Campaigns"
+      ],
+      "materials": [],
+      "image": "assets/object-placeholder.svg",
+      "imageAlt": "Museum image for Campaign Lantern",
+      "description": "Political campaigns of the 19th century reflected popular traditions of commemoration and celebration—such as Fourth of July parades—that became familiar to many Americans in the early Republic. The mechanisms of popular politics not specifically called for in the Constitution—parties, nominating conventions, and electoral campaigns—drew freely on the evocative imagery of such festivities in promoting candidates and building the momentum of the campaign. Mass campaign spectacles arose as a way of demonstrating partisan strength and of mobilizing indifferent and easily distracted voters. The successful presidential campaign of Republican Abraham Lincoln perfected the nighttime torchlight parade in which marchers torches and lanterns, such as this one displaying an American eagle, created a sometimes provocative spectacle.",
+      "story": "Political campaigns of the 19th century reflected popular traditions of commemoration and celebration—such as Fourth of July parades—that became familiar to many Americans in the early Republic. The mechanisms of popular politics not specifically called for in the Constitution—parties, nominating conventions, and electoral campaigns—drew freely on the evocative imagery of such festivities in promoting candidates and building the momentum of the campaign. Mass campaign spectacles arose as a way of demonstrating partisan strength and of mobilizing indifferent and easily distracted voters. The successful presidential campaign of Republican Abraham Lincoln perfected the nighttime torchlight parade in which marchers torches and lanterns, such as this one displaying an American eagle, created a sometimes provocative spectacle.",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_498979",
+      "relationship": "documented-nmah-association",
+      "relationshipConfidence": "medium",
+      "gallery": {
+        "floor": 2,
+        "zone": "West",
+        "name": "American Democracy",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-and-wing-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "nmah_515392",
+      "smithsonianId": "nmah_515392",
+      "title": "Clothing Button, Washington",
+      "displayTitle": "Clothing Button, Washington",
+      "date": "1789",
+      "periods": [
+        "18th century"
+      ],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Button"
+      ],
+      "topics": [
+        "Inaugurations",
+        "Government",
+        "Social reformers",
+        "Politics",
+        "History, Presidential",
+        "Presidents",
+        "Presidential Inauguration of 1789"
+      ],
+      "materials": [],
+      "image": "assets/object-placeholder.svg",
+      "imageAlt": "Museum image for Clothing Button, Washington",
+      "description": "The Smithsonian catalog connects this object to George Washington.",
+      "story": "Look closely at this object and consider how the Smithsonian connects it to George Washington.",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_515392",
+      "relationship": "depicts-or-commemorates",
+      "relationshipConfidence": "high",
+      "gallery": {
+        "floor": 2,
+        "zone": "West",
+        "name": "American Democracy",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-and-wing-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "inaugural-button-star",
+      "smithsonianId": "nmah_528516",
+      "title": "Commemorative Clothing Button, George Washington, 1789",
+      "displayTitle": "Commemorative Clothing Button, George Washington, 1789",
+      "date": "",
+      "periods": [
+        "18th century"
+      ],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Button"
+      ],
+      "topics": [
+        "Inaugurations",
+        "Government",
+        "Social reformers",
+        "Politics",
+        "Inauguration"
+      ],
+      "materials": [],
+      "image": "assets/inaugural-button-star.jpg",
+      "imageAlt": "Photograph of Washington Inaugural Starburst Button",
+      "description": "Commemorative Clothing Button, George Washington, 1789",
+      "story": "People want to celebrate Washington becoming president. Here is another button they wore, with a bright star design. Can you spot its shape?",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_528516",
+      "relationship": "depicts-or-commemorates",
+      "relationshipConfidence": "high",
+      "gallery": {
+        "floor": 2,
+        "zone": "West",
+        "name": "American Democracy",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-and-wing-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "inaugural-button-long-live",
+      "smithsonianId": "nmah_688853",
+      "title": "Commemorative Clothing Button, George Washington, 1789",
+      "displayTitle": "Commemorative Clothing Button, George Washington, 1789",
+      "date": "1789",
+      "periods": [
+        "18th century"
+      ],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "button"
+      ],
+      "topics": [
+        "Inaugurations",
+        "Government",
+        "Social reformers",
+        "Clothing and dress",
+        "Dress accessories",
+        "Politics",
+        "Presidents",
+        "Presidential Inauguration of 1789"
+      ],
+      "materials": [],
+      "image": "assets/inaugural-button-long-live.jpg",
+      "imageAlt": "Photograph of “Long Live the President GW” Button",
+      "description": "Buttons such as this one reading “Long Live the President GW” were worn by supporters of George Washington during his first inauguration. There was no formal campaigning process during the first election. The framers of the Constitution presumed that the highly esteemed Washington would serve as the country’s first president, and he was elected unanimously by the Electoral College, with John Adams being elected as his vice president. There were no political parties at the time of Washington’s election, and though the Federalist and Democratic-Republican parties began forming during his time in office, he remained officially non-partisan.",
+      "story": "A big day arrives: Washington becomes the first U.S. president. People celebrate by wearing little brass buttons like this one. Can you see the letters GW?",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_688853",
+      "relationship": "depicts-or-commemorates",
+      "relationshipConfidence": "high",
+      "gallery": {
+        "floor": 2,
+        "zone": "West",
+        "name": "American Democracy",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-and-wing-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "nmah_834346",
+      "smithsonianId": "nmah_834346",
+      "title": "Commemorative Clothing Button, George Washington, 1789",
+      "displayTitle": "Commemorative Clothing Button, George Washington, 1789",
+      "date": "1789",
+      "periods": [
+        "18th century"
+      ],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "button"
+      ],
+      "topics": [
+        "Inaugurations",
+        "Government",
+        "Social reformers",
+        "Politics",
+        "Presidents",
+        "Presidential Inauguration of 1789"
+      ],
+      "materials": [],
+      "image": "assets/object-placeholder.svg",
+      "imageAlt": "Museum image for Commemorative Clothing Button, George Washington, 1789",
+      "description": "Buttons such as this one featuring an American eagle and new national seal were worn by supporters of George Washington during his first inauguration. There was no formal campaigning process during the first election. The framers of the Constitution presumed that the highly esteemed Washington would serve as the country’s first president, and he was elected unanimously by the Electoral College, with John Adams being elected as his vice president. There were no political parties at the time of Washington’s election, and though the Federalist and Democratic-Republican parties began forming during his time in office, he remained officially non-partisan.",
+      "story": "Buttons such as this one featuring an American eagle and new national seal were worn by supporters of George Washington during his first inauguration. There was no formal campaigning process during the first election. The framers of the Constitution presumed that the highly esteemed Washington would serve as the country’s first president, and he was elected unanimously by the Electoral College, with John Adams being elected as his vice president. There were no political parties at the time of Washington’s election, and though the Federalist and Democratic-Republican parties began forming during his time in office, he remained officially non-partisan.",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_834346",
+      "relationship": "depicts-or-commemorates",
+      "relationshipConfidence": "high",
+      "gallery": {
+        "floor": 2,
+        "zone": "West",
+        "name": "American Democracy",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-and-wing-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "nmah_1199630",
+      "smithsonianId": "nmah_1199630",
+      "title": "Commemorative Hair Comb, Andrew Jackson, 1831",
+      "displayTitle": "Commemorative Hair Comb, Andrew Jackson, 1831",
+      "date": "",
+      "periods": [],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Combs (hair ornaments)",
+        "Comb"
+      ],
+      "topics": [],
+      "materials": [],
+      "image": "assets/object-placeholder.svg",
+      "imageAlt": "Museum image for Commemorative Hair Comb, Andrew Jackson, 1831",
+      "description": "Carved with national symbols and the images of Andrew Jackson, the Marquis de Lafayette and George Washington, this tortoise shell back comb was presented to President Andrew Jackson in 1831. Jackson served two terms as president, having been elected first in 1828 when Jackson, running as a Democrat, faced off against incumbent president John Quincy Adams, who ran as a National Republican.",
+      "story": "Carved with national symbols and the images of Andrew Jackson, the Marquis de Lafayette and George Washington, this tortoise shell back comb was presented to President Andrew Jackson in 1831. Jackson served two terms as president, having been elected first in 1828 when Jackson, running as a Democrat, faced off against incumbent president John Quincy Adams, who ran as a National Republican.",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_1199630",
+      "relationship": "depicts-or-commemorates",
+      "relationshipConfidence": "high",
+      "gallery": {
+        "floor": 2,
+        "zone": "West",
+        "name": "American Democracy",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-and-wing-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "nmah_515780",
+      "smithsonianId": "nmah_515780",
+      "title": "Constitutional Convention Box",
+      "displayTitle": "Constitutional Convention Box",
+      "date": "1787",
+      "periods": [
+        "18th century"
+      ],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Trunks (containers)",
+        "Trunk"
+      ],
+      "topics": [
+        "Constitutional Convention of 1787",
+        "Government",
+        "Social reformers",
+        "Politics",
+        "United States. Constitution",
+        "Constitution"
+      ],
+      "materials": [],
+      "image": "https://ids.si.edu/ids/deliveryService?id=NMAH-ET2017-00503-000001",
+      "imageAlt": "Museum image for Constitutional Convention Box",
+      "description": "George Washington, who presided over the Constitutional Convention in 1787, used this small box to preserve papers produced by the convention.",
+      "story": "George Washington, who presided over the Constitutional Convention in 1787, used this small box to preserve papers produced by the convention.",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_515780",
+      "relationship": "owned-or-used",
+      "relationshipConfidence": "high",
+      "gallery": {
+        "floor": 2,
+        "zone": "West",
+        "name": "American Democracy",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-and-wing-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "nmah_515884",
+      "smithsonianId": "nmah_515884",
+      "title": "Decanter, Zachary Taylor, 1848",
+      "displayTitle": "Decanter, Zachary Taylor, 1848",
+      "date": "",
+      "periods": [],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Flasks (bottles)",
+        "Flask"
+      ],
+      "topics": [],
+      "materials": [],
+      "image": "assets/object-placeholder.svg",
+      "imageAlt": "Museum image for Decanter, Zachary Taylor, 1848",
+      "description": "This glass decanter marks Zachary Taylor’s successful run for president in 1848, as a Whig, against Democrat Lewis Cass and Free Soil Party Candidate Martin Van Buren. Taylor rode his successful generalship in the recent war in Mexico, and his promise to put his allegiance to the country above partisanship, to the White House. This decanter was probably used for wine and spirits, but it was ultimately a glass of milk and some cherries which did him in, causing an unknown digestive ailment which killed him, after a little more than a year in the White House.",
+      "story": "This glass decanter marks Zachary Taylor’s successful run for president in 1848, as a Whig, against Democrat Lewis Cass and Free Soil Party Candidate Martin Van Buren. Taylor rode his successful generalship in the recent war in Mexico, and his promise to put his allegiance to the country above partisanship, to the White House. This decanter was probably used for wine and spirits, but it was ultimately a glass of milk and some cherries which did him in, causing an unknown digestive ailment which killed him, after a little more than a year in the White House.",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_515884",
+      "relationship": "depicts-or-commemorates",
+      "relationshipConfidence": "high",
+      "gallery": {
+        "floor": 2,
+        "zone": "West",
+        "name": "American Democracy",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-and-wing-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "nmah_529752",
+      "smithsonianId": "nmah_529752",
+      "title": "Know Nothing Poster, 1854",
+      "displayTitle": "Know Nothing Poster, 1854",
+      "date": "",
+      "periods": [],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Posters",
+        "Poster"
+      ],
+      "topics": [
+        "Government",
+        "Social reformers",
+        "Politics",
+        "Political Campaigns"
+      ],
+      "materials": [],
+      "image": "https://ids.si.edu/ids/deliveryService?id=NMAH-ET2016-04902",
+      "imageAlt": "Museum image for Know Nothing Poster, 1854",
+      "description": "The American Party, also called the Know-Nothings, was a major national political force in the 1850s. It saw immigrants and Catholics as the greatest threat to self-government and to the nation. Arguing for rule by native-born Protestants, the Know-Nothings ran former President Millard Fillmore as their presidential candidate in the 1856 election. Though James Buchanan won the presidency, Fillmore received over 21 percent of the vote. During the Civil War the movement fractured and largely disappeared, but fear and distrust of new immigrants remained within the core beliefs of many future political movements. This 1850s advertising broadside is for The Dollar Weekly Times, an American Party-affiliated newspaper.",
+      "story": "The American Party, also called the Know-Nothings, was a major national political force in the 1850s. It saw immigrants and Catholics as the greatest threat to self-government and to the nation. Arguing for rule by native-born Protestants, the Know-Nothings ran former President Millard Fillmore as their presidential candidate in the 1856 election. Though James Buchanan won the presidency, Fillmore received over 21 percent of the vote. During the Civil War the movement fractured and largely disappeared, but fear and distrust of new immigrants remained within the core beliefs of many future political movements. This 1850s advertising broadside is for The Dollar Weekly Times, an American Party-affiliated newspaper.",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_529752",
+      "relationship": "depicts-or-commemorates",
+      "relationshipConfidence": "high",
+      "gallery": {
+        "floor": 2,
+        "zone": "West",
+        "name": "American Democracy",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-and-wing-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "nmah_498228",
+      "smithsonianId": "nmah_498228",
+      "title": "Paperweight, Herbert Hoover, 1928",
+      "displayTitle": "Paperweight, Herbert Hoover, 1928",
+      "date": "",
+      "periods": [],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Plaques (flat objects)",
+        "Plaque"
+      ],
+      "topics": [
+        "Government",
+        "Social reformers",
+        "Politics",
+        "Presidents"
+      ],
+      "materials": [],
+      "image": "assets/object-placeholder.svg",
+      "imageAlt": "Museum image for Paperweight, Herbert Hoover, 1928",
+      "description": "This iron paperweight is designed to look like a pile of 29 coins each of which is stamped with the inauguration year of one of the presidents of the United States. The top coin features both George Washington and Herbert Hoover, the 1928 Republican presidential nominee. The pile seems to be one coin short because when Hoover won he became the 31st president. But it was not a mistake; Grover Cleveland was given just one coin in the pile to represent his two non-consecutive terms in office.",
+      "story": "This iron paperweight is designed to look like a pile of 29 coins each of which is stamped with the inauguration year of one of the presidents of the United States. The top coin features both George Washington and Herbert Hoover, the 1928 Republican presidential nominee. The pile seems to be one coin short because when Hoover won he became the 31st president. But it was not a mistake; Grover Cleveland was given just one coin in the pile to represent his two non-consecutive terms in office.",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_498228",
+      "relationship": "depicts-or-commemorates",
+      "relationshipConfidence": "high",
+      "gallery": {
+        "floor": 2,
+        "zone": "West",
+        "name": "American Democracy",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-and-wing-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "nmah_501114",
+      "smithsonianId": "nmah_501114",
+      "title": "Pin with image of George Washington",
+      "displayTitle": "Pin with image of George Washington",
+      "date": "",
+      "periods": [],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "button",
+        "Button"
+      ],
+      "topics": [
+        "Government",
+        "Social reformers",
+        "Politics",
+        "Presidents",
+        "Political Campaigns"
+      ],
+      "materials": [],
+      "image": "assets/object-placeholder.svg",
+      "imageAlt": "Museum image for Pin with image of George Washington",
+      "description": "The Smithsonian catalog connects this object to George Washington.",
+      "story": "Look closely at this object and consider how the Smithsonian connects it to George Washington.",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_501114",
+      "relationship": "depicts-or-commemorates",
+      "relationshipConfidence": "high",
+      "gallery": {
+        "floor": 2,
+        "zone": "West",
+        "name": "American Democracy",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-and-wing-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "nmah_572512",
+      "smithsonianId": "nmah_572512",
+      "title": "Pitcher, \"Union to the People\"",
+      "displayTitle": "Pitcher, \"Union to the People\"",
+      "date": "1795",
+      "periods": [
+        "18th century"
+      ],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Pitchers (vessels)",
+        "pitcher"
+      ],
+      "topics": [
+        "Government",
+        "Social reformers",
+        "Politics",
+        "McCauley Liverpool Pottery",
+        "Furnishings"
+      ],
+      "materials": [],
+      "image": "assets/object-placeholder.svg",
+      "imageAlt": "Museum image for Pitcher, \"Union to the People\"",
+      "description": "This transfer printed creamware pitcher is decorated with a maritime print on one side and a print celebrating the new Liberty of the United States on the other side. The maritime design shows a ship under sail. The other side shows three men, likely George Washington, John Adams and Thomas Jefferson, clasping hands and holding a liberty pole. A scroll above reads “Union to the People of America” and beneath “Civil and Religious Liberty to all Mankind.”",
+      "story": "This transfer printed creamware pitcher is decorated with a maritime print on one side and a print celebrating the new Liberty of the United States on the other side. The maritime design shows a ship under sail. The other side shows three men, likely George Washington, John Adams and Thomas Jefferson, clasping hands and holding a liberty pole. A scroll above reads “Union to the People of America” and beneath “Civil and Religious Liberty to all Mankind.”",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_572512",
+      "relationship": "depicts-or-commemorates",
+      "relationshipConfidence": "high",
+      "gallery": {
+        "floor": 2,
+        "zone": "West",
+        "name": "American Democracy",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-and-wing-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "nmah_572521",
+      "smithsonianId": "nmah_572521",
+      "title": "Pitcher, \"An Emblem of America\"",
+      "displayTitle": "Pitcher, \"An Emblem of America\"",
+      "date": "ca 1800",
+      "periods": [
+        "19th century"
+      ],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Pitchers (vessels)",
+        "pitcher"
+      ],
+      "topics": [
+        "Government",
+        "Social reformers",
+        "Politics",
+        "McCauley Liverpool Pottery",
+        "Furnishings"
+      ],
+      "materials": [],
+      "image": "assets/object-placeholder.svg",
+      "imageAlt": "Museum image for Pitcher, \"An Emblem of America\"",
+      "description": "This transfer printed creamware pitcher was made by Herculaneum Pottery in Liverpool, England around 1800. On the front is a print of the Cooper’s Guild Coat of Arms with the motto “Prosperity attend the integrity of our cause” below on a banner. On the reverse is the print titled “An Emblem for America.” It depicts the allegorical figure of Columbia holding a flag and showing two dark skinned Native Americans (who served as iconography for the Western Hemisphere). To Columbia’s left are portraits of men involved in the discovery of North America and the founding of the United States: Christopher Columbus, “Americus” Vespucci, Sir Walter Raleigh, George Washington, Benjamin Franklin, and John Adams. Under the spout is a print declaring “Peace and Commerce” an images of the all-seeing eye, the French and American flags knotted, and two hands clasped in a handshake. Just above are the initials “JS.” The print “An Emblem for America” is based on an engraving in a series by John Fairburn of London. Robert H. McCauley purchased this jug from the Boston Antique Shop of Boston, MA on December 30, 1938 for $75.00.",
+      "story": "This transfer printed creamware pitcher was made by Herculaneum Pottery in Liverpool, England around 1800. On the front is a print of the Cooper’s Guild Coat of Arms with the motto “Prosperity attend the integrity of our cause” below on a banner. On the reverse is the print titled “An Emblem for America.” It depicts the allegorical figure of Columbia holding a flag and showing two dark skinned Native Americans (who served as iconography for the Western Hemisphere). To Columbia’s left are portraits of men involved in the discovery of North America and the founding of the United States: Christopher Columbus, “Americus” Vespucci, Sir Walter Raleigh, George Washington, Benjamin Franklin, and John Adams. Under the spout is a print declaring “Peace and Commerce” an images of the all-seeing eye, the French and American flags knotted, and two hands clasped in a handshake. Just above are the initials “JS.” The print “An Emblem for America” is based on an engraving in a series by John Fairburn of London. Robert H. McCauley purchased this jug from the Boston Antique Shop of Boston, MA on December 30, 1938 for $75.00.",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_572521",
+      "relationship": "depicts-or-commemorates",
+      "relationshipConfidence": "high",
+      "gallery": {
+        "floor": 2,
+        "zone": null,
+        "name": "Many Voices, One Nation",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "nmah_1764149",
+      "smithsonianId": "nmah_1764149",
+      "title": "Prang Lithographic School Room Portrait of George Washington by Gilbert Stuart",
+      "displayTitle": "Prang Lithographic School Room Portrait of George Washington by Gilbert Stuart",
+      "date": "1901-1938",
+      "periods": [
+        "20th century"
+      ],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Prints",
+        "print"
+      ],
+      "topics": [],
+      "materials": [],
+      "image": "assets/object-placeholder.svg",
+      "imageAlt": "Museum image for Prang Lithographic School Room Portrait of George Washington by Gilbert Stuart",
+      "description": "This lithograph, copied from a Gilbert Stuart portrait of George Washington, was commercially sold in school catalogs and for homes, libraries, and public buildings across America. Images of “the father of our country” became familiar instructional tools as well as a school decoration and patriotic imagery. The print was mass produced in 1901 by Taber Prang Art Company, founded by Louis Prang. Louis Prang also founded the Prang Educational Company to develop artistic abilities in school age children. The print continued to be reproduced by Prang until 1938.",
+      "story": "This lithograph, copied from a Gilbert Stuart portrait of George Washington, was commercially sold in school catalogs and for homes, libraries, and public buildings across America. Images of “the father of our country” became familiar instructional tools as well as a school decoration and patriotic imagery. The print was mass produced in 1901 by Taber Prang Art Company, founded by Louis Prang. Louis Prang also founded the Prang Educational Company to develop artistic abilities in school age children. The print continued to be reproduced by Prang until 1938.",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_1764149",
+      "relationship": "depicts-or-commemorates",
+      "relationshipConfidence": "high",
+      "gallery": {
+        "floor": 2,
+        "zone": null,
+        "name": "Many Voices, One Nation",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "nmah_515860",
+      "smithsonianId": "nmah_515860",
+      "title": "Ben. Harrison",
+      "displayTitle": "Ben. Harrison",
+      "date": "1889",
+      "periods": [
+        "19th century"
+      ],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Mugs",
+        "Inaugural Mug, Harrison/Washington",
+        "Mug"
+      ],
+      "topics": [],
+      "materials": [],
+      "image": "assets/object-placeholder.svg",
+      "imageAlt": "Museum image for Ben. Harrison",
+      "description": "The Smithsonian catalog connects this object to George Washington.",
+      "story": "Look closely at this object and consider how the Smithsonian connects it to George Washington.",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_515860",
+      "relationship": "depicts-or-commemorates",
+      "relationshipConfidence": "high",
+      "gallery": {
+        "floor": 3,
+        "zone": "Center",
+        "name": "American Presidency",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-and-wing-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "nmah_1199119",
+      "smithsonianId": "nmah_1199119",
+      "title": "brocade gown",
+      "displayTitle": "brocade gown",
+      "date": "",
+      "periods": [],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Brocade Gown"
+      ],
+      "topics": [],
+      "materials": [],
+      "image": "assets/object-placeholder.svg",
+      "imageAlt": "Museum image for brocade gown",
+      "description": "The Smithsonian catalog connects this object to George Washington.",
+      "story": "Look closely at this object and consider how the Smithsonian connects it to George Washington.",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_1199119",
+      "relationship": "family-or-household",
+      "relationshipConfidence": "high",
+      "gallery": {
+        "floor": 3,
+        "zone": "Center",
+        "name": "American Presidency",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-and-wing-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "nmah_1199002",
+      "smithsonianId": "nmah_1199002",
+      "title": "bum roll",
+      "displayTitle": "bum roll",
+      "date": "",
+      "periods": [],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Bum Roll"
+      ],
+      "topics": [],
+      "materials": [],
+      "image": "assets/object-placeholder.svg",
+      "imageAlt": "Museum image for bum roll",
+      "description": "The Smithsonian catalog connects this object to George Washington.",
+      "story": "Look closely at this object and consider how the Smithsonian connects it to George Washington.",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_1199002",
+      "relationship": "documented-nmah-association",
+      "relationshipConfidence": "medium",
+      "gallery": {
+        "floor": 3,
+        "zone": "Center",
+        "name": "American Presidency",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-and-wing-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "nmah_1199166",
+      "smithsonianId": "nmah_1199166",
+      "title": "burling arm chair",
+      "displayTitle": "burling arm chair",
+      "date": "",
+      "periods": [],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Burling Arm Chair"
+      ],
+      "topics": [],
+      "materials": [],
+      "image": "assets/object-placeholder.svg",
+      "imageAlt": "Museum image for burling arm chair",
+      "description": "The Smithsonian catalog connects this object to George Washington.",
+      "story": "Look closely at this object and consider how the Smithsonian connects it to George Washington.",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_1199166",
+      "relationship": "documented-nmah-association",
+      "relationshipConfidence": "medium",
+      "gallery": {
+        "floor": 3,
+        "zone": "Center",
+        "name": "American Presidency",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-and-wing-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "nmah_501118",
+      "smithsonianId": "nmah_501118",
+      "title": "button, clothing",
+      "displayTitle": "button, clothing",
+      "date": "",
+      "periods": [],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Button, Clothing"
+      ],
+      "topics": [],
+      "materials": [],
+      "image": "assets/object-placeholder.svg",
+      "imageAlt": "Museum image for button, clothing",
+      "description": "The Smithsonian catalog connects this object to George Washington.",
+      "story": "Look closely at this object and consider how the Smithsonian connects it to George Washington.",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_501118",
+      "relationship": "depicts-or-commemorates",
+      "relationshipConfidence": "high",
+      "gallery": {
+        "floor": 3,
+        "zone": "Center",
+        "name": "American Presidency",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-and-wing-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "nmah_515395",
+      "smithsonianId": "nmah_515395",
+      "title": "button, clothing",
+      "displayTitle": "button, clothing",
+      "date": "1789 03 04",
+      "periods": [
+        "18th century"
+      ],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Button",
+        "Button, Clothing"
+      ],
+      "topics": [],
+      "materials": [],
+      "image": "assets/object-placeholder.svg",
+      "imageAlt": "Museum image for button, clothing",
+      "description": "The Smithsonian catalog connects this object to George Washington.",
+      "story": "Look closely at this object and consider how the Smithsonian connects it to George Washington.",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_515395",
+      "relationship": "depicts-or-commemorates",
+      "relationshipConfidence": "high",
+      "gallery": {
+        "floor": 3,
+        "zone": "Center",
+        "name": "American Presidency",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-and-wing-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "nmah_334980",
+      "smithsonianId": "nmah_334980",
+      "title": "cake basket",
+      "displayTitle": "cake basket",
+      "date": "",
+      "periods": [],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Cake Basket"
+      ],
+      "topics": [],
+      "materials": [],
+      "image": "assets/object-placeholder.svg",
+      "imageAlt": "Museum image for cake basket",
+      "description": "The Smithsonian catalog connects this object to George Washington.",
+      "story": "Look closely at this object and consider how the Smithsonian connects it to George Washington.",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_334980",
+      "relationship": "documented-nmah-association",
+      "relationshipConfidence": "medium",
+      "gallery": {
+        "floor": 3,
+        "zone": "Center",
+        "name": "American Presidency",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-and-wing-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "nmah_739573",
+      "smithsonianId": "nmah_739573",
+      "title": "Candle stand used by George Washington while writing the Farewell Address, 1796",
+      "displayTitle": "Candle stand used by George Washington while writing the Farewell Address, 1796",
+      "date": "",
+      "periods": [],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Candlestands (lighting devices)",
+        "candle stand"
+      ],
+      "topics": [
+        "George Washington's Farewell Address",
+        "Government",
+        "Social reformers",
+        "Politics",
+        "Furnishings",
+        "Presidents"
+      ],
+      "materials": [],
+      "image": "https://ids.si.edu/ids/deliveryService?id=SIA-2000-6310",
+      "imageAlt": "Museum image for Candle stand used by George Washington while writing the Farewell Address, 1796",
+      "description": "Farewell Address was Washington's final advice to his countrymen. He urged all Americans to support the newly formed nation and put aside regional or party divisions. \"Your Union ought to be considered as a main prop of your liberty, the love of the one ought to endear to you the preservation of the other.\"",
+      "story": "Farewell Address was Washington's final advice to his countrymen. He urged all Americans to support the newly formed nation and put aside regional or party divisions. \"Your Union ought to be considered as a main prop of your liberty, the love of the one ought to endear to you the preservation of the other.\"",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_739573",
+      "relationship": "owned-or-used",
+      "relationshipConfidence": "high",
+      "gallery": {
+        "floor": 3,
+        "zone": "Center",
+        "name": "American Presidency",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-and-wing-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "nmah_1166998",
+      "smithsonianId": "nmah_1166998",
+      "title": "candlestick",
+      "displayTitle": "candlestick",
+      "date": "",
+      "periods": [],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Candles",
+        "Candlestick"
+      ],
+      "topics": [],
+      "materials": [],
+      "image": "assets/object-placeholder.svg",
+      "imageAlt": "Museum image for candlestick",
+      "description": "The Smithsonian catalog connects this object to George Washington.",
+      "story": "Look closely at this object and consider how the Smithsonian connects it to George Washington.",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_1166998",
+      "relationship": "documented-nmah-association",
+      "relationshipConfidence": "medium",
+      "gallery": {
+        "floor": 3,
+        "zone": "Center",
+        "name": "American Presidency",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-and-wing-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "nmah_1199169",
+      "smithsonianId": "nmah_1199169",
+      "title": "candlestick",
+      "displayTitle": "candlestick",
+      "date": "",
+      "periods": [],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Candles",
+        "Candlestick"
+      ],
+      "topics": [],
+      "materials": [],
+      "image": "assets/object-placeholder.svg",
+      "imageAlt": "Museum image for candlestick",
+      "description": "The Smithsonian catalog connects this object to George Washington.",
+      "story": "Look closely at this object and consider how the Smithsonian connects it to George Washington.",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_1199169",
+      "relationship": "documented-nmah-association",
+      "relationshipConfidence": "medium",
+      "gallery": {
+        "floor": 3,
+        "zone": "Center",
+        "name": "American Presidency",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-and-wing-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "nmah_1199170",
+      "smithsonianId": "nmah_1199170",
+      "title": "candlestick",
+      "displayTitle": "candlestick",
+      "date": "",
+      "periods": [],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Candles",
+        "Candlestick"
+      ],
+      "topics": [],
+      "materials": [],
+      "image": "assets/object-placeholder.svg",
+      "imageAlt": "Museum image for candlestick",
+      "description": "The Smithsonian catalog connects this object to George Washington.",
+      "story": "Look closely at this object and consider how the Smithsonian connects it to George Washington.",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_1199170",
+      "relationship": "documented-nmah-association",
+      "relationshipConfidence": "medium",
+      "gallery": {
+        "floor": 3,
+        "zone": "Center",
+        "name": "American Presidency",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-and-wing-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "nmah_214301",
+      "smithsonianId": "nmah_214301",
+      "title": "candlestick",
+      "displayTitle": "candlestick",
+      "date": "",
+      "periods": [],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Candles",
+        "Candlestick"
+      ],
+      "topics": [],
+      "materials": [],
+      "image": "assets/object-placeholder.svg",
+      "imageAlt": "Museum image for candlestick",
+      "description": "The Smithsonian catalog connects this object to George Washington.",
+      "story": "Look closely at this object and consider how the Smithsonian connects it to George Washington.",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_214301",
+      "relationship": "documented-nmah-association",
+      "relationshipConfidence": "medium",
+      "gallery": {
+        "floor": 3,
+        "zone": "Center",
+        "name": "American Presidency",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-and-wing-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "nmah_214255",
+      "smithsonianId": "nmah_214255",
+      "title": "coaster",
+      "displayTitle": "coaster",
+      "date": "",
+      "periods": [],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Coasters (containers)",
+        "Coaster"
+      ],
+      "topics": [],
+      "materials": [],
+      "image": "assets/object-placeholder.svg",
+      "imageAlt": "Museum image for coaster",
+      "description": "The Smithsonian catalog connects this object to George Washington.",
+      "story": "Look closely at this object and consider how the Smithsonian connects it to George Washington.",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_214255",
+      "relationship": "documented-nmah-association",
+      "relationshipConfidence": "medium",
+      "gallery": {
+        "floor": 3,
+        "zone": "Center",
+        "name": "American Presidency",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-and-wing-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "nmah_1199184",
+      "smithsonianId": "nmah_1199184",
+      "title": "compass",
+      "displayTitle": "compass",
+      "date": "",
+      "periods": [],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Compasses (direction indicators)",
+        "Compass"
+      ],
+      "topics": [],
+      "materials": [],
+      "image": "assets/object-placeholder.svg",
+      "imageAlt": "Museum image for compass",
+      "description": "The Smithsonian catalog connects this object to George Washington.",
+      "story": "Look closely at this object and consider how the Smithsonian connects it to George Washington.",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_1199184",
+      "relationship": "documented-nmah-association",
+      "relationshipConfidence": "medium",
+      "gallery": {
+        "floor": 3,
+        "zone": "Center",
+        "name": "American Presidency",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-and-wing-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "surveyors-compass",
+      "smithsonianId": "nmah_747313",
+      "title": "compass (surveyor's plain)",
+      "displayTitle": "compass (surveyor's plain)",
+      "date": "",
+      "periods": [
+        "18th century"
+      ],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Compass (surveyor's plain)"
+      ],
+      "topics": [
+        "Surveying"
+      ],
+      "materials": [],
+      "image": "assets/surveyors-compass.jpg",
+      "imageAlt": "Photograph of a brass surveyor’s compass attributed to David Rittenhouse and associated with George Washington",
+      "description": "Legend has it that David Rittenhouse gave this compass to George Washington in 1782.",
+      "story": "Before he led an army, Washington worked as a surveyor. Surveyors measure land to make maps. This compass is part of his map-making story.",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_747313",
+      "relationship": "owned-or-used",
+      "relationshipConfidence": "high",
+      "gallery": {
+        "floor": 3,
+        "zone": "Center",
+        "name": "American Presidency",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-and-wing-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "nmah_1199167",
+      "smithsonianId": "nmah_1199167",
+      "title": "easy chair",
+      "displayTitle": "easy chair",
+      "date": "",
+      "periods": [],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "easy chair",
+        "Washington'S Easy Chair",
+        "Chairs (furniture forms)",
+        "Chair"
+      ],
+      "topics": [],
+      "materials": [],
+      "image": "assets/object-placeholder.svg",
+      "imageAlt": "Museum image for easy chair",
+      "description": "The Smithsonian catalog connects this object to George Washington.",
+      "story": "Look closely at this object and consider how the Smithsonian connects it to George Washington.",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_1199167",
+      "relationship": "documented-nmah-association",
+      "relationshipConfidence": "medium",
+      "gallery": {
+        "floor": 3,
+        "zone": "Center",
+        "name": "American Presidency",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-and-wing-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "nmah_1199181",
+      "smithsonianId": "nmah_1199181",
+      "title": "field telescope and case",
+      "displayTitle": "field telescope and case",
+      "date": "",
+      "periods": [],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Field Telescope And Case"
+      ],
+      "topics": [],
+      "materials": [],
+      "image": "assets/object-placeholder.svg",
+      "imageAlt": "Museum image for field telescope and case",
+      "description": "The Smithsonian catalog connects this object to George Washington.",
+      "story": "Look closely at this object and consider how the Smithsonian connects it to George Washington.",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_1199181",
+      "relationship": "documented-nmah-association",
+      "relationshipConfidence": "medium",
+      "gallery": {
+        "floor": 3,
+        "zone": "Center",
+        "name": "American Presidency",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-and-wing-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "nmah_214479",
+      "smithsonianId": "nmah_214479",
+      "title": "George Washington",
+      "displayTitle": "George Washington",
+      "date": "circa 1793",
+      "periods": [
+        "18th century"
+      ],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Paintings",
+        "Painting, Portrait",
+        "Portraits",
+        "portraits",
+        "paintings"
+      ],
+      "topics": [
+        "Government",
+        "Social reformers",
+        "Portraits",
+        "Politics",
+        "Presidents"
+      ],
+      "materials": [],
+      "image": "https://ids.si.edu/ids/deliveryService?id=NMAH-89-6827",
+      "imageAlt": "Museum image for George Washington",
+      "description": "Around 1793 John Trumbull painted this cabinet portrait of George Washington. Probably presented as a gift from the artist, the Washingtons hung the portrait in their bedroom at Mount Vernon.",
+      "story": "Around 1793 John Trumbull painted this cabinet portrait of George Washington. Probably presented as a gift from the artist, the Washingtons hung the portrait in their bedroom at Mount Vernon.",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_214479",
+      "relationship": "depicts-or-commemorates",
+      "relationshipConfidence": "high",
+      "gallery": {
+        "floor": 3,
+        "zone": "Center",
+        "name": "American Presidency",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-and-wing-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "nmah_515675",
+      "smithsonianId": "nmah_515675",
+      "title": "George Washington's Dispatch Case",
+      "displayTitle": "George Washington's Dispatch Case",
+      "date": "",
+      "periods": [],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Dispatch Case"
+      ],
+      "topics": [
+        "Government",
+        "Social reformers",
+        "American Revolution (1775-1783)",
+        "Politics",
+        "Presidents",
+        "National Symbols",
+        "Revolutionary War"
+      ],
+      "materials": [],
+      "image": "https://ids.si.edu/ids/deliveryService?id=NMAH-NMAH2002-28255",
+      "imageAlt": "Museum image for George Washington's Dispatch Case",
+      "description": "George Washington's traveling dispatch case, used while he was the commander-in-chief of the Continental Army during the Revolutionary War. The case is a slight rectangular box made of mahogany and covered with black leather. A hinged lid at the bottom opens to reveal several compartments for writing implements while the top has a leather pocket for stationary and documents. It could easily be slipped into a saddle or travel bag and carried to its owner’s next location.",
+      "story": "George Washington's traveling dispatch case, used while he was the commander-in-chief of the Continental Army during the Revolutionary War. The case is a slight rectangular box made of mahogany and covered with black leather. A hinged lid at the bottom opens to reveal several compartments for writing implements while the top has a leather pocket for stationary and documents. It could easily be slipped into a saddle or travel bag and carried to its owner’s next location.",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_515675",
+      "relationship": "owned-or-used",
+      "relationshipConfidence": "high",
+      "gallery": {
+        "floor": 3,
+        "zone": "Center",
+        "name": "American Presidency",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-and-wing-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "nmah_334962",
+      "smithsonianId": "nmah_334962",
+      "title": "George Washington's Red Wing Chair",
+      "displayTitle": "George Washington's Red Wing Chair",
+      "date": "",
+      "periods": [],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Easy Chair",
+        "Chairs (furniture forms)",
+        "George Washington's Red Wing Chair",
+        "Chair",
+        "chair"
+      ],
+      "topics": [
+        "Government",
+        "Social reformers",
+        "Politics",
+        "National Symbols",
+        "Presidents"
+      ],
+      "materials": [],
+      "image": "https://ids.si.edu/ids/deliveryService?id=NMAH-80-3217",
+      "imageAlt": "Museum image for George Washington's Red Wing Chair",
+      "description": "Red wing chair used in the bedroom of George Washington at Mount Vernon up to the time of his death, December 14, 1799.",
+      "story": "Red wing chair used in the bedroom of George Washington at Mount Vernon up to the time of his death, December 14, 1799.",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_334962",
+      "relationship": "owned-or-used",
+      "relationshipConfidence": "high",
+      "gallery": {
+        "floor": 3,
+        "zone": "Center",
+        "name": "American Presidency",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-and-wing-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "nmah_515705",
+      "smithsonianId": "nmah_515705",
+      "title": "hatchet",
+      "displayTitle": "hatchet",
+      "date": "1789 04 30",
+      "periods": [
+        "18th century"
+      ],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Hatchets",
+        "Hatchet"
+      ],
+      "topics": [],
+      "materials": [],
+      "image": "assets/object-placeholder.svg",
+      "imageAlt": "Museum image for hatchet",
+      "description": "The Smithsonian catalog connects this object to George Washington.",
+      "story": "Look closely at this object and consider how the Smithsonian connects it to George Washington.",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_515705",
+      "relationship": "documented-nmah-association",
+      "relationshipConfidence": "medium",
+      "gallery": {
+        "floor": 3,
+        "zone": "Center",
+        "name": "American Presidency",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-and-wing-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "nmah_962558",
+      "smithsonianId": "nmah_962558",
+      "title": "Indian Peace Medal, George Washington, United States, 1793 (authenticity in question)",
+      "displayTitle": "Indian Peace Medal, George Washington, United States, 1793 (authenticity in question)",
+      "date": "1793",
+      "periods": [
+        "18th century"
+      ],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Medal; Indian Peace, Washington; Presidential",
+        "Medals",
+        "Medal"
+      ],
+      "topics": [
+        "Indian Peace Medal"
+      ],
+      "materials": [],
+      "image": "https://ids.si.edu/ids/deliveryService?id=NMAH-NMAH1998-01398",
+      "imageAlt": "Museum image for Indian Peace Medal, George Washington, United States, 1793 (authenticity in question)",
+      "description": "The Smithsonian catalog connects this object to George Washington.",
+      "story": "Look closely at this object and consider how the Smithsonian connects it to George Washington.",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_962558",
+      "relationship": "depicts-or-commemorates",
+      "relationshipConfidence": "high",
+      "gallery": {
+        "floor": 3,
+        "zone": "Center",
+        "name": "American Presidency",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-and-wing-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "nmah_501115",
+      "smithsonianId": "nmah_501115",
+      "title": "Long Live the President",
+      "displayTitle": "Long Live the President",
+      "date": "",
+      "periods": [],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Button, Clothing"
+      ],
+      "topics": [],
+      "materials": [],
+      "image": "assets/object-placeholder.svg",
+      "imageAlt": "Museum image for Long Live the President",
+      "description": "The Smithsonian catalog connects this object to George Washington.",
+      "story": "Look closely at this object and consider how the Smithsonian connects it to George Washington.",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_501115",
+      "relationship": "depicts-or-commemorates",
+      "relationshipConfidence": "high",
+      "gallery": {
+        "floor": 3,
+        "zone": "Center",
+        "name": "American Presidency",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-and-wing-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "nmah_1199654",
+      "smithsonianId": "nmah_1199654",
+      "title": "paperweight, george washington",
+      "displayTitle": "paperweight, george washington",
+      "date": "",
+      "periods": [],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Paperweight, George Washington"
+      ],
+      "topics": [],
+      "materials": [],
+      "image": "assets/object-placeholder.svg",
+      "imageAlt": "Museum image for paperweight, george washington",
+      "description": "The Smithsonian catalog connects this object to George Washington.",
+      "story": "Look closely at this object and consider how the Smithsonian connects it to George Washington.",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_1199654",
+      "relationship": "depicts-or-commemorates",
+      "relationshipConfidence": "high",
+      "gallery": {
+        "floor": 3,
+        "zone": "Center",
+        "name": "American Presidency",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-and-wing-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "nmah_214480",
+      "smithsonianId": "nmah_214480",
+      "title": "Portrait of Martha Washington by John Trumbull",
+      "displayTitle": "Portrait of Martha Washington by John Trumbull",
+      "date": "circa 1793",
+      "periods": [
+        "18th century"
+      ],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Paintings",
+        "painting, portrait",
+        "paintings"
+      ],
+      "topics": [
+        "Government",
+        "Social reformers",
+        "Portraits",
+        "Politics",
+        "Presidents' spouses",
+        "First ladies",
+        "First Ladies"
+      ],
+      "materials": [],
+      "image": "https://ids.si.edu/ids/deliveryService?id=NMAH-89-6826",
+      "imageAlt": "Museum image for Portrait of Martha Washington by John Trumbull",
+      "description": "Around 1793 John Trumbull painted this cabinet portraits of Martha Washington. Probably presented as a gift from the artist, the Washingtons hung the portrait in their bedroom at Mount Vernon.",
+      "story": "Around 1793 John Trumbull painted this cabinet portraits of Martha Washington. Probably presented as a gift from the artist, the Washingtons hung the portrait in their bedroom at Mount Vernon.",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_214480",
+      "relationship": "family-or-household",
+      "relationshipConfidence": "high",
+      "gallery": {
+        "floor": 3,
+        "zone": "Center",
+        "name": "American Presidency",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-and-wing-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "nmah_509770",
+      "smithsonianId": "nmah_509770",
+      "title": "post card",
+      "displayTitle": "post card",
+      "date": "1912",
+      "periods": [
+        "20th century"
+      ],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Post Card"
+      ],
+      "topics": [],
+      "materials": [],
+      "image": "assets/object-placeholder.svg",
+      "imageAlt": "Museum image for post card",
+      "description": "The Smithsonian catalog connects this object to George Washington.",
+      "story": "Look closely at this object and consider how the Smithsonian connects it to George Washington.",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_509770",
+      "relationship": "depicts-or-commemorates",
+      "relationshipConfidence": "high",
+      "gallery": {
+        "floor": 3,
+        "zone": "Center",
+        "name": "American Presidency",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-and-wing-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "nmah_1199174",
+      "smithsonianId": "nmah_1199174",
+      "title": "silver bread basket",
+      "displayTitle": "silver bread basket",
+      "date": "",
+      "periods": [],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Silver Bread Basket"
+      ],
+      "topics": [],
+      "materials": [],
+      "image": "assets/object-placeholder.svg",
+      "imageAlt": "Museum image for silver bread basket",
+      "description": "The Smithsonian catalog connects this object to George Washington.",
+      "story": "Look closely at this object and consider how the Smithsonian connects it to George Washington.",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_1199174",
+      "relationship": "documented-nmah-association",
+      "relationshipConfidence": "medium",
+      "gallery": {
+        "floor": 3,
+        "zone": "Center",
+        "name": "American Presidency",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-and-wing-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "nmah_1199171",
+      "smithsonianId": "nmah_1199171",
+      "title": "silver salt",
+      "displayTitle": "silver salt",
+      "date": "",
+      "periods": [],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Silver Salt"
+      ],
+      "topics": [],
+      "materials": [],
+      "image": "assets/object-placeholder.svg",
+      "imageAlt": "Museum image for silver salt",
+      "description": "The Smithsonian catalog connects this object to George Washington.",
+      "story": "Look closely at this object and consider how the Smithsonian connects it to George Washington.",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_1199171",
+      "relationship": "documented-nmah-association",
+      "relationshipConfidence": "medium",
+      "gallery": {
+        "floor": 3,
+        "zone": "Center",
+        "name": "American Presidency",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-and-wing-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "nmah_1004916",
+      "smithsonianId": "nmah_1004916",
+      "title": "stock",
+      "displayTitle": "stock",
+      "date": "1780, style of",
+      "periods": [
+        "18th century"
+      ],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Stock"
+      ],
+      "topics": [],
+      "materials": [],
+      "image": "https://ids.si.edu/ids/deliveryService?id=NMAH-74-4946",
+      "imageAlt": "Museum image for stock",
+      "description": "The Smithsonian catalog connects this object to George Washington.",
+      "story": "Look closely at this object and consider how the Smithsonian connects it to George Washington.",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_1004916",
+      "relationship": "documented-nmah-association",
+      "relationshipConfidence": "medium",
+      "gallery": {
+        "floor": 3,
+        "zone": "Center",
+        "name": "American Presidency",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-and-wing-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "nmah_1199197",
+      "smithsonianId": "nmah_1199197",
+      "title": "The Resignation of Pres. Washington",
+      "displayTitle": "The Resignation of Pres. Washington",
+      "date": "",
+      "periods": [],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Bandana"
+      ],
+      "topics": [
+        "In Pursuit of Life, Liberty, and Happiness"
+      ],
+      "materials": [],
+      "image": "https://ids.si.edu/ids/deliveryService?id=NMAH-JN2026-00258-000001",
+      "imageAlt": "Museum image for The Resignation of Pres. Washington",
+      "description": "In September 1796, George Washington announced he would not seek a third term as the nation’s first president. His statement has come to be known as Washington’s Farewell Address although he did not deliver it as public speech. He wrote it as a letter under the simple heading “To the People of the United States.” Over 7000 words long, Washington’s Farewell was published across the country first in newspapers and later in small books.",
+      "story": "In September 1796, George Washington announced he would not seek a third term as the nation’s first president. His statement has come to be known as Washington’s Farewell Address although he did not deliver it as public speech. He wrote it as a letter under the simple heading “To the People of the United States.” Over 7000 words long, Washington’s Farewell was published across the country first in newspapers and later in small books.",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_1199197",
+      "relationship": "depicts-or-commemorates",
+      "relationshipConfidence": "high",
+      "gallery": {
+        "floor": 3,
+        "zone": "Center",
+        "name": "American Presidency",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-and-wing-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "nmah_515280",
+      "smithsonianId": "nmah_515280",
+      "title": "Finger bowl from George and Martha Washington's formal dinner service",
+      "displayTitle": "Finger bowl from George and Martha Washington's formal dinner service",
+      "date": "",
+      "periods": [],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Bowls (vessels)",
+        "Bowl"
+      ],
+      "topics": [
+        "In Pursuit of Life, Liberty, and Happiness"
+      ],
+      "materials": [],
+      "image": "https://ids.si.edu/ids/deliveryService?id=NMAH-RWS2011-03431",
+      "imageAlt": "Museum image for Finger bowl from George and Martha Washington's formal dinner service",
+      "description": "This finger bowl was likely used for entertaining in the presidential mansion in Philadelphia and later at Mount Vernon. When Washington resigned the presidency and retired to Mount Vernon, he took with him the china, glassware, and furnishings that he had personally supplied for the presidential mansion. He noted that that, at his own expense, he had frequently needed to replace glassware that was broken in the presidential mansion.",
+      "story": "This finger bowl was likely used for entertaining in the presidential mansion in Philadelphia and later at Mount Vernon. When Washington resigned the presidency and retired to Mount Vernon, he took with him the china, glassware, and furnishings that he had personally supplied for the presidential mansion. He noted that that, at his own expense, he had frequently needed to replace glassware that was broken in the presidential mansion.",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_515280",
+      "relationship": "family-or-household",
+      "relationshipConfidence": "high",
+      "gallery": {
+        "floor": 3,
+        "zone": "Center",
+        "name": "First Ladies",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-and-wing-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "nmah_214489",
+      "smithsonianId": "nmah_214489",
+      "title": "Fruit dish from George and Martha Washington's formal dinner service",
+      "displayTitle": "Fruit dish from George and Martha Washington's formal dinner service",
+      "date": "",
+      "periods": [],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Fruit Dish"
+      ],
+      "topics": [
+        "In Pursuit of Life, Liberty, and Happiness"
+      ],
+      "materials": [],
+      "image": "https://ids.si.edu/ids/deliveryService?id=NMAH-RWS2011-03433",
+      "imageAlt": "Museum image for Fruit dish from George and Martha Washington's formal dinner service",
+      "description": "This fruit dish is from the Sèvres banquet service that he and Martha Washington used for formal entertaining in the presidential mansions in New York and Philadelphia. George Washington purchased the service from the Comte de Moustier, the French minister to the United States who was leaving to return to France. When Washington resigned the presidency and retired to Mount Vernon, he took with him the china and furnishings that he had personally supplied for the presidential mansion.",
+      "story": "This fruit dish is from the Sèvres banquet service that he and Martha Washington used for formal entertaining in the presidential mansions in New York and Philadelphia. George Washington purchased the service from the Comte de Moustier, the French minister to the United States who was leaving to return to France. When Washington resigned the presidency and retired to Mount Vernon, he took with him the china and furnishings that he had personally supplied for the presidential mansion.",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_214489",
+      "relationship": "family-or-household",
+      "relationshipConfidence": "high",
+      "gallery": {
+        "floor": 3,
+        "zone": "Center",
+        "name": "First Ladies",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-and-wing-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "nmah_1146435",
+      "smithsonianId": "nmah_1146435",
+      "title": "Plate from George and Martha Washington's formal dinner service",
+      "displayTitle": "Plate from George and Martha Washington's formal dinner service",
+      "date": "",
+      "periods": [],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Plate"
+      ],
+      "topics": [
+        "In Pursuit of Life, Liberty, and Happiness"
+      ],
+      "materials": [],
+      "image": "assets/object-placeholder.svg",
+      "imageAlt": "Museum image for Plate from George and Martha Washington's formal dinner service",
+      "description": "This plate is from the Sèvres banquet service that he and Martha Washington used for formal entertaining in the presidential mansions in New York and Philadelphia. George Washington purchased the service from the Comte de Moustier, the French minister to the United States who was leaving to return to France. When Washington resigned the presidency and retired to Mount Vernon, he took with him the china and furnishings that he had personally supplied for the presidential mansion.",
+      "story": "This plate is from the Sèvres banquet service that he and Martha Washington used for formal entertaining in the presidential mansions in New York and Philadelphia. George Washington purchased the service from the Comte de Moustier, the French minister to the United States who was leaving to return to France. When Washington resigned the presidency and retired to Mount Vernon, he took with him the china and furnishings that he had personally supplied for the presidential mansion.",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_1146435",
+      "relationship": "family-or-household",
+      "relationshipConfidence": "high",
+      "gallery": {
+        "floor": 3,
+        "zone": "Center",
+        "name": "First Ladies",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-and-wing-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "nmah_525927",
+      "smithsonianId": "nmah_525927",
+      "title": "Tumbler from George and Martha Washington's formal dinner service",
+      "displayTitle": "Tumbler from George and Martha Washington's formal dinner service",
+      "date": "",
+      "periods": [],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Tumblers (drinking glasses)",
+        "Tumbler"
+      ],
+      "topics": [
+        "In Pursuit of Life, Liberty, and Happiness"
+      ],
+      "materials": [],
+      "image": "https://ids.si.edu/ids/deliveryService?id=NMAH-RWS2011-03427",
+      "imageAlt": "Museum image for Tumbler from George and Martha Washington's formal dinner service",
+      "description": "This tumbler was likely used for entertaining in the presidential mansion in Philadelphia and later at Mount Vernon. When Washington resigned the presidency and retired to Mount Vernon, he took with him the china, glassware, and furnishings that he had personally supplied for the presidential mansion. He noted that that, at his own expense, he had frequently needed to replace glassware that was broken in the presidential mansion.",
+      "story": "This tumbler was likely used for entertaining in the presidential mansion in Philadelphia and later at Mount Vernon. When Washington resigned the presidency and retired to Mount Vernon, he took with him the china, glassware, and furnishings that he had personally supplied for the presidential mansion. He noted that that, at his own expense, he had frequently needed to replace glassware that was broken in the presidential mansion.",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_525927",
+      "relationship": "family-or-household",
+      "relationshipConfidence": "high",
+      "gallery": {
+        "floor": 3,
+        "zone": "Center",
+        "name": "First Ladies",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-and-wing-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "nmah_492107",
+      "smithsonianId": "nmah_492107",
+      "title": "Wine glass from George and Martha Washington's formal dinner service",
+      "displayTitle": "Wine glass from George and Martha Washington's formal dinner service",
+      "date": "",
+      "periods": [],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Glass, Footed"
+      ],
+      "topics": [
+        "In Pursuit of Life, Liberty, and Happiness"
+      ],
+      "materials": [],
+      "image": "https://ids.si.edu/ids/deliveryService?id=NMAH-RWS2011-03426",
+      "imageAlt": "Museum image for Wine glass from George and Martha Washington's formal dinner service",
+      "description": "This footed glass was likely used for entertaining in the presidential mansion in Philadelphia and later at Mount Vernon. When Washington resigned the presidency and retired to Mount Vernon, he took with him the china, glassware, and furnishings that he had personally supplied for the presidential mansion. He noted that that, at his own expense, he had frequently needed to replace glassware that was broken in the presidential mansion.",
+      "story": "This footed glass was likely used for entertaining in the presidential mansion in Philadelphia and later at Mount Vernon. When Washington resigned the presidency and retired to Mount Vernon, he took with him the china, glassware, and furnishings that he had personally supplied for the presidential mansion. He noted that that, at his own expense, he had frequently needed to replace glassware that was broken in the presidential mansion.",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_492107",
+      "relationship": "family-or-household",
+      "relationshipConfidence": "high",
+      "gallery": {
+        "floor": 3,
+        "zone": "Center",
+        "name": "First Ladies",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-and-wing-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "nmah_514793",
+      "smithsonianId": "nmah_514793",
+      "title": "Wine glass from George and Martha Washington's formal dinner service",
+      "displayTitle": "Wine glass from George and Martha Washington's formal dinner service",
+      "date": "",
+      "periods": [],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Glass, Wine"
+      ],
+      "topics": [
+        "In Pursuit of Life, Liberty, and Happiness"
+      ],
+      "materials": [],
+      "image": "https://ids.si.edu/ids/deliveryService?id=NMAH-RWS2011-03424",
+      "imageAlt": "Museum image for Wine glass from George and Martha Washington's formal dinner service",
+      "description": "This wine glass was likely used for entertaining in the presidential mansion in Philadelphia and later at Mount Vernon. When Washington resigned the presidency and retired to Mount Vernon, he took with him the china, glassware, and furnishings that he had personally supplied for the presidential mansion. He noted that that, at his own expense, he had frequently needed to replace glassware that was broken in the presidential mansion.",
+      "story": "This wine glass was likely used for entertaining in the presidential mansion in Philadelphia and later at Mount Vernon. When Washington resigned the presidency and retired to Mount Vernon, he took with him the china, glassware, and furnishings that he had personally supplied for the presidential mansion. He noted that that, at his own expense, he had frequently needed to replace glassware that was broken in the presidential mansion.",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_514793",
+      "relationship": "family-or-household",
+      "relationshipConfidence": "high",
+      "gallery": {
+        "floor": 3,
+        "zone": "Center",
+        "name": "First Ladies",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-and-wing-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "nmah_515691",
+      "smithsonianId": "nmah_515691",
+      "title": "Wine glass from George and Martha Washington's formal dinner service",
+      "displayTitle": "Wine glass from George and Martha Washington's formal dinner service",
+      "date": "",
+      "periods": [],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Glass, Wine"
+      ],
+      "topics": [
+        "In Pursuit of Life, Liberty, and Happiness"
+      ],
+      "materials": [],
+      "image": "https://ids.si.edu/ids/deliveryService?id=NMAH-RWS2011-03425",
+      "imageAlt": "Museum image for Wine glass from George and Martha Washington's formal dinner service",
+      "description": "This wine glass was likely used for entertaining in the presidential mansion in Philadelphia and later at Mount Vernon. When Washington resigned the presidency and retired to Mount Vernon, he took with him the china, glassware, and furnishings that he had personally supplied for the presidential mansion. He noted that that, at his own expense, he had frequently needed to replace glassware that was broken in the presidential mansion.",
+      "story": "This wine glass was likely used for entertaining in the presidential mansion in Philadelphia and later at Mount Vernon. When Washington resigned the presidency and retired to Mount Vernon, he took with him the china, glassware, and furnishings that he had personally supplied for the presidential mansion. He noted that that, at his own expense, he had frequently needed to replace glassware that was broken in the presidential mansion.",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_515691",
+      "relationship": "family-or-household",
+      "relationshipConfidence": "high",
+      "gallery": {
+        "floor": 3,
+        "zone": "Center",
+        "name": "First Ladies",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-and-wing-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "braddock-pistol",
+      "smithsonianId": "nmah_746133",
+      "title": "Braddock Pistol",
+      "displayTitle": "Braddock Pistol",
+      "date": "c. 1752; ca 1750",
+      "periods": [
+        "18th century"
+      ],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Firearms; Flintlock; .71 In; Muzzle Load; 00; Sa",
+        "Pistols",
+        "pistol"
+      ],
+      "topics": [
+        "Revolution and the New Nation",
+        "ThinkFinity",
+        "Firearms",
+        "Military"
+      ],
+      "materials": [],
+      "image": "assets/braddock-pistol.jpg",
+      "imageAlt": "Photograph of Braddock Pistol Used by Washington",
+      "description": "Physical Description",
+      "story": "A British general gave Washington this pistol. Washington carried it on later army trips. Now the museum keeps it safe so we can learn its story.",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_746133",
+      "relationship": "owned-or-used",
+      "relationshipConfidence": "high",
+      "gallery": {
+        "floor": 3,
+        "zone": "East",
+        "name": "Price of Freedom",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-and-wing-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "washington-breeches",
+      "smithsonianId": "nmah_1199102",
+      "title": "Breeches worn by General George Washington",
+      "displayTitle": "Breeches worn by General George Washington",
+      "date": "1775-1797; circa 1780",
+      "periods": [
+        "18th century"
+      ],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Breeches (trousers)",
+        "breeches"
+      ],
+      "topics": [
+        "American Revolution (1775-1783)",
+        "Presidents",
+        "Military",
+        "American Revolution"
+      ],
+      "materials": [],
+      "image": "assets/washington-breeches.jpg",
+      "imageAlt": "Photograph of Washington’s Buff Wool Breeches",
+      "description": "Buff wool breeches worn by George Washington. Breeches have a two-button closure at waist and a waistband which is lined with linen. The front flap has a one-button closure on either side. There are two front pockets, with a watch pocket on the proper right side of the waistband. The legs have a five-button closure, with a separate tab and button on leg openings. Although presented through the years as a uniform consisting of coat, waistcoat and breeches, the waistcoat and breeches are actually from an earlier uniform dating from the end of the Revolutionary War. The coat is slightly newer, dating from 1789.",
+      "story": "Washington’s outfit needs pants, too. These wool breeches stop near the knees. Clothes looked a little different long ago.",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_1199102",
+      "relationship": "owned-or-used",
+      "relationshipConfidence": "high",
+      "gallery": {
+        "floor": 3,
+        "zone": "East",
+        "name": "Price of Freedom",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-and-wing-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "nmah_214481",
+      "smithsonianId": "nmah_214481",
+      "title": "camp cup",
+      "displayTitle": "camp cup",
+      "date": "",
+      "periods": [],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Camp Cup"
+      ],
+      "topics": [],
+      "materials": [],
+      "image": "assets/object-placeholder.svg",
+      "imageAlt": "Museum image for camp cup",
+      "description": "The Smithsonian catalog connects this object to George Washington.",
+      "story": "Look closely at this object and consider how the Smithsonian connects it to George Washington.",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_214481",
+      "relationship": "owned-or-used",
+      "relationshipConfidence": "high",
+      "gallery": {
+        "floor": 3,
+        "zone": "East",
+        "name": "Price of Freedom",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-and-wing-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "ceremonial-sword",
+      "smithsonianId": "nmah_434865",
+      "title": "George Washington's Battle Sword and Scabbard",
+      "displayTitle": "George Washington's Battle Sword and Scabbard",
+      "date": "ca 1765; ca 1778",
+      "periods": [
+        "18th century"
+      ],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Swords",
+        "sword; Edged Weapons; Hunting",
+        "sword"
+      ],
+      "topics": [
+        "Revolution and the New Nation",
+        "American Revolution (1775-1783)",
+        "Presidents",
+        "Military",
+        "American Revolution"
+      ],
+      "materials": [],
+      "image": "assets/ceremonial-sword.jpg",
+      "imageAlt": "Photograph of George Washington's Battle Sword and Scabbard",
+      "description": "Physical Description",
+      "story": "Here is the steel sword Washington wore while leading his army. It traveled with him during the Revolutionary War. Look for the long metal blade.",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_434865",
+      "relationship": "owned-or-used",
+      "relationshipConfidence": "high",
+      "gallery": {
+        "floor": 3,
+        "zone": "East",
+        "name": "Price of Freedom",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-and-wing-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "camp-chest",
+      "smithsonianId": "nmah_434899",
+      "title": "George Washington's Camp Chest",
+      "displayTitle": "George Washington's Camp Chest",
+      "date": "1775-1776",
+      "periods": [
+        "18th century"
+      ],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "mess kit",
+        "camp chest",
+        "mess kit; camp chest; Equipment, Individual"
+      ],
+      "topics": [
+        "Revolution and the New Nation",
+        "American Revolution (1775-1783)",
+        "Food",
+        "Military",
+        "American Revolution"
+      ],
+      "materials": [],
+      "image": "assets/camp-chest.jpg",
+      "imageAlt": "Photograph of George Washington's Camp Chest",
+      "description": "Armies on campaign must carry with them much besides their weapons. At the time of the American Revolutionary War (1776-1781), various boxes and chests transported soldier's individual effects, wardrobes, official military payrolls, and other necessities. Camp chests or canteens as they were called in the 18th century, carried utensils and cooking apparatus to be used by officers and their staff when in the field during campaigns.",
+      "story": "Imagine the army getting ready to move. Washington brings this camp chest along. Inside are things he needs for cooking and eating on the journey.",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_434899",
+      "relationship": "owned-or-used",
+      "relationshipConfidence": "high",
+      "gallery": {
+        "floor": 3,
+        "zone": "East",
+        "name": "Price of Freedom",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-and-wing-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "camp-stool",
+      "smithsonianId": "nmah_434860",
+      "title": "George Washington's Camp Stool",
+      "displayTitle": "George Washington's Camp Stool",
+      "date": "",
+      "periods": [
+        "18th century"
+      ],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Stools (seating furniture)",
+        "Stool; Equipment, Individual",
+        "Stool"
+      ],
+      "topics": [
+        "Revolution and the New Nation",
+        "American Revolution (1775-1783)",
+        "Military",
+        "American Revolution"
+      ],
+      "materials": [],
+      "image": "assets/camp-stool.jpg",
+      "imageAlt": "Photograph of George Washington’s Camp Stool",
+      "description": "Physical Description",
+      "story": "It is time for a rest at camp. Washington can unfold this small stool and sit down. Then it folds up again for the next trip.",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_434860",
+      "relationship": "owned-or-used",
+      "relationshipConfidence": "high",
+      "gallery": {
+        "floor": 3,
+        "zone": "East",
+        "name": "Price of Freedom",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-and-wing-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "epaulettes",
+      "smithsonianId": "nmah_395065",
+      "title": "George Washington's Epaulettes",
+      "displayTitle": "George Washington's Epaulettes",
+      "date": "1779",
+      "periods": [
+        "18th century"
+      ],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Epaulets, pair of",
+        "Epaulets, pair of; Insignia; Army; Holder, Epaulet; Officer",
+        "epaulettes, pair of"
+      ],
+      "topics": [
+        "Revolution and the New Nation",
+        "Presidents",
+        "Military"
+      ],
+      "materials": [],
+      "image": "assets/epaulettes.jpg",
+      "imageAlt": "Photograph of George Washington's Epaulettes",
+      "description": "Physical Description",
+      "story": "Something shiny rests on Washington’s shoulders. These gold pieces are called epaulettes. Artists put them in paintings of him, too.",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_395065",
+      "relationship": "owned-or-used",
+      "relationshipConfidence": "high",
+      "gallery": {
+        "floor": 3,
+        "zone": "East",
+        "name": "Price of Freedom",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-and-wing-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "military-uniform",
+      "smithsonianId": "nmah_434863",
+      "title": "George Washington's Uniform",
+      "displayTitle": "George Washington's Uniform",
+      "date": "1789; 1780 - 1785",
+      "periods": [
+        "18th century"
+      ],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "coat; Man; Army; General Officer; Officer",
+        "Coats (garments)",
+        "coat"
+      ],
+      "topics": [
+        "Revolution and the New Nation",
+        "In Pursuit of Life, Liberty, and Happiness",
+        "Presidents",
+        "Military"
+      ],
+      "materials": [],
+      "image": "assets/military-uniform.jpg",
+      "imageAlt": "Photograph of George Washington's Uniform",
+      "description": "This uniform consisting of coat, waistcoat, and knee breeches was worn by George Washington from 1789 until his death in 1799. The \"small clothes,\" or breeches and waistcoat, date from the revolutionary period. The coat dates to 1789.",
+      "story": "Washington gets dressed in his blue and tan army coat. People can spot their leader by the clothes he wears. Can you find both colors?",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_434863",
+      "relationship": "owned-or-used",
+      "relationshipConfidence": "high",
+      "gallery": {
+        "floor": 3,
+        "zone": "East",
+        "name": "Price of Freedom",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-and-wing-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "washington-waistcoat",
+      "smithsonianId": "nmah_1199101",
+      "title": "Waistcoat worn by General George Washington",
+      "displayTitle": "Waistcoat worn by General George Washington",
+      "date": "1775-1797; circa 1780",
+      "periods": [
+        "18th century"
+      ],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Waistcoats (garments)",
+        "Waistcoat"
+      ],
+      "topics": [
+        "American Revolution (1775-1783)",
+        "Presidents",
+        "Military",
+        "American Revolution"
+      ],
+      "materials": [],
+      "image": "assets/washington-waistcoat.jpg",
+      "imageAlt": "Photograph of Washington’s Buff Wool Waistcoat",
+      "description": "Collarless, buff wool waistcoat with a single row of fourteen metal buttons down the front, worn by General George Washington. Waistcoat is lined with linen, and has two front flap pockets, each with four buttons beneath flap. Although presented through the years as a uniform consisting of coat, waistcoat and breeches, the waistcoat and breeches are actually from an earlier uniform dating from the end of the Revolutionary War. The coat is slightly newer, dating from 1789",
+      "story": "Washington gets dressed for the day. Under his army coat he wears this wool waistcoat, a kind of vest. His outfit has more than one layer!",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_1199101",
+      "relationship": "owned-or-used",
+      "relationshipConfidence": "high",
+      "gallery": {
+        "floor": 3,
+        "zone": "East",
+        "name": "Price of Freedom",
+        "verifiedAt": "2026-10-06",
+        "confidence": "floor-and-wing-verified"
+      },
+      "sourceRecordCount": 1,
+      "group": null
+    },
+    {
+      "id": "life-of-george-washington-book-series",
+      "smithsonianId": null,
+      "title": "Life of George Washington Book Series",
+      "displayTitle": "A Library of Washington Stories",
+      "date": "",
+      "periods": [],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Book series"
+      ],
+      "topics": [
+        "George Washington",
+        "Books",
+        "Biography"
+      ],
+      "materials": [
+        "paper"
+      ],
+      "image": "assets/object-placeholder.svg",
+      "imageAlt": "Books in the Life of George Washington series",
+      "description": "71 catalog records make up this displayed series of books connected to the Life of George Washington.",
+      "story": "This is not just one book. The museum catalog lists 71 volumes in this Washington book collection.",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_305579",
+      "relationship": "biography-or-publication",
+      "relationshipConfidence": "high",
+      "gallery": null,
+      "sourceRecordCount": 71,
+      "group": {
+        "id": "life-of-george-washington-book-series",
+        "label": "Life of George Washington book series",
+        "memberIds": [
+          "nmah_305579",
+          "nmah_305580",
+          "nmah_305581",
+          "nmah_305582",
+          "nmah_305583",
+          "nmah_305588",
+          "nmah_305589",
+          "nmah_305590",
+          "nmah_305591",
+          "nmah_305592",
+          "nmah_305593",
+          "nmah_305594",
+          "nmah_305595",
+          "nmah_305614",
+          "nmah_305615",
+          "nmah_305616",
+          "nmah_305617",
+          "nmah_305618",
+          "nmah_305619",
+          "nmah_305620",
+          "nmah_305621",
+          "nmah_305630",
+          "nmah_305631",
+          "nmah_305632",
+          "nmah_305633",
+          "nmah_305634",
+          "nmah_305635",
+          "nmah_305636",
+          "nmah_305637",
+          "nmah_305638",
+          "nmah_305639",
+          "nmah_305640",
+          "nmah_305641",
+          "nmah_305642",
+          "nmah_305643",
+          "nmah_305644",
+          "nmah_305645",
+          "nmah_305646",
+          "nmah_305647",
+          "nmah_305648",
+          "nmah_305649",
+          "nmah_305652",
+          "nmah_305653",
+          "nmah_305654",
+          "nmah_305655",
+          "nmah_305656",
+          "nmah_305657",
+          "nmah_305658",
+          "nmah_305659",
+          "nmah_305660",
+          "nmah_305661",
+          "nmah_305662",
+          "nmah_305663",
+          "nmah_305664",
+          "nmah_305665",
+          "nmah_305666",
+          "nmah_305667",
+          "nmah_305668",
+          "nmah_305669",
+          "nmah_305670",
+          "nmah_305672",
+          "nmah_305673",
+          "nmah_305674",
+          "nmah_305675",
+          "nmah_305676",
+          "nmah_305677",
+          "nmah_305678",
+          "nmah_305679",
+          "nmah_305680",
+          "nmah_305681",
+          "nmah_305683"
+        ]
+      }
+    },
+    {
+      "id": "nmah_1197004",
+      "smithsonianId": "nmah_1197004",
+      "title": "Submarine Lunch Box",
+      "displayTitle": "Submarine Lunch Box",
+      "date": "1960",
+      "periods": [
+        "20th century"
+      ],
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Lunchboxes",
+        "lunch box"
+      ],
+      "topics": [
+        "Social life and customs",
+        "Lunch Boxes",
+        "Family",
+        "School Personal Equipment"
+      ],
+      "materials": [],
+      "image": "assets/object-placeholder.svg",
+      "imageAlt": "Museum image for Submarine Lunch Box",
+      "description": "This tin lunch box was manufactured by Thermos in 1960. It has a metal snap for a hinged lid and a collapsible, red plastic handle. The art on the lunch box features images of four submarines on the back and sides. The submarines are the USS Nautilus, Seawolf, Skipjack, and George Washington. The George Washington is shown firing an underwater missile, and there is a cross-section of the USS Nautilus on the bottom.",
+      "story": "This tin lunch box was manufactured by Thermos in 1960. It has a metal snap for a hinged lid and a collapsible, red plastic handle. The art on the lunch box features images of four submarines on the back and sides. The submarines are the USS Nautilus, Seawolf, Skipjack, and George Washington. The George Washington is shown firing an underwater missile, and there is a cross-section of the USS Nautilus on the bottom.",
+      "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_1197004",
+      "relationship": "namesake-or-commemoration",
+      "relationshipConfidence": "high",
+      "gallery": null,
+      "sourceRecordCount": 1,
+      "group": null
+    }
+  ]
+}

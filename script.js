@@ -31,7 +31,7 @@ const KID_TITLES = {
   'surveyors-compass':'Washington’s Map-Making Compass',
 };
 const escapeHtml = value => String(value ?? '').replace(/[&<>"']/g, character => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[character]));
-const kidTitle = object => KID_TITLES[object.id] || object.title;
+const kidTitle = object => KID_TITLES[object.id] || object.displayTitle || object.title;
 const objectStops = () => state.journey.filter(step => step.type === 'object');
 const currentObject = () => state.byId.get(objectStops().at(-1)?.id);
 const onView = object => Boolean(object.gallery?.floor && object.gallery?.name);
@@ -48,9 +48,31 @@ function focusObject() {
 }
 async function loadData() {
   try {
-    const response = await fetch('data/washington-objects.json');
-    if (!response.ok) throw new Error('Objects could not be loaded.');
-    state.objects = await response.json();
+    const [legacyResponse, expandedResponse] = await Promise.all([
+      fetch('data/washington-objects.json'),
+      fetch('data/washington-expanded.json')
+    ]);
+    if (!legacyResponse.ok || !expandedResponse.ok) throw new Error('Objects could not be loaded.');
+    const legacyObjects = await legacyResponse.json();
+    const expandedData = await expandedResponse.json();
+    const legacyBySmithsonianId = new Map(legacyObjects.filter(object => object.smithsonianId).map(object => [object.smithsonianId, object]));
+    const activeObjects = expandedData.objects.map(object => {
+      const legacy = object.smithsonianId ? legacyBySmithsonianId.get(object.smithsonianId) : null;
+      if (!legacy) return object;
+      return {
+        ...object,
+        ...legacy,
+        displayTitle: object.displayTitle || legacy.title,
+        recordUrl: object.recordUrl,
+        relationship: object.relationship,
+        relationshipConfidence: object.relationshipConfidence,
+        sourceRecordCount: object.sourceRecordCount,
+        group: object.group
+      };
+    });
+    const sculpture = legacyObjects.find(object => object.id === 'washington-sculpture');
+    if (sculpture && !activeObjects.some(object => object.id === sculpture.id)) activeObjects.push(sculpture);
+    state.objects = activeObjects;
     state.byId = new Map(state.objects.map(object => [object.id, object]));
     renderStart();
   } catch (error) {
@@ -84,8 +106,15 @@ function getChoices(object) {
   const directionBonus = target => target.gallery.name === object.gallery.name ? 8
     : target.gallery.floor === currentFloor ? 6
       : target.gallery.floor === currentFloor + 1 ? 4 : 1;
-  const startIndex = WASHINGTON_ROUTE.indexOf(anchor.id);
-  const nextWashingtonId = WASHINGTON_ROUTE.slice(startIndex + 1).find(id => {
+  const washingtonRoute = state.objects.filter(onView).sort((a, b) =>
+    a.gallery.floor - b.gallery.floor
+      || (ZONE_ORDER[a.gallery.zone] ?? 0) - (ZONE_ORDER[b.gallery.zone] ?? 0)
+      || String(a.gallery.name).localeCompare(String(b.gallery.name))
+      || kidTitle(a).localeCompare(kidTitle(b))
+  );
+  const routeIds = washingtonRoute.map(target => target.id);
+  const startIndex = routeIds.indexOf(anchor.id);
+  const nextWashingtonId = routeIds.slice(startIndex + 1).find(id => {
     const target = state.byId.get(id);
     return target && !visited.has(id) && movesForward(target);
   });
@@ -97,7 +126,7 @@ function getChoices(object) {
         .filter(value => value !== 'George Washington' && target[field]?.includes(value))
         .map(value => ({label:value,field,value,sourceId:source.id,targetId:target.id,route:'detour',score:(field === 'materials' ? 5 : field === 'topics' ? 3 : 1) + directionBonus(target) + (source.id === object.id ? 2 : 0)}))));
   });
-  detours.sort((a,b) => b.score - a.score || WASHINGTON_ROUTE.indexOf(a.targetId) - WASHINGTON_ROUTE.indexOf(b.targetId));
+  detours.sort((a,b) => b.score - a.score || routeIds.indexOf(a.targetId) - routeIds.indexOf(b.targetId));
   for (const link of detours) {
     if (selected.length >= 3) break;
     if (!selected.some(item => item.targetId === link.targetId || item.value === link.value)) selected.push(link);
@@ -141,7 +170,8 @@ function followChoice(link) {
   state.journey.push({type:'object',id:link.targetId});
   renderObject();
 }
-const mapIllustration = object => `assets/illustrations/${object.id}.png`;
+const ILLUSTRATED_IDS = new Set([...WASHINGTON_ROUTE, 'washington-sculpture', 'bache-silhouette', 'coffin-fragment']);
+const mapIllustration = object => ILLUSTRATED_IDS.has(object.id) ? `assets/illustrations/${object.id}.png` : object.image;
 const materialLabel = material => ({textile:'fabric',wool:'wool',metal:'metal',wood:'wood',paper:'paper',steel:'steel',brass:'brass',ink:'ink',marble:'marble',leather:'leather',ivory:'ivory'})[material] || material;
 function renderJourney() {
   const stops = objectStops().map(step => state.byId.get(step.id));
