@@ -24,7 +24,12 @@
         "owned-or-used": 14
       }
     },
-    "note": "The original five-stop treasure-trail interface uses this reviewed collection to generate many possible object routes."
+    "note": "The original five-stop treasure-trail interface uses this reviewed collection to generate many possible object routes.",
+    "illustrations": {
+      "count": 40,
+      "withVerifiedFloor": 38,
+      "note": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact."
+    }
   },
   "objects": [
     {
@@ -45,8 +50,8 @@
       ],
       "topics": [],
       "materials": [],
-      "image": "assets/object-placeholder.svg",
-      "imageAlt": "Museum image for 10 Dollars, Bank of West Florida, United States, 1832",
+      "image": "assets/illustrations/generated/nmah_740396.jpg",
+      "imageAlt": "Interpretive illustration of 10 Dollars, Bank of West Florida, United States, 1832",
       "description": "One (1) 10 dollar note",
       "story": "One (1) 10 dollar note",
       "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_740396",
@@ -60,7 +65,9 @@
         "confidence": "floor-verified"
       },
       "sourceRecordCount": 1,
-      "group": null
+      "group": null,
+      "imageKind": "generated-illustration",
+      "imageCredit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact."
     },
     {
       "id": "nmah_514872",
@@ -110,8 +117,8 @@
         "Wine"
       ],
       "materials": [],
-      "image": "assets/object-placeholder.svg",
-      "imageAlt": "Museum image for Hydrometer (third from left in photo)",
+      "image": "assets/illustrations/generated/nmah_1422329.jpg",
+      "imageAlt": "Interpretive illustration of Hydrometer (third from left in photo)",
       "description": "This hydrometer’s (third from left in photo) glass bulb is anchored with lead shot at its lower end. The instrument contains a U.S. Internal Revenue tax stamp C4205, which features an engraving of George Washington, the same image found on the U.S. one dollar bill. The engraved stamp was inserted into the bulb during manufacture by an agent of the Commissioner of Internal Revenue as authoritative proof of the scale’s accuracy. The number C4205 indicates the stamp was delivered to the Internal Revenue Bureau from the Bureau of Engraving and Printing on January 23, 1905. An accurate scale was essential for determining the alcohol content of wine for tax purposes.",
       "story": "This hydrometer’s (third from left in photo) glass bulb is anchored with lead shot at its lower end. The instrument contains a U.S. Internal Revenue tax stamp C4205, which features an engraving of George Washington, the same image found on the U.S. one dollar bill. The engraved stamp was inserted into the bulb during manufacture by an agent of the Commissioner of Internal Revenue as authoritative proof of the scale’s accuracy. The number C4205 indicates the stamp was delivered to the Internal Revenue Bureau from the Bureau of Engraving and Printing on January 23, 1905. An accurate scale was essential for determining the alcohol content of wine for tax purposes.",
       "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_1422329",
@@ -125,7 +132,9 @@
         "confidence": "floor-and-wing-verified"
       },
       "sourceRecordCount": 1,
-      "group": null
+      "group": null,
+      "imageKind": "generated-illustration",
+      "imageCredit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact."
     },
     {
       "id": "washington-banknote",
@@ -175,8 +184,8 @@
       ],
       "topics": [],
       "materials": [],
-      "image": "assets/object-placeholder.svg",
-      "imageAlt": "Museum image for Book, \"The Life of George Washington\", 1813",
+      "image": "assets/illustrations/generated/nmah_1821294.jpg",
+      "imageAlt": "Interpretive illustration of Book, \"The Life of George Washington\", 1813",
       "description": "Mason Locke Weems’s biography of George Washington became the most widely read 19th century book about the Revolutionary War and its celebrated hero. Weems recounted many familiar anecdotes about Washington, including the famous story of the cherry tree, and helped to establish a national narrative that cemented Founding Fathers in our national consciousness. Washington’s stature as Father of our Country is borne out by the dozens of pageants and plays that celebrated the bicentennial of his birth and continue today.",
       "story": "Mason Locke Weems’s biography of George Washington became the most widely read 19th century book about the Revolutionary War and its celebrated hero. Weems recounted many familiar anecdotes about Washington, including the famous story of the cherry tree, and helped to establish a national narrative that cemented Founding Fathers in our national consciousness. Washington’s stature as Father of our Country is borne out by the dozens of pageants and plays that celebrated the bicentennial of his birth and continue today.",
       "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_1821294",
@@ -190,7 +199,9 @@
         "confidence": "floor-and-wing-verified"
       },
       "sourceRecordCount": 1,
-      "group": null
+      "group": null,
+      "imageKind": "generated-illustration",
+      "imageCredit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact."
     },
     {
       "id": "nmah_1253315",
@@ -215,8 +226,8 @@
         "Presidents"
       ],
       "materials": [],
-      "image": "assets/object-placeholder.svg",
-      "imageAlt": "Museum image for Booklet, \"George Washington Pageant and Plays\"",
+      "image": "assets/illustrations/generated/nmah_1253315.jpg",
+      "imageAlt": "Interpretive illustration of Booklet, \"George Washington Pageant and Plays\"",
       "description": "Booklet produced by the U.S. George Washington Bicentennial Commission for use during the 1932 \"nation-wide celebration\" of the bicentennial of Washington's birth.",
       "story": "Booklet produced by the U.S. George Washington Bicentennial Commission for use during the 1932 \"nation-wide celebration\" of the bicentennial of Washington's birth.",
       "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_1253315",
@@ -230,7 +241,9 @@
         "confidence": "floor-and-wing-verified"
       },
       "sourceRecordCount": 1,
-      "group": null
+      "group": null,
+      "imageKind": "generated-illustration",
+      "imageCredit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact."
     },
     {
       "id": "nmah_571404",
@@ -248,8 +261,8 @@
       ],
       "topics": [],
       "materials": [],
-      "image": "assets/object-placeholder.svg",
-      "imageAlt": "Museum image for Bust, George Washington",
+      "image": "assets/illustrations/generated/nmah_571404.jpg",
+      "imageAlt": "Interpretive illustration of Bust, George Washington",
       "description": "In the late 1700s Ralph Wood’s factory in Staffordshire produced this relatively affordable bust of Washington primarily for the American market to capitalize on Americans’ regard for their hero.",
       "story": "In the late 1700s Ralph Wood’s factory in Staffordshire produced this relatively affordable bust of Washington primarily for the American market to capitalize on Americans’ regard for their hero.",
       "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_571404",
@@ -263,7 +276,9 @@
         "confidence": "floor-and-wing-verified"
       },
       "sourceRecordCount": 1,
-      "group": null
+      "group": null,
+      "imageKind": "generated-illustration",
+      "imageCredit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact."
     },
     {
       "id": "nmah_498979",
@@ -287,8 +302,8 @@
         "Political Campaigns"
       ],
       "materials": [],
-      "image": "assets/object-placeholder.svg",
-      "imageAlt": "Museum image for Campaign Lantern",
+      "image": "assets/illustrations/generated/nmah_498979.jpg",
+      "imageAlt": "Interpretive illustration of Campaign Lantern",
       "description": "Political campaigns of the 19th century reflected popular traditions of commemoration and celebration—such as Fourth of July parades—that became familiar to many Americans in the early Republic. The mechanisms of popular politics not specifically called for in the Constitution—parties, nominating conventions, and electoral campaigns—drew freely on the evocative imagery of such festivities in promoting candidates and building the momentum of the campaign. Mass campaign spectacles arose as a way of demonstrating partisan strength and of mobilizing indifferent and easily distracted voters. The successful presidential campaign of Republican Abraham Lincoln perfected the nighttime torchlight parade in which marchers torches and lanterns, such as this one displaying an American eagle, created a sometimes provocative spectacle.",
       "story": "Political campaigns of the 19th century reflected popular traditions of commemoration and celebration—such as Fourth of July parades—that became familiar to many Americans in the early Republic. The mechanisms of popular politics not specifically called for in the Constitution—parties, nominating conventions, and electoral campaigns—drew freely on the evocative imagery of such festivities in promoting candidates and building the momentum of the campaign. Mass campaign spectacles arose as a way of demonstrating partisan strength and of mobilizing indifferent and easily distracted voters. The successful presidential campaign of Republican Abraham Lincoln perfected the nighttime torchlight parade in which marchers torches and lanterns, such as this one displaying an American eagle, created a sometimes provocative spectacle.",
       "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_498979",
@@ -302,7 +317,9 @@
         "confidence": "floor-and-wing-verified"
       },
       "sourceRecordCount": 1,
-      "group": null
+      "group": null,
+      "imageKind": "generated-illustration",
+      "imageCredit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact."
     },
     {
       "id": "nmah_515392",
@@ -327,8 +344,8 @@
         "Presidential Inauguration of 1789"
       ],
       "materials": [],
-      "image": "assets/object-placeholder.svg",
-      "imageAlt": "Museum image for Clothing Button, Washington",
+      "image": "assets/illustrations/generated/nmah_515392.jpg",
+      "imageAlt": "Interpretive illustration of Clothing Button, Washington",
       "description": "The Smithsonian catalog connects this object to George Washington.",
       "story": "Look closely at this object and consider how the Smithsonian connects it to George Washington.",
       "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_515392",
@@ -342,7 +359,9 @@
         "confidence": "floor-and-wing-verified"
       },
       "sourceRecordCount": 1,
-      "group": null
+      "group": null,
+      "imageKind": "generated-illustration",
+      "imageCredit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact."
     },
     {
       "id": "inaugural-button-star",
@@ -445,8 +464,8 @@
         "Presidential Inauguration of 1789"
       ],
       "materials": [],
-      "image": "assets/object-placeholder.svg",
-      "imageAlt": "Museum image for Commemorative Clothing Button, George Washington, 1789",
+      "image": "assets/illustrations/generated/nmah_834346.jpg",
+      "imageAlt": "Interpretive illustration of Commemorative Clothing Button, George Washington, 1789",
       "description": "Buttons such as this one featuring an American eagle and new national seal were worn by supporters of George Washington during his first inauguration. There was no formal campaigning process during the first election. The framers of the Constitution presumed that the highly esteemed Washington would serve as the country’s first president, and he was elected unanimously by the Electoral College, with John Adams being elected as his vice president. There were no political parties at the time of Washington’s election, and though the Federalist and Democratic-Republican parties began forming during his time in office, he remained officially non-partisan.",
       "story": "Buttons such as this one featuring an American eagle and new national seal were worn by supporters of George Washington during his first inauguration. There was no formal campaigning process during the first election. The framers of the Constitution presumed that the highly esteemed Washington would serve as the country’s first president, and he was elected unanimously by the Electoral College, with John Adams being elected as his vice president. There were no political parties at the time of Washington’s election, and though the Federalist and Democratic-Republican parties began forming during his time in office, he remained officially non-partisan.",
       "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_834346",
@@ -460,7 +479,9 @@
         "confidence": "floor-and-wing-verified"
       },
       "sourceRecordCount": 1,
-      "group": null
+      "group": null,
+      "imageKind": "generated-illustration",
+      "imageCredit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact."
     },
     {
       "id": "nmah_1199630",
@@ -476,8 +497,8 @@
       ],
       "topics": [],
       "materials": [],
-      "image": "assets/object-placeholder.svg",
-      "imageAlt": "Museum image for Commemorative Hair Comb, Andrew Jackson, 1831",
+      "image": "assets/illustrations/generated/nmah_1199630.jpg",
+      "imageAlt": "Interpretive illustration of Commemorative Hair Comb, Andrew Jackson, 1831",
       "description": "Carved with national symbols and the images of Andrew Jackson, the Marquis de Lafayette and George Washington, this tortoise shell back comb was presented to President Andrew Jackson in 1831. Jackson served two terms as president, having been elected first in 1828 when Jackson, running as a Democrat, faced off against incumbent president John Quincy Adams, who ran as a National Republican.",
       "story": "Carved with national symbols and the images of Andrew Jackson, the Marquis de Lafayette and George Washington, this tortoise shell back comb was presented to President Andrew Jackson in 1831. Jackson served two terms as president, having been elected first in 1828 when Jackson, running as a Democrat, faced off against incumbent president John Quincy Adams, who ran as a National Republican.",
       "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_1199630",
@@ -491,7 +512,9 @@
         "confidence": "floor-and-wing-verified"
       },
       "sourceRecordCount": 1,
-      "group": null
+      "group": null,
+      "imageKind": "generated-illustration",
+      "imageCredit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact."
     },
     {
       "id": "nmah_515780",
@@ -547,8 +570,8 @@
       ],
       "topics": [],
       "materials": [],
-      "image": "assets/object-placeholder.svg",
-      "imageAlt": "Museum image for Decanter, Zachary Taylor, 1848",
+      "image": "assets/illustrations/generated/nmah_515884.jpg",
+      "imageAlt": "Interpretive illustration of Decanter, Zachary Taylor, 1848",
       "description": "This glass decanter marks Zachary Taylor’s successful run for president in 1848, as a Whig, against Democrat Lewis Cass and Free Soil Party Candidate Martin Van Buren. Taylor rode his successful generalship in the recent war in Mexico, and his promise to put his allegiance to the country above partisanship, to the White House. This decanter was probably used for wine and spirits, but it was ultimately a glass of milk and some cherries which did him in, causing an unknown digestive ailment which killed him, after a little more than a year in the White House.",
       "story": "This glass decanter marks Zachary Taylor’s successful run for president in 1848, as a Whig, against Democrat Lewis Cass and Free Soil Party Candidate Martin Van Buren. Taylor rode his successful generalship in the recent war in Mexico, and his promise to put his allegiance to the country above partisanship, to the White House. This decanter was probably used for wine and spirits, but it was ultimately a glass of milk and some cherries which did him in, causing an unknown digestive ailment which killed him, after a little more than a year in the White House.",
       "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_515884",
@@ -562,7 +585,9 @@
         "confidence": "floor-and-wing-verified"
       },
       "sourceRecordCount": 1,
-      "group": null
+      "group": null,
+      "imageKind": "generated-illustration",
+      "imageCredit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact."
     },
     {
       "id": "nmah_529752",
@@ -619,8 +644,8 @@
         "Presidents"
       ],
       "materials": [],
-      "image": "assets/object-placeholder.svg",
-      "imageAlt": "Museum image for Paperweight, Herbert Hoover, 1928",
+      "image": "assets/illustrations/generated/nmah_498228.jpg",
+      "imageAlt": "Interpretive illustration of Paperweight, Herbert Hoover, 1928",
       "description": "This iron paperweight is designed to look like a pile of 29 coins each of which is stamped with the inauguration year of one of the presidents of the United States. The top coin features both George Washington and Herbert Hoover, the 1928 Republican presidential nominee. The pile seems to be one coin short because when Hoover won he became the 31st president. But it was not a mistake; Grover Cleveland was given just one coin in the pile to represent his two non-consecutive terms in office.",
       "story": "This iron paperweight is designed to look like a pile of 29 coins each of which is stamped with the inauguration year of one of the presidents of the United States. The top coin features both George Washington and Herbert Hoover, the 1928 Republican presidential nominee. The pile seems to be one coin short because when Hoover won he became the 31st president. But it was not a mistake; Grover Cleveland was given just one coin in the pile to represent his two non-consecutive terms in office.",
       "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_498228",
@@ -634,7 +659,9 @@
         "confidence": "floor-and-wing-verified"
       },
       "sourceRecordCount": 1,
-      "group": null
+      "group": null,
+      "imageKind": "generated-illustration",
+      "imageCredit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact."
     },
     {
       "id": "nmah_501114",
@@ -656,8 +683,8 @@
         "Political Campaigns"
       ],
       "materials": [],
-      "image": "assets/object-placeholder.svg",
-      "imageAlt": "Museum image for Pin with image of George Washington",
+      "image": "assets/illustrations/generated/nmah_501114.jpg",
+      "imageAlt": "Interpretive illustration of Pin with image of George Washington",
       "description": "The Smithsonian catalog connects this object to George Washington.",
       "story": "Look closely at this object and consider how the Smithsonian connects it to George Washington.",
       "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_501114",
@@ -671,7 +698,9 @@
         "confidence": "floor-and-wing-verified"
       },
       "sourceRecordCount": 1,
-      "group": null
+      "group": null,
+      "imageKind": "generated-illustration",
+      "imageCredit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact."
     },
     {
       "id": "nmah_572512",
@@ -695,8 +724,8 @@
         "Furnishings"
       ],
       "materials": [],
-      "image": "assets/object-placeholder.svg",
-      "imageAlt": "Museum image for Pitcher, \"Union to the People\"",
+      "image": "assets/illustrations/generated/nmah_572512.jpg",
+      "imageAlt": "Interpretive illustration of Pitcher, \"Union to the People\"",
       "description": "This transfer printed creamware pitcher is decorated with a maritime print on one side and a print celebrating the new Liberty of the United States on the other side. The maritime design shows a ship under sail. The other side shows three men, likely George Washington, John Adams and Thomas Jefferson, clasping hands and holding a liberty pole. A scroll above reads “Union to the People of America” and beneath “Civil and Religious Liberty to all Mankind.”",
       "story": "This transfer printed creamware pitcher is decorated with a maritime print on one side and a print celebrating the new Liberty of the United States on the other side. The maritime design shows a ship under sail. The other side shows three men, likely George Washington, John Adams and Thomas Jefferson, clasping hands and holding a liberty pole. A scroll above reads “Union to the People of America” and beneath “Civil and Religious Liberty to all Mankind.”",
       "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_572512",
@@ -710,7 +739,9 @@
         "confidence": "floor-and-wing-verified"
       },
       "sourceRecordCount": 1,
-      "group": null
+      "group": null,
+      "imageKind": "generated-illustration",
+      "imageCredit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact."
     },
     {
       "id": "nmah_572521",
@@ -734,8 +765,8 @@
         "Furnishings"
       ],
       "materials": [],
-      "image": "assets/object-placeholder.svg",
-      "imageAlt": "Museum image for Pitcher, \"An Emblem of America\"",
+      "image": "assets/illustrations/generated/nmah_572521.jpg",
+      "imageAlt": "Interpretive illustration of Pitcher, \"An Emblem of America\"",
       "description": "This transfer printed creamware pitcher was made by Herculaneum Pottery in Liverpool, England around 1800. On the front is a print of the Cooper’s Guild Coat of Arms with the motto “Prosperity attend the integrity of our cause” below on a banner. On the reverse is the print titled “An Emblem for America.” It depicts the allegorical figure of Columbia holding a flag and showing two dark skinned Native Americans (who served as iconography for the Western Hemisphere). To Columbia’s left are portraits of men involved in the discovery of North America and the founding of the United States: Christopher Columbus, “Americus” Vespucci, Sir Walter Raleigh, George Washington, Benjamin Franklin, and John Adams. Under the spout is a print declaring “Peace and Commerce” an images of the all-seeing eye, the French and American flags knotted, and two hands clasped in a handshake. Just above are the initials “JS.” The print “An Emblem for America” is based on an engraving in a series by John Fairburn of London. Robert H. McCauley purchased this jug from the Boston Antique Shop of Boston, MA on December 30, 1938 for $75.00.",
       "story": "This transfer printed creamware pitcher was made by Herculaneum Pottery in Liverpool, England around 1800. On the front is a print of the Cooper’s Guild Coat of Arms with the motto “Prosperity attend the integrity of our cause” below on a banner. On the reverse is the print titled “An Emblem for America.” It depicts the allegorical figure of Columbia holding a flag and showing two dark skinned Native Americans (who served as iconography for the Western Hemisphere). To Columbia’s left are portraits of men involved in the discovery of North America and the founding of the United States: Christopher Columbus, “Americus” Vespucci, Sir Walter Raleigh, George Washington, Benjamin Franklin, and John Adams. Under the spout is a print declaring “Peace and Commerce” an images of the all-seeing eye, the French and American flags knotted, and two hands clasped in a handshake. Just above are the initials “JS.” The print “An Emblem for America” is based on an engraving in a series by John Fairburn of London. Robert H. McCauley purchased this jug from the Boston Antique Shop of Boston, MA on December 30, 1938 for $75.00.",
       "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_572521",
@@ -749,7 +780,9 @@
         "confidence": "floor-verified"
       },
       "sourceRecordCount": 1,
-      "group": null
+      "group": null,
+      "imageKind": "generated-illustration",
+      "imageCredit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact."
     },
     {
       "id": "nmah_1764149",
@@ -767,8 +800,8 @@
       ],
       "topics": [],
       "materials": [],
-      "image": "assets/object-placeholder.svg",
-      "imageAlt": "Museum image for Prang Lithographic School Room Portrait of George Washington by Gilbert Stuart",
+      "image": "assets/illustrations/generated/nmah_1764149.jpg",
+      "imageAlt": "Interpretive illustration of Prang Lithographic School Room Portrait of George Washington by Gilbert Stuart",
       "description": "This lithograph, copied from a Gilbert Stuart portrait of George Washington, was commercially sold in school catalogs and for homes, libraries, and public buildings across America. Images of “the father of our country” became familiar instructional tools as well as a school decoration and patriotic imagery. The print was mass produced in 1901 by Taber Prang Art Company, founded by Louis Prang. Louis Prang also founded the Prang Educational Company to develop artistic abilities in school age children. The print continued to be reproduced by Prang until 1938.",
       "story": "This lithograph, copied from a Gilbert Stuart portrait of George Washington, was commercially sold in school catalogs and for homes, libraries, and public buildings across America. Images of “the father of our country” became familiar instructional tools as well as a school decoration and patriotic imagery. The print was mass produced in 1901 by Taber Prang Art Company, founded by Louis Prang. Louis Prang also founded the Prang Educational Company to develop artistic abilities in school age children. The print continued to be reproduced by Prang until 1938.",
       "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_1764149",
@@ -782,7 +815,9 @@
         "confidence": "floor-verified"
       },
       "sourceRecordCount": 1,
-      "group": null
+      "group": null,
+      "imageKind": "generated-illustration",
+      "imageCredit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact."
     },
     {
       "id": "nmah_515860",
@@ -801,8 +836,8 @@
       ],
       "topics": [],
       "materials": [],
-      "image": "assets/object-placeholder.svg",
-      "imageAlt": "Museum image for Ben. Harrison",
+      "image": "assets/illustrations/generated/nmah_515860.jpg",
+      "imageAlt": "Interpretive illustration of Ben. Harrison",
       "description": "The Smithsonian catalog connects this object to George Washington.",
       "story": "Look closely at this object and consider how the Smithsonian connects it to George Washington.",
       "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_515860",
@@ -816,7 +851,9 @@
         "confidence": "floor-and-wing-verified"
       },
       "sourceRecordCount": 1,
-      "group": null
+      "group": null,
+      "imageKind": "generated-illustration",
+      "imageCredit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact."
     },
     {
       "id": "nmah_1199119",
@@ -831,8 +868,8 @@
       ],
       "topics": [],
       "materials": [],
-      "image": "assets/object-placeholder.svg",
-      "imageAlt": "Museum image for brocade gown",
+      "image": "assets/illustrations/generated/nmah_1199119.jpg",
+      "imageAlt": "Interpretive illustration of brocade gown",
       "description": "The Smithsonian catalog connects this object to George Washington.",
       "story": "Look closely at this object and consider how the Smithsonian connects it to George Washington.",
       "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_1199119",
@@ -846,7 +883,9 @@
         "confidence": "floor-and-wing-verified"
       },
       "sourceRecordCount": 1,
-      "group": null
+      "group": null,
+      "imageKind": "generated-illustration",
+      "imageCredit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact."
     },
     {
       "id": "nmah_1199002",
@@ -861,8 +900,8 @@
       ],
       "topics": [],
       "materials": [],
-      "image": "assets/object-placeholder.svg",
-      "imageAlt": "Museum image for bum roll",
+      "image": "assets/illustrations/generated/nmah_1199002.jpg",
+      "imageAlt": "Interpretive illustration of bum roll",
       "description": "The Smithsonian catalog connects this object to George Washington.",
       "story": "Look closely at this object and consider how the Smithsonian connects it to George Washington.",
       "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_1199002",
@@ -876,7 +915,9 @@
         "confidence": "floor-and-wing-verified"
       },
       "sourceRecordCount": 1,
-      "group": null
+      "group": null,
+      "imageKind": "generated-illustration",
+      "imageCredit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact."
     },
     {
       "id": "nmah_1199166",
@@ -891,8 +932,8 @@
       ],
       "topics": [],
       "materials": [],
-      "image": "assets/object-placeholder.svg",
-      "imageAlt": "Museum image for burling arm chair",
+      "image": "assets/illustrations/generated/nmah_1199166.jpg",
+      "imageAlt": "Interpretive illustration of burling arm chair",
       "description": "The Smithsonian catalog connects this object to George Washington.",
       "story": "Look closely at this object and consider how the Smithsonian connects it to George Washington.",
       "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_1199166",
@@ -906,7 +947,9 @@
         "confidence": "floor-and-wing-verified"
       },
       "sourceRecordCount": 1,
-      "group": null
+      "group": null,
+      "imageKind": "generated-illustration",
+      "imageCredit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact."
     },
     {
       "id": "nmah_501118",
@@ -921,8 +964,8 @@
       ],
       "topics": [],
       "materials": [],
-      "image": "assets/object-placeholder.svg",
-      "imageAlt": "Museum image for button, clothing",
+      "image": "assets/illustrations/generated/nmah_501118.jpg",
+      "imageAlt": "Interpretive illustration of button, clothing",
       "description": "The Smithsonian catalog connects this object to George Washington.",
       "story": "Look closely at this object and consider how the Smithsonian connects it to George Washington.",
       "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_501118",
@@ -936,7 +979,9 @@
         "confidence": "floor-and-wing-verified"
       },
       "sourceRecordCount": 1,
-      "group": null
+      "group": null,
+      "imageKind": "generated-illustration",
+      "imageCredit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact."
     },
     {
       "id": "nmah_515395",
@@ -954,8 +999,8 @@
       ],
       "topics": [],
       "materials": [],
-      "image": "assets/object-placeholder.svg",
-      "imageAlt": "Museum image for button, clothing",
+      "image": "assets/illustrations/generated/nmah_515395.jpg",
+      "imageAlt": "Interpretive illustration of button, clothing",
       "description": "The Smithsonian catalog connects this object to George Washington.",
       "story": "Look closely at this object and consider how the Smithsonian connects it to George Washington.",
       "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_515395",
@@ -969,7 +1014,9 @@
         "confidence": "floor-and-wing-verified"
       },
       "sourceRecordCount": 1,
-      "group": null
+      "group": null,
+      "imageKind": "generated-illustration",
+      "imageCredit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact."
     },
     {
       "id": "nmah_334980",
@@ -984,8 +1031,8 @@
       ],
       "topics": [],
       "materials": [],
-      "image": "assets/object-placeholder.svg",
-      "imageAlt": "Museum image for cake basket",
+      "image": "assets/illustrations/generated/nmah_334980.jpg",
+      "imageAlt": "Interpretive illustration of cake basket",
       "description": "The Smithsonian catalog connects this object to George Washington.",
       "story": "Look closely at this object and consider how the Smithsonian connects it to George Washington.",
       "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_334980",
@@ -999,7 +1046,9 @@
         "confidence": "floor-and-wing-verified"
       },
       "sourceRecordCount": 1,
-      "group": null
+      "group": null,
+      "imageKind": "generated-illustration",
+      "imageCredit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact."
     },
     {
       "id": "nmah_739573",
@@ -1053,8 +1102,8 @@
       ],
       "topics": [],
       "materials": [],
-      "image": "assets/object-placeholder.svg",
-      "imageAlt": "Museum image for candlestick",
+      "image": "assets/illustrations/generated/nmah_1166998.jpg",
+      "imageAlt": "Interpretive illustration of candlestick",
       "description": "The Smithsonian catalog connects this object to George Washington.",
       "story": "Look closely at this object and consider how the Smithsonian connects it to George Washington.",
       "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_1166998",
@@ -1068,7 +1117,9 @@
         "confidence": "floor-and-wing-verified"
       },
       "sourceRecordCount": 1,
-      "group": null
+      "group": null,
+      "imageKind": "generated-illustration",
+      "imageCredit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact."
     },
     {
       "id": "nmah_1199169",
@@ -1084,8 +1135,8 @@
       ],
       "topics": [],
       "materials": [],
-      "image": "assets/object-placeholder.svg",
-      "imageAlt": "Museum image for candlestick",
+      "image": "assets/illustrations/generated/nmah_1199169.jpg",
+      "imageAlt": "Interpretive illustration of candlestick",
       "description": "The Smithsonian catalog connects this object to George Washington.",
       "story": "Look closely at this object and consider how the Smithsonian connects it to George Washington.",
       "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_1199169",
@@ -1099,7 +1150,9 @@
         "confidence": "floor-and-wing-verified"
       },
       "sourceRecordCount": 1,
-      "group": null
+      "group": null,
+      "imageKind": "generated-illustration",
+      "imageCredit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact."
     },
     {
       "id": "nmah_1199170",
@@ -1115,8 +1168,8 @@
       ],
       "topics": [],
       "materials": [],
-      "image": "assets/object-placeholder.svg",
-      "imageAlt": "Museum image for candlestick",
+      "image": "assets/illustrations/generated/nmah_1199170.jpg",
+      "imageAlt": "Interpretive illustration of candlestick",
       "description": "The Smithsonian catalog connects this object to George Washington.",
       "story": "Look closely at this object and consider how the Smithsonian connects it to George Washington.",
       "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_1199170",
@@ -1130,7 +1183,9 @@
         "confidence": "floor-and-wing-verified"
       },
       "sourceRecordCount": 1,
-      "group": null
+      "group": null,
+      "imageKind": "generated-illustration",
+      "imageCredit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact."
     },
     {
       "id": "nmah_214301",
@@ -1146,8 +1201,8 @@
       ],
       "topics": [],
       "materials": [],
-      "image": "assets/object-placeholder.svg",
-      "imageAlt": "Museum image for candlestick",
+      "image": "assets/illustrations/generated/nmah_214301.jpg",
+      "imageAlt": "Interpretive illustration of candlestick",
       "description": "The Smithsonian catalog connects this object to George Washington.",
       "story": "Look closely at this object and consider how the Smithsonian connects it to George Washington.",
       "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_214301",
@@ -1161,7 +1216,9 @@
         "confidence": "floor-and-wing-verified"
       },
       "sourceRecordCount": 1,
-      "group": null
+      "group": null,
+      "imageKind": "generated-illustration",
+      "imageCredit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact."
     },
     {
       "id": "nmah_214255",
@@ -1177,8 +1234,8 @@
       ],
       "topics": [],
       "materials": [],
-      "image": "assets/object-placeholder.svg",
-      "imageAlt": "Museum image for coaster",
+      "image": "assets/illustrations/generated/nmah_214255.jpg",
+      "imageAlt": "Interpretive illustration of coaster",
       "description": "The Smithsonian catalog connects this object to George Washington.",
       "story": "Look closely at this object and consider how the Smithsonian connects it to George Washington.",
       "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_214255",
@@ -1192,7 +1249,9 @@
         "confidence": "floor-and-wing-verified"
       },
       "sourceRecordCount": 1,
-      "group": null
+      "group": null,
+      "imageKind": "generated-illustration",
+      "imageCredit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact."
     },
     {
       "id": "nmah_1199184",
@@ -1208,8 +1267,8 @@
       ],
       "topics": [],
       "materials": [],
-      "image": "assets/object-placeholder.svg",
-      "imageAlt": "Museum image for compass",
+      "image": "assets/illustrations/generated/nmah_1199184.jpg",
+      "imageAlt": "Interpretive illustration of compass",
       "description": "The Smithsonian catalog connects this object to George Washington.",
       "story": "Look closely at this object and consider how the Smithsonian connects it to George Washington.",
       "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_1199184",
@@ -1223,7 +1282,9 @@
         "confidence": "floor-and-wing-verified"
       },
       "sourceRecordCount": 1,
-      "group": null
+      "group": null,
+      "imageKind": "generated-illustration",
+      "imageCredit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact."
     },
     {
       "id": "surveyors-compass",
@@ -1275,8 +1336,8 @@
       ],
       "topics": [],
       "materials": [],
-      "image": "assets/object-placeholder.svg",
-      "imageAlt": "Museum image for easy chair",
+      "image": "assets/illustrations/generated/nmah_1199167.jpg",
+      "imageAlt": "Interpretive illustration of easy chair",
       "description": "The Smithsonian catalog connects this object to George Washington.",
       "story": "Look closely at this object and consider how the Smithsonian connects it to George Washington.",
       "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_1199167",
@@ -1290,7 +1351,9 @@
         "confidence": "floor-and-wing-verified"
       },
       "sourceRecordCount": 1,
-      "group": null
+      "group": null,
+      "imageKind": "generated-illustration",
+      "imageCredit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact."
     },
     {
       "id": "nmah_1199181",
@@ -1305,8 +1368,8 @@
       ],
       "topics": [],
       "materials": [],
-      "image": "assets/object-placeholder.svg",
-      "imageAlt": "Museum image for field telescope and case",
+      "image": "assets/illustrations/generated/nmah_1199181.jpg",
+      "imageAlt": "Interpretive illustration of field telescope and case",
       "description": "The Smithsonian catalog connects this object to George Washington.",
       "story": "Look closely at this object and consider how the Smithsonian connects it to George Washington.",
       "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_1199181",
@@ -1320,7 +1383,9 @@
         "confidence": "floor-and-wing-verified"
       },
       "sourceRecordCount": 1,
-      "group": null
+      "group": null,
+      "imageKind": "generated-illustration",
+      "imageCredit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact."
     },
     {
       "id": "nmah_214479",
@@ -1458,8 +1523,8 @@
       ],
       "topics": [],
       "materials": [],
-      "image": "assets/object-placeholder.svg",
-      "imageAlt": "Museum image for hatchet",
+      "image": "assets/illustrations/generated/nmah_515705.jpg",
+      "imageAlt": "Interpretive illustration of hatchet",
       "description": "The Smithsonian catalog connects this object to George Washington.",
       "story": "Look closely at this object and consider how the Smithsonian connects it to George Washington.",
       "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_515705",
@@ -1473,7 +1538,9 @@
         "confidence": "floor-and-wing-verified"
       },
       "sourceRecordCount": 1,
-      "group": null
+      "group": null,
+      "imageKind": "generated-illustration",
+      "imageCredit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact."
     },
     {
       "id": "nmah_962558",
@@ -1524,8 +1591,8 @@
       ],
       "topics": [],
       "materials": [],
-      "image": "assets/object-placeholder.svg",
-      "imageAlt": "Museum image for Long Live the President",
+      "image": "assets/illustrations/generated/nmah_501115.jpg",
+      "imageAlt": "Interpretive illustration of Long Live the President",
       "description": "The Smithsonian catalog connects this object to George Washington.",
       "story": "Look closely at this object and consider how the Smithsonian connects it to George Washington.",
       "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_501115",
@@ -1539,7 +1606,9 @@
         "confidence": "floor-and-wing-verified"
       },
       "sourceRecordCount": 1,
-      "group": null
+      "group": null,
+      "imageKind": "generated-illustration",
+      "imageCredit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact."
     },
     {
       "id": "nmah_1199654",
@@ -1554,8 +1623,8 @@
       ],
       "topics": [],
       "materials": [],
-      "image": "assets/object-placeholder.svg",
-      "imageAlt": "Museum image for paperweight, george washington",
+      "image": "assets/illustrations/generated/nmah_1199654.jpg",
+      "imageAlt": "Interpretive illustration of paperweight, george washington",
       "description": "The Smithsonian catalog connects this object to George Washington.",
       "story": "Look closely at this object and consider how the Smithsonian connects it to George Washington.",
       "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_1199654",
@@ -1569,7 +1638,9 @@
         "confidence": "floor-and-wing-verified"
       },
       "sourceRecordCount": 1,
-      "group": null
+      "group": null,
+      "imageKind": "generated-illustration",
+      "imageCredit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact."
     },
     {
       "id": "nmah_214480",
@@ -1628,8 +1699,8 @@
       ],
       "topics": [],
       "materials": [],
-      "image": "assets/object-placeholder.svg",
-      "imageAlt": "Museum image for post card",
+      "image": "assets/illustrations/generated/nmah_509770.jpg",
+      "imageAlt": "Interpretive illustration of post card",
       "description": "The Smithsonian catalog connects this object to George Washington.",
       "story": "Look closely at this object and consider how the Smithsonian connects it to George Washington.",
       "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_509770",
@@ -1643,7 +1714,9 @@
         "confidence": "floor-and-wing-verified"
       },
       "sourceRecordCount": 1,
-      "group": null
+      "group": null,
+      "imageKind": "generated-illustration",
+      "imageCredit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact."
     },
     {
       "id": "nmah_1199174",
@@ -1658,8 +1731,8 @@
       ],
       "topics": [],
       "materials": [],
-      "image": "assets/object-placeholder.svg",
-      "imageAlt": "Museum image for silver bread basket",
+      "image": "assets/illustrations/generated/nmah_1199174.jpg",
+      "imageAlt": "Interpretive illustration of silver bread basket",
       "description": "The Smithsonian catalog connects this object to George Washington.",
       "story": "Look closely at this object and consider how the Smithsonian connects it to George Washington.",
       "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_1199174",
@@ -1673,7 +1746,9 @@
         "confidence": "floor-and-wing-verified"
       },
       "sourceRecordCount": 1,
-      "group": null
+      "group": null,
+      "imageKind": "generated-illustration",
+      "imageCredit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact."
     },
     {
       "id": "nmah_1199171",
@@ -1688,8 +1763,8 @@
       ],
       "topics": [],
       "materials": [],
-      "image": "assets/object-placeholder.svg",
-      "imageAlt": "Museum image for silver salt",
+      "image": "assets/illustrations/generated/nmah_1199171.jpg",
+      "imageAlt": "Interpretive illustration of silver salt",
       "description": "The Smithsonian catalog connects this object to George Washington.",
       "story": "Look closely at this object and consider how the Smithsonian connects it to George Washington.",
       "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_1199171",
@@ -1703,7 +1778,9 @@
         "confidence": "floor-and-wing-verified"
       },
       "sourceRecordCount": 1,
-      "group": null
+      "group": null,
+      "imageKind": "generated-illustration",
+      "imageCredit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact."
     },
     {
       "id": "nmah_1004916",
@@ -1849,8 +1926,8 @@
         "In Pursuit of Life, Liberty, and Happiness"
       ],
       "materials": [],
-      "image": "assets/object-placeholder.svg",
-      "imageAlt": "Museum image for Plate from George and Martha Washington's formal dinner service",
+      "image": "assets/illustrations/generated/nmah_1146435.jpg",
+      "imageAlt": "Interpretive illustration of Plate from George and Martha Washington's formal dinner service",
       "description": "This plate is from the Sèvres banquet service that he and Martha Washington used for formal entertaining in the presidential mansions in New York and Philadelphia. George Washington purchased the service from the Comte de Moustier, the French minister to the United States who was leaving to return to France. When Washington resigned the presidency and retired to Mount Vernon, he took with him the china and furnishings that he had personally supplied for the presidential mansion.",
       "story": "This plate is from the Sèvres banquet service that he and Martha Washington used for formal entertaining in the presidential mansions in New York and Philadelphia. George Washington purchased the service from the Comte de Moustier, the French minister to the United States who was leaving to return to France. When Washington resigned the presidency and retired to Mount Vernon, he took with him the china and furnishings that he had personally supplied for the presidential mansion.",
       "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_1146435",
@@ -1864,7 +1941,9 @@
         "confidence": "floor-and-wing-verified"
       },
       "sourceRecordCount": 1,
-      "group": null
+      "group": null,
+      "imageKind": "generated-illustration",
+      "imageCredit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact."
     },
     {
       "id": "nmah_525927",
@@ -2085,8 +2164,8 @@
       ],
       "topics": [],
       "materials": [],
-      "image": "assets/object-placeholder.svg",
-      "imageAlt": "Museum image for camp cup",
+      "image": "assets/illustrations/generated/nmah_214481.jpg",
+      "imageAlt": "Interpretive illustration of camp cup",
       "description": "The Smithsonian catalog connects this object to George Washington.",
       "story": "Look closely at this object and consider how the Smithsonian connects it to George Washington.",
       "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_214481",
@@ -2100,7 +2179,9 @@
         "confidence": "floor-and-wing-verified"
       },
       "sourceRecordCount": 1,
-      "group": null
+      "group": null,
+      "imageKind": "generated-illustration",
+      "imageCredit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact."
     },
     {
       "id": "ceremonial-sword",
@@ -2355,8 +2436,8 @@
       "materials": [
         "paper"
       ],
-      "image": "assets/object-placeholder.svg",
-      "imageAlt": "Books in the Life of George Washington series",
+      "image": "assets/illustrations/generated/life-of-george-washington-book-series.jpg",
+      "imageAlt": "Interpretive illustration of A Library of Washington Stories",
       "description": "71 catalog records make up this displayed series of books connected to the Life of George Washington.",
       "story": "This is not just one book. The museum catalog lists 71 volumes in this Washington book collection.",
       "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_305579",
@@ -2440,7 +2521,9 @@
           "nmah_305681",
           "nmah_305683"
         ]
-      }
+      },
+      "imageKind": "generated-illustration",
+      "imageCredit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact."
     },
     {
       "id": "nmah_1197004",
@@ -2463,8 +2546,8 @@
         "School Personal Equipment"
       ],
       "materials": [],
-      "image": "assets/object-placeholder.svg",
-      "imageAlt": "Museum image for Submarine Lunch Box",
+      "image": "assets/illustrations/generated/nmah_1197004.jpg",
+      "imageAlt": "Interpretive illustration of Submarine Lunch Box",
       "description": "This tin lunch box was manufactured by Thermos in 1960. It has a metal snap for a hinged lid and a collapsible, red plastic handle. The art on the lunch box features images of four submarines on the back and sides. The submarines are the USS Nautilus, Seawolf, Skipjack, and George Washington. The George Washington is shown firing an underwater missile, and there is a cross-section of the USS Nautilus on the bottom.",
       "story": "This tin lunch box was manufactured by Thermos in 1960. It has a metal snap for a hinged lid and a collapsible, red plastic handle. The art on the lunch box features images of four submarines on the back and sides. The submarines are the USS Nautilus, Seawolf, Skipjack, and George Washington. The George Washington is shown firing an underwater missile, and there is a cross-section of the USS Nautilus on the bottom.",
       "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_1197004",
@@ -2472,7 +2555,9 @@
       "relationshipConfidence": "high",
       "gallery": null,
       "sourceRecordCount": 1,
-      "group": null
+      "group": null,
+      "imageKind": "generated-illustration",
+      "imageCredit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact."
     }
   ]
 }

@@ -74,7 +74,7 @@ async function concurrentMap(items, concurrency, mapper) {
   return results;
 }
 
-function visitorObject(record, fullContent, location, legacy) {
+function visitorObject(record, fullContent, location, legacy, illustration) {
   const descriptive = fullContent.descriptiveNonRepeating || {};
   const indexed = fullContent.indexedStructured || {};
   const media = descriptive.online_media?.media || [];
@@ -83,6 +83,7 @@ function visitorObject(record, fullContent, location, legacy) {
   const relationship = record.review.relationship;
   const displayTitle = legacy?.title || record.title;
   const date = fieldValues(fullContent, 'date').join('; ') || record.date.join('; ');
+  const museumImage = legacy?.image || imageRecord?.content || imageRecord?.thumbnail || record.image;
   return {
     id: legacy?.id || record.smithsonianId,
     smithsonianId: record.smithsonianId,
@@ -94,8 +95,10 @@ function visitorObject(record, fullContent, location, legacy) {
     objectType: unique([...(indexed.object_type || []), ...fieldValues(fullContent, 'objectType'), ...record.objectType]),
     topics: unique([...(indexed.topic || []), ...fieldValues(fullContent, 'topic'), ...record.topics]),
     materials: unique([...(indexed.material || []), ...record.materials]),
-    image: legacy?.image || imageRecord?.content || imageRecord?.thumbnail || record.image || placeholder,
-    imageAlt: legacy?.imageAlt || `Museum image for ${displayTitle}`,
+    image: museumImage || illustration?.path || placeholder,
+    imageAlt: legacy?.imageAlt || (illustration && !museumImage ? `Interpretive illustration of ${displayTitle}` : `Museum image for ${displayTitle}`),
+    imageKind: illustration && !museumImage ? illustration.kind : undefined,
+    imageCredit: illustration && !museumImage ? illustration.credit : undefined,
     description: legacy?.description || description || 'The Smithsonian catalog connects this object to George Washington.',
     story: legacy?.story || description || 'Look closely at this object and consider how the Smithsonian connects it to George Washington.',
     recordUrl: officialRecordUrl(record.smithsonianId),
@@ -113,8 +116,9 @@ function visitorObject(record, fullContent, location, legacy) {
   };
 }
 
-function bookGroup(records) {
+function bookGroup(records, illustration) {
   const representative = records.find(record => record.image) || records[0];
+  const museumImage = representative?.image;
   return {
     id: 'life-of-george-washington-book-series',
     smithsonianId: null,
@@ -126,8 +130,10 @@ function bookGroup(records) {
     objectType: ['Book series'],
     topics: ['George Washington', 'Books', 'Biography'],
     materials: ['paper'],
-    image: representative?.image || placeholder,
-    imageAlt: 'Books in the Life of George Washington series',
+    image: museumImage || illustration?.path || placeholder,
+    imageAlt: illustration && !museumImage ? 'Interpretive illustration of the Life of George Washington book series' : 'Books in the Life of George Washington series',
+    imageKind: illustration && !museumImage ? illustration.kind : undefined,
+    imageCredit: illustration && !museumImage ? illustration.credit : undefined,
     description: `${records.length} catalog records make up this displayed series of books connected to the Life of George Washington.`,
     story: `This is not just one book. The museum catalog lists ${records.length} volumes in this Washington book collection.`,
     recordUrl: representative ? officialRecordUrl(representative.smithsonianId) : null,
@@ -144,10 +150,11 @@ function bookGroup(records) {
 }
 
 async function main() {
-  const [approvedFile, mapReadyFile, legacyObjects] = await Promise.all([
+  const [approvedFile, mapReadyFile, legacyObjects, illustrationFile] = await Promise.all([
     readJson('data/reviewed/nmah-washington-approved.json'),
     readJson('data/reviewed/nmah-washington-map-ready-reviewed.json'),
-    readJson('data/washington-objects.json')
+    readJson('data/washington-objects.json'),
+    readJson('data/generated-illustrations.json')
   ]);
   const apiKey = await readApiKey();
   const approved = approvedFile.records;
@@ -155,13 +162,14 @@ async function main() {
   const individualRecords = approved.filter(record => !record.group);
   const legacyBySmithsonianId = new Map(legacyObjects.filter(record => record.smithsonianId).map(record => [record.smithsonianId, record]));
   const locationById = new Map(mapReadyFile.records.map(record => [record.smithsonianId, record.museumLocation]));
+  const illustrationById = new Map(illustrationFile.illustrations.map(item => [item.id, item]));
 
   const objects = await concurrentMap(individualRecords, 5, async (record, index) => {
     const fullContent = await fetchFullRecord(apiKey, record);
     console.log(`Enriched ${index + 1} / ${individualRecords.length}: ${record.smithsonianId}`);
-    return visitorObject(record, fullContent, locationById.get(record.smithsonianId), legacyBySmithsonianId.get(record.smithsonianId));
+    return visitorObject(record, fullContent, locationById.get(record.smithsonianId), legacyBySmithsonianId.get(record.smithsonianId), illustrationById.get(record.smithsonianId));
   });
-  objects.push(bookGroup(groupMembers));
+  objects.push(bookGroup(groupMembers, illustrationById.get('life-of-george-washington-book-series')));
   objects.sort((a, b) => {
     const floorA = a.gallery?.floor ?? 99;
     const floorB = b.gallery?.floor ?? 99;
@@ -187,6 +195,11 @@ async function main() {
       reviewedAt: approvedFile.metadata.reviewedAt,
       sourceFetchedAt: approvedFile.metadata.sourceFetchedAt,
       counts,
+      illustrations: {
+        count: illustrationFile.illustrations.length,
+        withVerifiedFloor: objects.filter(object => object.imageKind === 'generated-illustration' && object.gallery?.floor).length,
+        note: illustrationFile.metadata.usageNote
+      },
       note: 'The original five-stop treasure-trail interface uses this reviewed collection to generate many possible object routes.'
     },
     objects

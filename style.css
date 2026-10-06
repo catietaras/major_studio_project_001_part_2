@@ -432,3 +432,5 @@ body{background:#fff7e8}
 .time-object img{width:112px;height:90px}
 .time-object strong{font-size:.72rem;line-height:1.12}
 @media(max-width:950px){.time-machine{grid-template-columns:1fr}.time-era{min-height:300px}}
+
+.image-kind-label{position:absolute;left:12px;bottom:12px;padding:5px 9px;border-radius:999px;background:#fffdf0e8;border:1px solid #24435b;color:#24435b;font-size:.58rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;box-shadow:0 2px 8px #172a3c20}

@@ -1,0 +1,331 @@
+{
+  "metadata": {
+    "generatedAt": "2026-10-06",
+    "generator": "OpenAI built-in image generation",
+    "count": 40,
+    "sharedPrompt": "Square children’s museum object-card illustration; one historically grounded object centered and fully visible on a warm ivory studio background; detailed hand-painted catalog style with crisp ink contours and subtle gouache texture; historically plausible materials and construction; no extra props, caption, watermark, frame, modern replacement, or invented readable text.",
+    "usageNote": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact."
+  },
+  "illustrations": [
+    {
+      "id": "life-of-george-washington-book-series",
+      "title": "A Library of Washington Stories",
+      "path": "assets/illustrations/generated/life-of-george-washington-book-series.jpg",
+      "kind": "generated-illustration",
+      "credit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact.",
+      "promptFocus": "Historically grounded interpretive illustration of “A Library of Washington Stories,” using its Smithsonian title, date, object type, and catalog description as the factual basis."
+    },
+    {
+      "id": "nmah_1146435",
+      "title": "Plate from George and Martha Washington's formal dinner service",
+      "path": "assets/illustrations/generated/nmah_1146435.jpg",
+      "kind": "generated-illustration",
+      "credit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact.",
+      "promptFocus": "Historically grounded interpretive illustration of “Plate from George and Martha Washington's formal dinner service,” using its Smithsonian title, date, object type, and catalog description as the factual basis."
+    },
+    {
+      "id": "nmah_1166998",
+      "title": "candlestick",
+      "path": "assets/illustrations/generated/nmah_1166998.jpg",
+      "kind": "generated-illustration",
+      "credit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact.",
+      "promptFocus": "Historically grounded interpretive illustration of “candlestick,” using its Smithsonian title, date, object type, and catalog description as the factual basis."
+    },
+    {
+      "id": "nmah_1197004",
+      "title": "Submarine Lunch Box",
+      "path": "assets/illustrations/generated/nmah_1197004.jpg",
+      "kind": "generated-illustration",
+      "credit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact.",
+      "promptFocus": "Historically grounded interpretive illustration of “Submarine Lunch Box,” using its Smithsonian title, date, object type, and catalog description as the factual basis."
+    },
+    {
+      "id": "nmah_1199002",
+      "title": "bum roll",
+      "path": "assets/illustrations/generated/nmah_1199002.jpg",
+      "kind": "generated-illustration",
+      "credit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact.",
+      "promptFocus": "Historically grounded interpretive illustration of “bum roll,” using its Smithsonian title, date, object type, and catalog description as the factual basis."
+    },
+    {
+      "id": "nmah_1199119",
+      "title": "brocade gown",
+      "path": "assets/illustrations/generated/nmah_1199119.jpg",
+      "kind": "generated-illustration",
+      "credit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact.",
+      "promptFocus": "Historically grounded interpretive illustration of “brocade gown,” using its Smithsonian title, date, object type, and catalog description as the factual basis."
+    },
+    {
+      "id": "nmah_1199166",
+      "title": "burling arm chair",
+      "path": "assets/illustrations/generated/nmah_1199166.jpg",
+      "kind": "generated-illustration",
+      "credit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact.",
+      "promptFocus": "Historically grounded interpretive illustration of “burling arm chair,” using its Smithsonian title, date, object type, and catalog description as the factual basis."
+    },
+    {
+      "id": "nmah_1199167",
+      "title": "easy chair",
+      "path": "assets/illustrations/generated/nmah_1199167.jpg",
+      "kind": "generated-illustration",
+      "credit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact.",
+      "promptFocus": "Historically grounded interpretive illustration of “easy chair,” using its Smithsonian title, date, object type, and catalog description as the factual basis."
+    },
+    {
+      "id": "nmah_1199169",
+      "title": "candlestick",
+      "path": "assets/illustrations/generated/nmah_1199169.jpg",
+      "kind": "generated-illustration",
+      "credit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact.",
+      "promptFocus": "Historically grounded interpretive illustration of “candlestick,” using its Smithsonian title, date, object type, and catalog description as the factual basis."
+    },
+    {
+      "id": "nmah_1199170",
+      "title": "candlestick",
+      "path": "assets/illustrations/generated/nmah_1199170.jpg",
+      "kind": "generated-illustration",
+      "credit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact.",
+      "promptFocus": "Historically grounded interpretive illustration of “candlestick,” using its Smithsonian title, date, object type, and catalog description as the factual basis."
+    },
+    {
+      "id": "nmah_1199171",
+      "title": "silver salt",
+      "path": "assets/illustrations/generated/nmah_1199171.jpg",
+      "kind": "generated-illustration",
+      "credit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact.",
+      "promptFocus": "Historically grounded interpretive illustration of “silver salt,” using its Smithsonian title, date, object type, and catalog description as the factual basis."
+    },
+    {
+      "id": "nmah_1199174",
+      "title": "silver bread basket",
+      "path": "assets/illustrations/generated/nmah_1199174.jpg",
+      "kind": "generated-illustration",
+      "credit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact.",
+      "promptFocus": "Historically grounded interpretive illustration of “silver bread basket,” using its Smithsonian title, date, object type, and catalog description as the factual basis."
+    },
+    {
+      "id": "nmah_1199181",
+      "title": "field telescope and case",
+      "path": "assets/illustrations/generated/nmah_1199181.jpg",
+      "kind": "generated-illustration",
+      "credit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact.",
+      "promptFocus": "Historically grounded interpretive illustration of “field telescope and case,” using its Smithsonian title, date, object type, and catalog description as the factual basis."
+    },
+    {
+      "id": "nmah_1199184",
+      "title": "compass",
+      "path": "assets/illustrations/generated/nmah_1199184.jpg",
+      "kind": "generated-illustration",
+      "credit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact.",
+      "promptFocus": "Historically grounded interpretive illustration of “compass,” using its Smithsonian title, date, object type, and catalog description as the factual basis."
+    },
+    {
+      "id": "nmah_1199630",
+      "title": "Commemorative Hair Comb, Andrew Jackson, 1831",
+      "path": "assets/illustrations/generated/nmah_1199630.jpg",
+      "kind": "generated-illustration",
+      "credit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact.",
+      "promptFocus": "Historically grounded interpretive illustration of “Commemorative Hair Comb, Andrew Jackson, 1831,” using its Smithsonian title, date, object type, and catalog description as the factual basis."
+    },
+    {
+      "id": "nmah_1199654",
+      "title": "paperweight, george washington",
+      "path": "assets/illustrations/generated/nmah_1199654.jpg",
+      "kind": "generated-illustration",
+      "credit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact.",
+      "promptFocus": "Historically grounded interpretive illustration of “paperweight, george washington,” using its Smithsonian title, date, object type, and catalog description as the factual basis."
+    },
+    {
+      "id": "nmah_1253315",
+      "title": "Booklet, \"George Washington Pageant and Plays\"",
+      "path": "assets/illustrations/generated/nmah_1253315.jpg",
+      "kind": "generated-illustration",
+      "credit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact.",
+      "promptFocus": "Historically grounded interpretive illustration of “Booklet, \"George Washington Pageant and Plays\",” using its Smithsonian title, date, object type, and catalog description as the factual basis."
+    },
+    {
+      "id": "nmah_1422329",
+      "title": "Hydrometer (third from left in photo)",
+      "path": "assets/illustrations/generated/nmah_1422329.jpg",
+      "kind": "generated-illustration",
+      "credit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact.",
+      "promptFocus": "Historically grounded interpretive illustration of “Hydrometer (third from left in photo),” using its Smithsonian title, date, object type, and catalog description as the factual basis."
+    },
+    {
+      "id": "nmah_1764149",
+      "title": "Prang Lithographic School Room Portrait of George Washington by Gilbert Stuart",
+      "path": "assets/illustrations/generated/nmah_1764149.jpg",
+      "kind": "generated-illustration",
+      "credit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact.",
+      "promptFocus": "Historically grounded interpretive illustration of “Prang Lithographic School Room Portrait of George Washington by Gilbert Stuart,” using its Smithsonian title, date, object type, and catalog description as the factual basis."
+    },
+    {
+      "id": "nmah_1821294",
+      "title": "Book, \"The Life of George Washington\", 1813",
+      "path": "assets/illustrations/generated/nmah_1821294.jpg",
+      "kind": "generated-illustration",
+      "credit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact.",
+      "promptFocus": "Historically grounded interpretive illustration of “Book, \"The Life of George Washington\", 1813,” using its Smithsonian title, date, object type, and catalog description as the factual basis."
+    },
+    {
+      "id": "nmah_214255",
+      "title": "coaster",
+      "path": "assets/illustrations/generated/nmah_214255.jpg",
+      "kind": "generated-illustration",
+      "credit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact.",
+      "promptFocus": "Historically grounded interpretive illustration of “coaster,” using its Smithsonian title, date, object type, and catalog description as the factual basis."
+    },
+    {
+      "id": "nmah_214301",
+      "title": "candlestick",
+      "path": "assets/illustrations/generated/nmah_214301.jpg",
+      "kind": "generated-illustration",
+      "credit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact.",
+      "promptFocus": "Historically grounded interpretive illustration of “candlestick,” using its Smithsonian title, date, object type, and catalog description as the factual basis."
+    },
+    {
+      "id": "nmah_214481",
+      "title": "camp cup",
+      "path": "assets/illustrations/generated/nmah_214481.jpg",
+      "kind": "generated-illustration",
+      "credit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact.",
+      "promptFocus": "Historically grounded interpretive illustration of “camp cup,” using its Smithsonian title, date, object type, and catalog description as the factual basis."
+    },
+    {
+      "id": "nmah_334980",
+      "title": "cake basket",
+      "path": "assets/illustrations/generated/nmah_334980.jpg",
+      "kind": "generated-illustration",
+      "credit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact.",
+      "promptFocus": "Historically grounded interpretive illustration of “cake basket,” using its Smithsonian title, date, object type, and catalog description as the factual basis."
+    },
+    {
+      "id": "nmah_498228",
+      "title": "Paperweight, Herbert Hoover, 1928",
+      "path": "assets/illustrations/generated/nmah_498228.jpg",
+      "kind": "generated-illustration",
+      "credit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact.",
+      "promptFocus": "Historically grounded interpretive illustration of “Paperweight, Herbert Hoover, 1928,” using its Smithsonian title, date, object type, and catalog description as the factual basis."
+    },
+    {
+      "id": "nmah_498979",
+      "title": "Campaign Lantern",
+      "path": "assets/illustrations/generated/nmah_498979.jpg",
+      "kind": "generated-illustration",
+      "credit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact.",
+      "promptFocus": "Historically grounded interpretive illustration of “Campaign Lantern,” using its Smithsonian title, date, object type, and catalog description as the factual basis."
+    },
+    {
+      "id": "nmah_501114",
+      "title": "Pin with image of George Washington",
+      "path": "assets/illustrations/generated/nmah_501114.jpg",
+      "kind": "generated-illustration",
+      "credit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact.",
+      "promptFocus": "Historically grounded interpretive illustration of “Pin with image of George Washington,” using its Smithsonian title, date, object type, and catalog description as the factual basis."
+    },
+    {
+      "id": "nmah_501115",
+      "title": "Long Live the President",
+      "path": "assets/illustrations/generated/nmah_501115.jpg",
+      "kind": "generated-illustration",
+      "credit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact.",
+      "promptFocus": "Historically grounded interpretive illustration of “Long Live the President,” using its Smithsonian title, date, object type, and catalog description as the factual basis."
+    },
+    {
+      "id": "nmah_501118",
+      "title": "button, clothing",
+      "path": "assets/illustrations/generated/nmah_501118.jpg",
+      "kind": "generated-illustration",
+      "credit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact.",
+      "promptFocus": "Historically grounded interpretive illustration of “button, clothing,” using its Smithsonian title, date, object type, and catalog description as the factual basis."
+    },
+    {
+      "id": "nmah_509770",
+      "title": "post card",
+      "path": "assets/illustrations/generated/nmah_509770.jpg",
+      "kind": "generated-illustration",
+      "credit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact.",
+      "promptFocus": "Historically grounded interpretive illustration of “post card,” using its Smithsonian title, date, object type, and catalog description as the factual basis."
+    },
+    {
+      "id": "nmah_515392",
+      "title": "Clothing Button, Washington",
+      "path": "assets/illustrations/generated/nmah_515392.jpg",
+      "kind": "generated-illustration",
+      "credit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact.",
+      "promptFocus": "Historically grounded interpretive illustration of “Clothing Button, Washington,” using its Smithsonian title, date, object type, and catalog description as the factual basis."
+    },
+    {
+      "id": "nmah_515395",
+      "title": "button, clothing",
+      "path": "assets/illustrations/generated/nmah_515395.jpg",
+      "kind": "generated-illustration",
+      "credit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact.",
+      "promptFocus": "Historically grounded interpretive illustration of “button, clothing,” using its Smithsonian title, date, object type, and catalog description as the factual basis."
+    },
+    {
+      "id": "nmah_515705",
+      "title": "hatchet",
+      "path": "assets/illustrations/generated/nmah_515705.jpg",
+      "kind": "generated-illustration",
+      "credit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact.",
+      "promptFocus": "Historically grounded interpretive illustration of “hatchet,” using its Smithsonian title, date, object type, and catalog description as the factual basis."
+    },
+    {
+      "id": "nmah_515860",
+      "title": "Ben. Harrison",
+      "path": "assets/illustrations/generated/nmah_515860.jpg",
+      "kind": "generated-illustration",
+      "credit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact.",
+      "promptFocus": "Historically grounded interpretive illustration of “Ben. Harrison,” using its Smithsonian title, date, object type, and catalog description as the factual basis."
+    },
+    {
+      "id": "nmah_515884",
+      "title": "Decanter, Zachary Taylor, 1848",
+      "path": "assets/illustrations/generated/nmah_515884.jpg",
+      "kind": "generated-illustration",
+      "credit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact.",
+      "promptFocus": "Historically grounded interpretive illustration of “Decanter, Zachary Taylor, 1848,” using its Smithsonian title, date, object type, and catalog description as the factual basis."
+    },
+    {
+      "id": "nmah_571404",
+      "title": "Bust, George Washington",
+      "path": "assets/illustrations/generated/nmah_571404.jpg",
+      "kind": "generated-illustration",
+      "credit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact.",
+      "promptFocus": "Historically grounded interpretive illustration of “Bust, George Washington,” using its Smithsonian title, date, object type, and catalog description as the factual basis."
+    },
+    {
+      "id": "nmah_572512",
+      "title": "Pitcher, \"Union to the People\"",
+      "path": "assets/illustrations/generated/nmah_572512.jpg",
+      "kind": "generated-illustration",
+      "credit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact.",
+      "promptFocus": "Historically grounded interpretive illustration of “Pitcher, \"Union to the People\",” using its Smithsonian title, date, object type, and catalog description as the factual basis."
+    },
+    {
+      "id": "nmah_572521",
+      "title": "Pitcher, \"An Emblem of America\"",
+      "path": "assets/illustrations/generated/nmah_572521.jpg",
+      "kind": "generated-illustration",
+      "credit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact.",
+      "promptFocus": "Historically grounded interpretive illustration of “Pitcher, \"An Emblem of America\",” using its Smithsonian title, date, object type, and catalog description as the factual basis."
+    },
+    {
+      "id": "nmah_740396",
+      "title": "10 Dollars, Bank of West Florida, United States, 1832",
+      "path": "assets/illustrations/generated/nmah_740396.jpg",
+      "kind": "generated-illustration",
+      "credit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact.",
+      "promptFocus": "Historically grounded interpretive illustration of “10 Dollars, Bank of West Florida, United States, 1832,” using its Smithsonian title, date, object type, and catalog description as the factual basis."
+    },
+    {
+      "id": "nmah_834346",
+      "title": "Commemorative Clothing Button, George Washington, 1789",
+      "path": "assets/illustrations/generated/nmah_834346.jpg",
+      "kind": "generated-illustration",
+      "credit": "AI-generated interpretive illustration based on Smithsonian catalog metadata; not a photograph of the artifact.",
+      "promptFocus": "Historically grounded interpretive illustration of “Commemorative Clothing Button, George Washington, 1789,” using its Smithsonian title, date, object type, and catalog description as the factual basis."
+    }
+  ]
+}
