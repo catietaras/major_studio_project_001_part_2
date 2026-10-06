@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "description": "Floor index for current National Museum of American History exhibitions. Exhibition titles are joined to Smithsonian API exhibition metadata.",
+    "verifiedAt": "2026-10-06",
+    "sources": [
+      "https://americanhistory.si.edu/visit/museum-map",
+      "https://americanhistory.si.edu/visual-descriptions"
+    ],
+    "notes": "Floor is authoritative at the exhibition level. Wing is included only where the current NMAH visitor resources identify it clearly. Exact case or room coordinates require a separate map-authoring pass."
+  },
+  "exhibitions": [
+    { "aliases": ["American Enterprise"], "floor": 1, "wing": null },
+    { "aliases": ["America on the Move"], "floor": 1, "wing": "East" },
+    { "aliases": ["Food", "FOOD: Transforming the American Table", "Food: Transforming the American Table"], "floor": 1, "wing": "East" },
+    { "aliases": ["Object Project"], "floor": 1, "wing": null },
+    { "aliases": ["On the Water"], "floor": 1, "wing": "East" },
+    { "aliases": ["Lighting a Revolution", "Lighting A Revolution"], "floor": 1, "wing": "East" },
+    { "aliases": ["Power Machinery"], "floor": 1, "wing": "East" },
+    { "aliases": ["Value of Money", "The Value of Money"], "floor": 1, "wing": "West" },
+    { "aliases": ["American Democracy", "American Democracy: A Great Leap of Faith"], "floor": 2, "wing": "West" },
+    { "aliases": ["George Washington Sculpture"], "floor": 2, "wing": "West" },
+    { "aliases": ["Many Voices, One Nation"], "floor": 2, "wing": null },
+    { "aliases": ["The Star-Spangled Banner", "Star-Spangled Banner"], "floor": 2, "wing": null },
+    { "aliases": ["Within These Walls"], "floor": 2, "wing": null },
+    { "aliases": ["American Stories"], "floor": 2, "wing": null },
+    { "aliases": ["Entertainment Nation"], "floor": 3, "wing": "West" },
+    { "aliases": ["The American Presidency", "American Presidency"], "floor": 3, "wing": "Center" },
+    { "aliases": ["The First Ladies", "First Ladies"], "floor": 3, "wing": "Center" },
+    { "aliases": ["Price of Freedom", "The Price of Freedom", "The Price of Freedom: Americans at War"], "floor": 3, "wing": "East" },
+    { "aliases": ["Gunboat Philadelphia"], "floor": 3, "wing": "East" }
+  ]
+}

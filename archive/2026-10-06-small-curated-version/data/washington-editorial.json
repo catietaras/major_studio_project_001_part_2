@@ -1,0 +1,666 @@
+[
+  {
+    "id": "washington-banknote",
+    "smithsonianId": "nmah_1839987",
+    "topics": [
+      "George Washington",
+      "Portraiture",
+      "Money",
+      "Public Memory"
+    ],
+    "materials": [
+      "paper",
+      "ink"
+    ],
+    "periods": [
+      "20th century"
+    ],
+    "image": "assets/washington-banknote.jpg",
+    "imageAlt": "Photograph of 1918 One Dollar Banknote with Washington Portrait",
+    "story": "Your story begins with an old dollar bill. Look closely—George Washington’s face is right there! This bill was made in 1918, long after he lived.",
+    "gallery": {
+      "floor": 1,
+      "zone": "West",
+      "name": "Value of Money"
+    },
+    "imageSource": "https://ids.si.edu/ids/deliveryService?id=NMAH-JN2024-00884-000001&max_w=1200",
+    "recordUrl": "https://www.si.edu/object/1-dollar-federal-reserve-bank-note-united-states-1918%3Anmah_1839987",
+    "apiFallback": {
+      "title": "1918 One Dollar Banknote with Washington Portrait",
+      "date": "1918",
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Banknote"
+      ],
+      "description": "George Washington is on this one-dollar bill from 1918. People still put his picture on money many years after he lived."
+    }
+  },
+  {
+    "id": "camp-chest",
+    "smithsonianId": "nmah_434899",
+    "topics": [
+      "George Washington",
+      "Military History",
+      "Food and Cooking",
+      "Travel"
+    ],
+    "materials": [
+      "wood",
+      "metal"
+    ],
+    "periods": [
+      "18th century"
+    ],
+    "image": "assets/camp-chest.jpg",
+    "imageAlt": "Photograph of George Washington's Camp Chest",
+    "story": "Imagine the army getting ready to move. Washington brings this camp chest along. Inside are things he needs for cooking and eating on the journey.",
+    "gallery": {
+      "floor": 3,
+      "zone": "East",
+      "name": "Price of Freedom"
+    },
+    "imageSource": "https://ids.si.edu/ids/deliveryService?id=NMAH-99-4030&max_w=1200",
+    "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_434899",
+    "apiFallback": {
+      "title": "George Washington's Camp Chest",
+      "date": "1775–1776",
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Camp Chest"
+      ],
+      "description": "Washington carried this box when he traveled with his army. It held things he needed to cook and eat."
+    }
+  },
+  {
+    "id": "military-uniform",
+    "smithsonianId": "nmah_434863",
+    "topics": [
+      "George Washington",
+      "Military History",
+      "Clothing"
+    ],
+    "materials": [
+      "textile",
+      "metal"
+    ],
+    "periods": [
+      "18th century"
+    ],
+    "image": "assets/military-uniform.jpg",
+    "imageAlt": "Photograph of George Washington's Uniform",
+    "story": "Washington gets dressed in his blue and tan army coat. People can spot their leader by the clothes he wears. Can you find both colors?",
+    "gallery": {
+      "floor": 3,
+      "zone": "East",
+      "name": "Price of Freedom"
+    },
+    "imageSource": "https://smithsonian-open-access.s3-us-west-2.amazonaws.com/media/nmah/NMAH-2006-7431.jpg",
+    "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_434863",
+    "apiFallback": {
+      "title": "George Washington's Uniform",
+      "date": "1789–1799",
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Military Uniform"
+      ],
+      "description": "Washington wore a blue and tan coat as an army leader. His clothes helped people recognize him."
+    }
+  },
+  {
+    "id": "epaulettes",
+    "smithsonianId": "nmah_395065",
+    "topics": [
+      "George Washington",
+      "Military History",
+      "Clothing"
+    ],
+    "materials": [
+      "textile",
+      "metal"
+    ],
+    "periods": [
+      "18th century"
+    ],
+    "image": "assets/epaulettes.jpg",
+    "imageAlt": "Photograph of George Washington's Epaulettes",
+    "story": "Something shiny rests on Washington’s shoulders. These gold pieces are called epaulettes. Artists put them in paintings of him, too.",
+    "gallery": {
+      "floor": 3,
+      "zone": "East",
+      "name": "Price of Freedom"
+    },
+    "imageSource": "https://ids.si.edu/ids/deliveryService?id=NMAH-2004-50203&max_w=1200",
+    "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_395065",
+    "apiFallback": {
+      "title": "George Washington's Epaulettes",
+      "date": "1779",
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Epaulettes"
+      ],
+      "description": "These gold pieces decorated Washington’s shoulders. You can spot them in some paintings of him, too."
+    }
+  },
+  {
+    "id": "washington-sculpture",
+    "smithsonianId": null,
+    "topics": [
+      "George Washington",
+      "Sculpture",
+      "Public Memory"
+    ],
+    "materials": [
+      "marble"
+    ],
+    "periods": [
+      "19th century"
+    ],
+    "image": "assets/washington-sculpture.jpg",
+    "imageAlt": "Photograph of George Washington Statue",
+    "story": "You turn a corner and meet a giant Washington! An artist made him look like a hero from long ago. What do you notice about the way he sits?",
+    "gallery": {
+      "floor": 2,
+      "zone": "West",
+      "name": "George Washington Sculpture"
+    },
+    "imageSource": "https://ids.si.edu/ids/deliveryService?id=https%3A%2F%2Fwww.si.edu%2FContent%2Fimg%2FExhibitions%2Fdb%2Fnmah-landmark-washington.jpg&max_w=1200",
+    "recordUrl": "https://www.americanhistory.si.edu/explore/exhibitions/george-washington-sculpture",
+    "apiFallback": {
+      "title": "George Washington Statue",
+      "date": "1840",
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Statue",
+        "Sculpture"
+      ],
+      "description": "This large statue shows George Washington sitting like a hero from ancient times. You can see it on the museum’s second floor."
+    }
+  },
+  {
+    "id": "ceremonial-sword",
+    "smithsonianId": "nmah_434865",
+    "topics": [
+      "George Washington",
+      "Military History",
+      "Metalwork"
+    ],
+    "materials": [
+      "steel",
+      "metal"
+    ],
+    "periods": [
+      "18th century"
+    ],
+    "image": "assets/ceremonial-sword.jpg",
+    "imageAlt": "Photograph of George Washington's Battle Sword and Scabbard",
+    "story": "Here is the steel sword Washington wore while leading his army. It traveled with him during the Revolutionary War. Look for the long metal blade.",
+    "gallery": {
+      "floor": 3,
+      "zone": "East",
+      "name": "Price of Freedom"
+    },
+    "imageSource": "https://ids.si.edu/ids/deliveryService?id=NMAH-JN2015-5154&max_w=1200",
+    "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_434865",
+    "apiFallback": {
+      "title": "George Washington's Battle Sword and Scabbard",
+      "date": "c. 1765–1778",
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Sword",
+        "Scabbard"
+      ],
+      "description": "Washington wore this steel sword while leading the American army during the Revolutionary War."
+    }
+  },
+  {
+    "id": "surveyors-compass",
+    "smithsonianId": "nmah_747313",
+    "topics": [
+      "George Washington",
+      "Maps and Geography",
+      "Surveying"
+    ],
+    "materials": [
+      "brass",
+      "metal"
+    ],
+    "periods": [
+      "18th century"
+    ],
+    "image": "assets/surveyors-compass.jpg",
+    "imageAlt": "Photograph of a brass surveyor’s compass attributed to David Rittenhouse and associated with George Washington",
+    "story": "Before he led an army, Washington worked as a surveyor. Surveyors measure land to make maps. This compass is part of his map-making story.",
+    "gallery": {
+      "floor": 3,
+      "zone": "Center",
+      "name": "American Presidency"
+    },
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Surveyor%27s_compass_by_David_Rittenhouse,_believed_to_be_given_to_George_Washington_in_1782_-_National_Museum_of_American_History_-_DSC00136.jpg",
+    "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_747313",
+    "apiFallback": {
+      "title": "Washington’s Surveyor’s Compass",
+      "date": "c. 1782",
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Surveyor’s Compass"
+      ],
+      "description": "A surveyor uses a compass to measure and map land. This one is linked to Washington, who worked as a surveyor when he was young."
+    }
+  },
+  {
+    "id": "camp-stool",
+    "smithsonianId": "nmah_434860",
+    "topics": [
+      "George Washington",
+      "Military History",
+      "Travel",
+      "Domestic Life"
+    ],
+    "materials": [
+      "wood",
+      "leather"
+    ],
+    "periods": [
+      "18th century"
+    ],
+    "image": "assets/camp-stool.jpg",
+    "imageAlt": "Photograph of George Washington’s Camp Stool",
+    "story": "It is time for a rest at camp. Washington can unfold this small stool and sit down. Then it folds up again for the next trip.",
+    "gallery": {
+      "floor": 3,
+      "zone": "East",
+      "name": "Price of Freedom"
+    },
+    "imageSource": "https://ids.si.edu/ids/deliveryService?id=SIA-2004-49435-04&max_w=1200",
+    "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_434860",
+    "apiFallback": {
+      "title": "George Washington’s Camp Stool",
+      "date": "18th century",
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Camp stool"
+      ],
+      "description": "Washington used this folding stool during the Revolutionary War. It was easy to carry from camp to camp."
+    }
+  },
+  {
+    "id": "washington-waistcoat",
+    "smithsonianId": "nmah_1199101",
+    "topics": [
+      "George Washington",
+      "Military History",
+      "Clothing"
+    ],
+    "materials": [
+      "wool",
+      "textile"
+    ],
+    "periods": [
+      "18th century"
+    ],
+    "image": "assets/washington-waistcoat.jpg",
+    "imageAlt": "Photograph of Washington’s Buff Wool Waistcoat",
+    "story": "Washington gets dressed for the day. Under his army coat he wears this wool waistcoat, a kind of vest. His outfit has more than one layer!",
+    "gallery": {
+      "floor": 3,
+      "zone": "East",
+      "name": "Price of Freedom"
+    },
+    "imageSource": "https://ids.si.edu/ids/deliveryService?id=NMAH-2000-10747-08&max_w=1200",
+    "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_1199101",
+    "apiFallback": {
+      "title": "Washington’s Buff Wool Waistcoat",
+      "date": "c. 1780",
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Waistcoat"
+      ],
+      "description": "This waistcoat is a kind of vest. Washington wore it under his coat during the Revolutionary War."
+    }
+  },
+  {
+    "id": "washington-breeches",
+    "smithsonianId": "nmah_1199102",
+    "topics": [
+      "George Washington",
+      "Military History",
+      "Clothing"
+    ],
+    "materials": [
+      "wool",
+      "textile"
+    ],
+    "periods": [
+      "18th century"
+    ],
+    "image": "assets/washington-breeches.jpg",
+    "imageAlt": "Photograph of Washington’s Buff Wool Breeches",
+    "story": "Washington’s outfit needs pants, too. These wool breeches stop near the knees. Clothes looked a little different long ago.",
+    "gallery": {
+      "floor": 3,
+      "zone": "East",
+      "name": "Price of Freedom"
+    },
+    "imageSource": "https://ids.si.edu/ids/deliveryService?id=NMAH-2006-3569&max_w=1200",
+    "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_1199102",
+    "apiFallback": {
+      "title": "Washington’s Buff Wool Breeches",
+      "date": "c. 1780",
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Breeches"
+      ],
+      "description": "Breeches are pants that stop near the knees. This wool pair belonged to Washington."
+    }
+  },
+  {
+    "id": "tenino-scrip",
+    "smithsonianId": "nmah_985725",
+    "topics": [
+      "George Washington",
+      "Portraiture",
+      "Money",
+      "Public Memory"
+    ],
+    "materials": [
+      "wood",
+      "ink"
+    ],
+    "periods": [
+      "20th century"
+    ],
+    "image": "assets/tenino-scrip.jpg",
+    "imageAlt": "Photograph of Tenino 25-Cent Scrip with Washington Portrait",
+    "story": "Many years after Washington lived, the town of Tenino needed money. It made its own paper money and put his face on it. Where else have you seen that face?",
+    "gallery": {
+      "floor": 1,
+      "zone": "West",
+      "name": "Value of Money"
+    },
+    "imageSource": "https://ids.si.edu/ids/deliveryService?id=NMAH-JN2024-00898-000001&max_w=1200",
+    "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_985725",
+    "apiFallback": {
+      "title": "Tenino 25-Cent Scrip with Washington Portrait",
+      "date": "1932",
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Scrip"
+      ],
+      "description": "When regular money was hard to get, the town of Tenino made its own paper money. Washington’s picture is on this piece."
+    }
+  },
+  {
+    "id": "charleville-musket",
+    "smithsonianId": "nmah_438624",
+    "topics": [
+      "George Washington",
+      "Military History",
+      "Metalwork"
+    ],
+    "materials": [
+      "wood",
+      "steel",
+      "metal"
+    ],
+    "periods": [
+      "18th century"
+    ],
+    "image": "assets/charleville-musket.jpg",
+    "imageAlt": "Photograph of US-Stamped Charleville Musket",
+    "story": "The army Washington led needed long guns called muskets. He wanted these guns marked to show they belonged to the new United States. Why might an army mark its things?",
+    "gallery": {
+      "floor": 3,
+      "zone": "East",
+      "name": "Price of Freedom"
+    },
+    "imageSource": "https://ids.si.edu/ids/deliveryService?id=NMAH-ET2018-05955-000001&max_w=1200",
+    "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_438624",
+    "apiFallback": {
+      "title": "US-Stamped Charleville Musket",
+      "date": "1763 model",
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Musket"
+      ],
+      "description": "A musket is a long gun. Washington wanted these army guns marked to show they belonged to the United States."
+    }
+  },
+  {
+    "id": "benjamin-lincoln-sword",
+    "smithsonianId": "nmah_438723",
+    "topics": [
+      "George Washington",
+      "Military History",
+      "Metalwork"
+    ],
+    "materials": [
+      "steel",
+      "metal"
+    ],
+    "periods": [
+      "18th century"
+    ],
+    "image": "assets/benjamin-lincoln-sword.jpg",
+    "imageAlt": "Photograph of Benjamin Lincoln’s Yorktown Sword",
+    "story": "At Yorktown, the British army gave up. Washington asked another army leader, Benjamin Lincoln, to meet them. Lincoln carried this sword.",
+    "gallery": {
+      "floor": 3,
+      "zone": "East",
+      "name": "Price of Freedom"
+    },
+    "imageSource": "https://ids.si.edu/ids/deliveryService?id=SIA-2004-40569-000001&max_w=1200",
+    "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_438723",
+    "apiFallback": {
+      "title": "Benjamin Lincoln’s Yorktown Sword",
+      "date": "18th century",
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Sword"
+      ],
+      "description": "This sword belonged to Benjamin Lincoln. Washington asked him to accept the British army’s surrender at Yorktown."
+    }
+  },
+  {
+    "id": "washington-scissor-glasses",
+    "smithsonianId": "nmah_1169721",
+    "topics": [
+      "George Washington",
+      "Diplomacy",
+      "Metalwork"
+    ],
+    "materials": [
+      "ivory",
+      "metal"
+    ],
+    "periods": [
+      "18th century"
+    ],
+    "image": "assets/washington-scissor-glasses.jpg",
+    "imageAlt": "Photograph of Washington and Lafayette’s Scissor Glasses",
+    "story": "Open, close! These glasses have handles that move like scissors. They are linked to Washington and his friend Lafayette.",
+    "gallery": {
+      "floor": 3,
+      "zone": "East",
+      "name": "Price of Freedom"
+    },
+    "imageSource": "https://ids.si.edu/ids/deliveryService?id=NMAH-2004-44069&max_w=1200",
+    "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_1169721",
+    "apiFallback": {
+      "title": "Washington and Lafayette’s Scissor Glasses",
+      "date": "18th century",
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Scissor glasses"
+      ],
+      "description": "These folding glasses are linked to Washington and his friend Lafayette. The two handles open like scissors."
+    }
+  },
+  {
+    "id": "braddock-pistol",
+    "smithsonianId": "nmah_746133",
+    "topics": [
+      "George Washington",
+      "Military History",
+      "Metalwork"
+    ],
+    "materials": [
+      "wood",
+      "metal"
+    ],
+    "periods": [
+      "18th century"
+    ],
+    "image": "assets/braddock-pistol.jpg",
+    "imageAlt": "Photograph of Braddock Pistol Used by Washington",
+    "story": "A British general gave Washington this pistol. Washington carried it on later army trips. Now the museum keeps it safe so we can learn its story.",
+    "gallery": {
+      "floor": 3,
+      "zone": "East",
+      "name": "Price of Freedom"
+    },
+    "imageSource": "https://ids.si.edu/ids/deliveryService?id=NMAH-JN2014-3130&max_w=1200",
+    "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_746133",
+    "apiFallback": {
+      "title": "Braddock Pistol Used by Washington",
+      "date": "c. 1750",
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Pistol"
+      ],
+      "description": "A British general gave Washington this pistol. Washington carried it during later army trips."
+    }
+  },
+  {
+    "id": "inaugural-button-long-live",
+    "smithsonianId": "nmah_688853",
+    "topics": [
+      "George Washington",
+      "Public Memory",
+      "Clothing",
+      "Inauguration"
+    ],
+    "materials": [
+      "brass",
+      "metal"
+    ],
+    "periods": [
+      "18th century"
+    ],
+    "image": "assets/inaugural-button-long-live.jpg",
+    "imageAlt": "Photograph of “Long Live the President GW” Button",
+    "story": "A big day arrives: Washington becomes the first U.S. president. People celebrate by wearing little brass buttons like this one. Can you see the letters GW?",
+    "gallery": {
+      "floor": 2,
+      "zone": "West",
+      "name": "American Democracy"
+    },
+    "imageSource": "https://ids.si.edu/ids/deliveryService?id=NMAH-ET2017-04742-000001&max_w=1200",
+    "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_688853",
+    "apiFallback": {
+      "title": "“Long Live the President GW” Button",
+      "date": "1789",
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Inaugural button"
+      ],
+      "description": "People wore this brass button to celebrate when Washington became the first U.S. president."
+    }
+  },
+  {
+    "id": "inaugural-button-star",
+    "smithsonianId": "nmah_528516",
+    "topics": [
+      "George Washington",
+      "Public Memory",
+      "Clothing",
+      "Inauguration"
+    ],
+    "materials": [
+      "brass",
+      "metal"
+    ],
+    "periods": [
+      "18th century"
+    ],
+    "image": "assets/inaugural-button-star.jpg",
+    "imageAlt": "Photograph of Washington Inaugural Starburst Button",
+    "story": "People want to celebrate Washington becoming president. Here is another button they wore, with a bright star design. Can you spot its shape?",
+    "gallery": {
+      "floor": 2,
+      "zone": "West",
+      "name": "American Democracy"
+    },
+    "imageSource": "https://ids.si.edu/ids/deliveryService?id=NMAH-ET2017-04761-000001&max_w=1200",
+    "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_528516",
+    "apiFallback": {
+      "title": "Washington Inaugural Starburst Button",
+      "date": "1789",
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Inaugural button"
+      ],
+      "description": "This star-shaped button celebrated Washington becoming president in 1789."
+    }
+  },
+  {
+    "id": "bache-silhouette",
+    "smithsonianId": "npg_NPG.2002.184.5",
+    "topics": [
+      "George Washington",
+      "Portraiture",
+      "Public Memory"
+    ],
+    "materials": [
+      "paper"
+    ],
+    "periods": [
+      "19th century"
+    ],
+    "image": "assets/bache-silhouette.jpg",
+    "imageAlt": "Photograph of Bache Silhouette of George Washington",
+    "story": "An artist cuts Washington’s side view from a piece of paper. The dark shape is called a silhouette. Does it look like a shadow to you?",
+    "gallery": null,
+    "imageSource": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_2002_184_5-000001&max_w=1200",
+    "recordUrl": "https://npg.si.edu/object/npg_NPG.2002.184.5",
+    "apiFallback": {
+      "title": "Bache Silhouette of George Washington",
+      "date": "c. 1803–1804",
+      "museum": "National Portrait Gallery",
+      "objectType": [
+        "Silhouette"
+      ],
+      "description": "A silhouette is a picture made from a person’s outline. This one shows Washington from the side."
+    }
+  },
+  {
+    "id": "coffin-fragment",
+    "smithsonianId": "nmah_1398256",
+    "topics": [
+      "George Washington",
+      "Public Memory",
+      "Domestic Life"
+    ],
+    "materials": [
+      "wood",
+      "paper"
+    ],
+    "periods": [
+      "19th century"
+    ],
+    "image": "assets/coffin-fragment.jpg",
+    "imageAlt": "Photograph of Piece of Washington’s Mahogany Coffin",
+    "story": "After Washington died, people saved this tiny piece of wood from an older coffin made for him. They kept it to remember him. Even a small object can hold a big story.",
+    "gallery": null,
+    "imageSource": "https://ids.si.edu/ids/deliveryService?id=NMAH-RWS2012-04283&max_w=1200",
+    "recordUrl": "https://americanhistory.si.edu/collections/object/nmah_1398256",
+    "apiFallback": {
+      "title": "Piece of Washington’s Mahogany Coffin",
+      "date": "c. 1840",
+      "museum": "National Museum of American History",
+      "objectType": [
+        "Coffin fragment"
+      ],
+      "description": "This small piece of wood came from an earlier coffin made for Washington. People kept it to remember him."
+    }
+  }
+]
