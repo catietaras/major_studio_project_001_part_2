@@ -55,24 +55,30 @@ async function loadData() {
     if (!legacyResponse.ok || !expandedResponse.ok) throw new Error('Objects could not be loaded.');
     const legacyObjects = await legacyResponse.json();
     const expandedData = await expandedResponse.json();
-    const legacyBySmithsonianId = new Map(legacyObjects.filter(object => object.smithsonianId).map(object => [object.smithsonianId, object]));
-    const activeObjects = expandedData.objects.map(object => {
-      const legacy = object.smithsonianId ? legacyBySmithsonianId.get(object.smithsonianId) : null;
-      if (!legacy) return object;
+    const reviewedBySmithsonianId = new Map(expandedData.objects.filter(object => object.smithsonianId).map(object => [object.smithsonianId, object]));
+    const coreSmithsonianIds = new Set(legacyObjects.map(object => object.smithsonianId).filter(Boolean));
+    const coreObjects = legacyObjects.map(object => {
+      const reviewed = object.smithsonianId ? reviewedBySmithsonianId.get(object.smithsonianId) : null;
+      if (!reviewed) return object;
       return {
+        ...reviewed,
         ...object,
-        ...legacy,
-        displayTitle: object.displayTitle || legacy.title,
-        recordUrl: object.recordUrl,
-        relationship: object.relationship,
-        relationshipConfidence: object.relationshipConfidence,
-        sourceRecordCount: object.sourceRecordCount,
-        group: object.group
+        displayTitle: object.title,
+        recordUrl: reviewed.recordUrl || object.recordUrl,
+        relationship: reviewed.relationship,
+        relationshipConfidence: reviewed.relationshipConfidence,
+        sourceRecordCount: reviewed.sourceRecordCount,
+        group: reviewed.group
       };
     });
-    const sculpture = legacyObjects.find(object => object.id === 'washington-sculpture');
-    if (sculpture && !activeObjects.some(object => object.id === sculpture.id)) activeObjects.push(sculpture);
-    state.objects = activeObjects;
+    const reviewedAdditions = expandedData.objects.filter(object =>
+      object.smithsonianId
+        && !coreSmithsonianIds.has(object.smithsonianId)
+        && onView(object)
+        && object.image
+        && object.image !== 'assets/object-placeholder.svg'
+    );
+    state.objects = [...coreObjects, ...reviewedAdditions];
     state.byId = new Map(state.objects.map(object => [object.id, object]));
     renderStart();
   } catch (error) {
@@ -106,15 +112,9 @@ function getChoices(object) {
   const directionBonus = target => target.gallery.name === object.gallery.name ? 8
     : target.gallery.floor === currentFloor ? 6
       : target.gallery.floor === currentFloor + 1 ? 4 : 1;
-  const washingtonRoute = state.objects.filter(onView).sort((a, b) =>
-    a.gallery.floor - b.gallery.floor
-      || (ZONE_ORDER[a.gallery.zone] ?? 0) - (ZONE_ORDER[b.gallery.zone] ?? 0)
-      || String(a.gallery.name).localeCompare(String(b.gallery.name))
-      || kidTitle(a).localeCompare(kidTitle(b))
-  );
-  const routeIds = washingtonRoute.map(target => target.id);
-  const startIndex = routeIds.indexOf(anchor.id);
-  const nextWashingtonId = routeIds.slice(startIndex + 1).find(id => {
+  const startIndex = WASHINGTON_ROUTE.indexOf(anchor.id);
+  const remainingWashingtonRoute = startIndex >= 0 ? WASHINGTON_ROUTE.slice(startIndex + 1) : WASHINGTON_ROUTE;
+  const nextWashingtonId = remainingWashingtonRoute.find(id => {
     const target = state.byId.get(id);
     return target && !visited.has(id) && movesForward(target);
   });
@@ -126,7 +126,8 @@ function getChoices(object) {
         .filter(value => value !== 'George Washington' && target[field]?.includes(value))
         .map(value => ({label:value,field,value,sourceId:source.id,targetId:target.id,route:'detour',score:(field === 'materials' ? 5 : field === 'topics' ? 3 : 1) + directionBonus(target) + (source.id === object.id ? 2 : 0)}))));
   });
-  detours.sort((a,b) => b.score - a.score || routeIds.indexOf(a.targetId) - routeIds.indexOf(b.targetId));
+  const routeRank = id => { const index = WASHINGTON_ROUTE.indexOf(id); return index < 0 ? WASHINGTON_ROUTE.length : index; };
+  detours.sort((a,b) => b.score - a.score || routeRank(a.targetId) - routeRank(b.targetId) || kidTitle(state.byId.get(a.targetId)).localeCompare(kidTitle(state.byId.get(b.targetId))));
   for (const link of detours) {
     if (selected.length >= 3) break;
     if (!selected.some(item => item.targetId === link.targetId || item.value === link.value)) selected.push(link);
