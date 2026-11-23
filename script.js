@@ -82,17 +82,16 @@ async function loadData() {
     state.byId = new Map(state.objects.map(object => [object.id, object]));
     renderStart();
   } catch (error) {
-    app.innerHTML = `<div class="error"><h1>Oops! The objects did not load.</h1><p>${escapeHtml(error.message)}</p><p>Check your connection, then try opening the collection again.</p><button class="button" id="retry-load" type="button">Try again</button></div>`;
-    app.querySelector('#retry-load')?.addEventListener('click', loadData);
+    app.innerHTML = `<div class="error"><h1>Oops! The objects did not load.</h1><p>${escapeHtml(error.message)}</p><p>Ask a grown-up to open this project with a local web server.</p></div>`;
   }
 }
 function startCard(object) {
-  return `<button class="start-card" data-start="${escapeHtml(object.id)}"><span class="start-card-image"><img src="${escapeHtml(object.image)}" alt="${escapeHtml(object.imageAlt || object.title)}"></span><span class="start-card-copy"><span class="start-card-floor">FLOOR ${object.gallery.floor}</span><strong>${escapeHtml(kidTitle(object))}</strong><span class="start-card-action">Begin here!</span></span></button>`;
+  return `<button class="start-card" data-start="${escapeHtml(object.id)}"><span class="start-card-image"><img src="${escapeHtml(object.image)}" alt="${escapeHtml(object.imageAlt || object.title)}"></span><span class="start-card-copy"><span class="start-card-floor">FLOOR ${object.gallery.floor}</span><strong>${escapeHtml(kidTitle(object))}</strong><span class="start-card-action">Begin here! <span aria-hidden="true">→</span></span></span></button>`;
 }
 function renderStart() {
   state.journey = [];
   const starters = START_IDS.map(id => state.byId.get(id)).filter(object => object && onView(object));
-  app.innerHTML = `<section class="shell kid-start"><div class="start-heading"><span class="start-sparkle" aria-hidden="true">✦</span><span class="eyebrow">George’s Treasure Trail</span><h1 class="display">What do you see?</h1><p>Find the object nearest to you to start.</p></div><div class="start-cards">${starters.map(startCard).join('')}</div><aside class="trail-guide" aria-labelledby="trail-guide-title"><div><span class="eyebrow">How it works</span><h2 id="trail-guide-title">Choose. Follow. Map.</h2></div><ol><li><strong>Choose</strong><span>Start with an object on your floor.</span></li><li><strong>Follow</strong><span>Pick clues to discover four more treasures.</span></li><li><strong>Map</strong><span>See your route through the museum and through time.</span></li></ol></aside></section>`;
+  app.innerHTML = `<section class="shell kid-start"><div class="start-heading"><span class="start-sparkle" aria-hidden="true">✦</span><span class="eyebrow">George’s Treasure Trail</span><h1 class="display">What do you see?</h1><p>Find the object nearest to you to start.</p></div><div class="start-cards">${starters.map(startCard).join('')}</div></section>`;
   app.querySelectorAll('[data-start]').forEach(button => button.addEventListener('click', () => startJourney(button.dataset.start)));
   scrollTop();
 }
@@ -235,9 +234,4 @@ function renderTimeMachine() {
   scrollTop();
 }
 document.querySelector('#home-link').addEventListener('click', event => { event.preventDefault(); renderStart(); });
-const aboutDialog = document.querySelector('#about-dialog');
-document.querySelector('#about-open').addEventListener('click', () => aboutDialog.showModal());
-aboutDialog.addEventListener('click', event => {
-  if (event.target === aboutDialog) aboutDialog.close();
-});
 loadData();
