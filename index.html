@@ -4,13 +4,28 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f4efe5">
+  <meta name="description" content="Choose a Smithsonian object, follow visual clues, and build a five-stop George Washington treasure trail.">
+  <meta property="og:title" content="George’s Treasure Trail">
+  <meta property="og:description" content="An interactive, kid-friendly journey through George Washington objects at the Smithsonian.">
+  <meta property="og:type" content="website">
   <title>Where Will George Washington Take You?</title>
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
 </head>
 <body>
-  <header class="site-header"><a class="brand" href="#" id="home-link" aria-label="Pick a new first object"><span class="brand-mark">W</span><span>GEORGE’S TREASURE TRAIL <small>FOLLOW THE CLUES!</small></span></a><span class="header-note">Pick an object. Follow the clues.</span></header>
+  <a class="skip-link" href="#app">Skip to the treasure trail</a>
+  <header class="site-header"><a class="brand" href="#" id="home-link" aria-label="Pick a new first object"><span class="brand-mark">W</span><span>GEORGE’S TREASURE TRAIL <small>FOLLOW THE CLUES!</small></span></a><nav class="header-nav" aria-label="Project navigation"><span class="header-note">Pick an object. Follow the clues.</span><button class="about-button" id="about-open" type="button">About</button></nav></header>
   <main id="app" tabindex="-1"><p class="loading">Opening the collection…</p></main>
-  <footer class="site-footer"><span>Every object has a story.</span><span>Made for curious kids</span></footer>
+  <footer class="site-footer"><span>Every object has a story.</span><span>Made for curious kids · Data from Smithsonian collection records</span></footer>
+  <dialog class="about-dialog" id="about-dialog" aria-labelledby="about-title">
+    <form method="dialog"><button class="dialog-close" aria-label="Close about this project">Close</button></form>
+    <span class="eyebrow">About the project</span>
+    <h2 id="about-title">A museum trail built from connections</h2>
+    <p>George’s Treasure Trail helps young visitors explore Smithsonian objects through a five-stop, choose-your-own-path story. Each choice follows a shared material, topic, or time period.</p>
+    <h3>What is in the experience?</h3>
+    <ul><li>Three starting objects located across the museum</li><li>Kid-friendly stories with expandable grown-up facts</li><li>A personalized treasure map and time-machine finale</li></ul>
+    <h3>Data note</h3>
+    <p>Object details are based on Smithsonian collection records. Museum locations can change; visitors should confirm gallery availability with the National Museum of American History.</p>
+  </dialog>
 </body>
 </html>
